@@ -138,10 +138,20 @@ return [
         'taglib_begin' => '{',
         // 标签库标签结束标记
         'taglib_end'   => '}',
+        // 是否开启模板编译缓存,设为false则每次都会重新编译
+        'tpl_cache'          => false,
+
+        // 静态资源路径
+        'tpl_replace_string' => [
+            'admin_public'=>'/static/admin',
+            'index_public' => '/static/index',
+        ],
+
     ],
 
     // 视图输出字符串内容替换
-    'view_replace_str'       => [],
+    'view_replace_str'	=>	[],
+
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
     'dispatch_error_tmpl'    => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
@@ -212,7 +222,7 @@ return [
         // SESSION_ID的提交变量,解决flash上传跨域
         'var_session_id' => '',
         // SESSION 前缀
-        'prefix'         => 'think',
+        'prefix'         => '',
         // 驱动方式 支持redis memcache memcached
         'type'           => '',
         // 是否自动开启 SESSION
@@ -246,4 +256,10 @@ return [
         'list_rows' => 15,
     ],
 
+    //上传图片配置
+    'upload'=>[
+        'exts' => array('jpg', 'png', 'gif', 'bmp'), //允许上传的文件后缀
+        'subName' => array('date', 'Y-m-d'), //子目录创建方式，[0]-函数名，[1]-参数，多个参数使用数组
+        'rootPath' => '/uploads/', //保存根路径
+    ],
 ];
