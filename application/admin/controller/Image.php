@@ -9,7 +9,10 @@ class Image extends Base{
      */
     public function indexAction(){
 
-        echo  1;
+        $images = Db::table('xm_image')->select();
+
+        $this->assign('images',$images);
+        return view('image/index');
     }
 
 
