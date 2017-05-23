@@ -1,5 +1,7 @@
 <?php
-class QiniuStorage {
+	namespace upload\driver\Qiniu;
+
+	class QiniuStorage {
 
 		public $QINIU_RSF_HOST 	= 	'http://rsf.qbox.me';
 		public $QINIU_RS_HOST 	= 	'http://rs.qbox.me';
@@ -40,7 +42,7 @@ class QiniuStorage {
 		}
 
 		public function UploadToken($sk ,$ak ,$param){
-			$param['deadline'] = 3600;
+			$param['deadline'] = isset($param['Expires'] ) ? $param['Expires']: 3600;
 			$param['deadline'] += time();
 			$data = array('scope'=> $this->bucket, 'deadline'=>$param['deadline']);
 			if (!empty($param['CallbackUrl'])) {
@@ -75,8 +77,12 @@ class QiniuStorage {
 
 			$fields = array(
 				'token'	=>	$uploadToken,
-				'key'	=>	$file['fileName'],
+				'key'	=>	isset($config['saveName']) ? $config['saveName'] : $file['fileName'],
 			);
+
+			if(isset($config['custom_fields']) && is_array($config['custom_fields']) && $config['custom_fields'] !== array()){
+				$fields = array_merge($fields, $config['custom_fields']);
+			}
 
 			foreach ($fields as $name => $val) {
 				array_push($data, '--' . $mimeBoundary);

@@ -145,6 +145,7 @@ return [
         'tpl_replace_string' => [
             'admin_public'=>'/static/admin',
             'index_public' => '/static/index',
+            'base_public' =>'/static/base',
         ],
 
     ],
@@ -260,6 +261,18 @@ return [
     'upload'=>[
         'exts' => array('jpg', 'png', 'gif', 'bmp'), //允许上传的文件后缀
         'subName' => array('date', 'Y-m-d'), //子目录创建方式，[0]-函数名，[1]-参数，多个参数使用数组
-        'rootPath' => '/uploads/', //保存根路径
+        'rootPath' => './uploads/', //保存根路径,相对于index.php的路径
+    ],
+
+    //上传驱动
+    'file_upload_type'=>'Qiniu',
+
+    //驱动配置
+    'upload_type_config'=>[
+        'secretKey'      => '-ozcCzNuPfZQePdMUtEHzp6gfuQQfS-GR4IOmxen', //七牛密码
+        'accessKey'      => 'Oxorx2oRMYXe8bZCRvuoNpyOexkJAgKPgs14Gv4O', //七牛用户
+        'domain'         => 'on58ea572.bkt.clouddn.com', //域名
+        'bucket'         => 'macarin', //空间名称
+        'timeout'        => 300, //超时时间
     ],
 ];

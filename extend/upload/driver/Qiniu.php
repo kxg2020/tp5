@@ -1,5 +1,17 @@
 <?php
-include_once __DIR__. "/QiniuStorage.php";
+// +----------------------------------------------------------------------
+// | ThinkPHP [ WE CAN DO IT JUST THINK IT ]
+// +----------------------------------------------------------------------
+// | Copyright (c) 2006-2014 http://thinkphp.cn All rights reserved.
+// +----------------------------------------------------------------------
+// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+// +----------------------------------------------------------------------
+// | Author: yangweijie <yangweijiester@gmail.com> <http://www.code-tech.diandian.com>
+// +----------------------------------------------------------------------
+
+namespace upload\driver;
+use upload\driver\Qiniu\QiniuStorage;
+
 class Qiniu{
     /**
      * 上传文件根目录
@@ -27,6 +39,7 @@ class Qiniu{
      */
     public function __construct($config){
         $this->config = array_merge($this->config, $config);
+
         /* 设置根目录 */
         $this->qiniu = new QiniuStorage($config);
     }
@@ -73,7 +86,7 @@ class Qiniu{
             'fileName'=>$key,
             'fileBody'=>file_get_contents($file['tmp_name'])
         );
-        $config = array();
+        $config = [];
         $result = $this->qiniu->upload($config, $upfile);
         $url = $this->qiniu->downlink($key);
         $file['url'] = $url;

@@ -2,7 +2,7 @@
 
 
 {block name="css"}
-
+<link rel="stylesheet" href="admin_public/css/mine/mine.css">
 {/block}
 
 
@@ -47,33 +47,15 @@
                                             <!-- The fileinput-button span is used to style the file input field as button -->
                                             <span class="btn btn-success fileinput-button" style="position: relative">
                                         <i class="icon-plus"></i>
-                                        <span>Add files...</span>
+                                        <span>开始上传</span>
                                                 <div id="shangChuan">
                                         <input type="file" name="files" id="file_upload" multiple="" style="opacity: 0;position: absolute;top: 0;left: 0;width: 100%;height: 100%;cursor: pointer">
                                                 </div>
                                     </span>
-                                            <button type="reset" class="btn btn-warning cancel">
-                                                <i class="icon-ban-circle"></i>
-                                                <span>Cancel upload</span>
-                                            </button>
-                                            <button type="button" class="btn btn-danger delete">
-                                                <i class="icon-trash"></i>
-                                                <span>Delete</span>
-                                            </button>
-                                            <!-- The loading indicator is shown during file processing -->
-                                            <span class="fileupload-loading"></span>
                                         </div>
-                                    </div>
-                                    <!-- The global progress information -->
-                                    <div class="col-lg-5 fileupload-progress fade">
-                                        <!-- The global progress bar -->
-                                        <div class="progress progress-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar progress-bar-success" style="width:0%;"></div>
-                                        </div>
-                                        <!-- The extended global progress information -->
-                                        <div class="progress-extended">&nbsp;</div>
                                     </div>
                                 </div>
+                                <br>
                                 <!-- The table listing the files available for upload/download -->
                                 <table role="presentation" class="table table-striped">
                                     <tbody class="files"></tbody>
@@ -86,37 +68,11 @@
             </div>
         </div>
     </div>
-<table role="presentation" class="table table-striped">
-    <tbody class="files"><tr class="template-download fade in">
-    <td>
-            <span class="preview">
-
-                    <a href="https://jquery-file-upload.appspot.com/image%2Fjpeg/3775237685/1.jpg" title="1.jpg" download="1.jpg" data-gallery=""><img src="https://jquery-file-upload.appspot.com/image%2Fjpeg/3775237685/1.jpg.80x80.jpg"></a>
-
-            </span>
-    </td>
-    <td>
-        <p class="name">
-
-            <a href="https://jquery-file-upload.appspot.com/image%2Fjpeg/3775237685/1.jpg" title="1.jpg" download="1.jpg" data-gallery="">1.jpg</a>
-
-        </p>
-
-    </td>
-    <td>
-        <span class="size">7.21 KB</span>
-    </td>
-    <td>
-
-        <button class="btn btn-danger delete" data-type="DELETE" data-url="https://jquery-file-upload.appspot.com/image%2Fjpeg/3775237685/1.jpg">
-            <i class="glyphicon icon-trash"></i>
-            <span>Delete</span>
-        </button>
-        <input type="checkbox" name="delete" value="1" class="toggle">
-
-    </td>
-</tr></tbody>
-</table>
+<div class="progress progress-striped active" id="progress" style="display: none">
+    <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+        <span class="sr-only" style="border: 1px solid red">4Complete</span>
+    </div>
+</div>
 {/block}
 
 
@@ -124,5 +80,4 @@
 {block name="js"}
 <script src="admin_public/js/jquery.html5upload.js"></script>
 <script src="admin_public/js/mine/mine.js"></script>
-
 {/block}

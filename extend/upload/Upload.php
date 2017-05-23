@@ -1,6 +1,15 @@
 <?php
-include_once __DIR__. "/Qiniu.php";
-class Uploads {
+// +----------------------------------------------------------------------
+// | ThinkPHP [ WE CAN DO IT JUST THINK IT ]
+// +----------------------------------------------------------------------
+// | Copyright (c) 2006-2014 http://thinkphp.cn All rights reserved.
+// +----------------------------------------------------------------------
+// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+// +----------------------------------------------------------------------
+// | Author: 麦当苗儿 <zuojiazi@vip.qq.com> <http://www.zjzit.cn>
+// +----------------------------------------------------------------------
+namespace upload;
+class Upload {
     /**
      * 默认上传配置
      * @var array
@@ -11,7 +20,7 @@ class Uploads {
         'exts'          =>  array(), //允许上传的文件后缀
         'autoSub'       =>  true, //自动子目录保存文件
         'subName'       =>  array('date', 'Y-m-d'), //子目录创建方式，[0]-函数名，[1]-参数，多个参数使用数组
-        'rootPath'      =>  '/uploads/', //保存根路径
+        'rootPath'      =>  './uploads/', //保存根路径
         'savePath'      =>  '', //保存路径
         'saveName'      =>  array('uniqid', ''), //上传文件命名规则，[0]-函数名，[1]-参数，多个参数使用数组
         'saveExt'       =>  '', //文件保存后缀，空则使用原后缀
@@ -157,6 +166,19 @@ class Uploads {
                 $file['sha1'] = sha1_file($file['tmp_name']);
             }
 
+            /* 调用回调函数检测文件是否存在
+            $data = call_user_func($this->callback, $file);
+            if( $this->callback && $data ){
+                if ( file_exists('.'.$data['path'])  ) {
+                    $info[$key] = $data;
+                    continue;
+                }elseif($this->removeTrash){
+                    call_user_func($this->removeTrash,$data);//删除垃圾据
+                }
+            }
+            */
+
+
             /* 生成保存文件名 */
             $savename = $this->getSaveName($file);
             if(false == $savename){
@@ -231,7 +253,10 @@ class Uploads {
      * @param array $config 驱动配置     
      */
     private function setDriver($driver = null, $config = null){
-        $this->uploader = new Qiniu($config);
+        $driver = $driver ? : ($this->driver       ? : \think\Config::get('file_upload_type'));
+        $config = $config ? : ($this->driverConfig ? : \think\Config::get('upload_type_config'));
+        $class = strpos($driver,'\\')? $driver : 'upload\\driver\\'.ucfirst(strtolower($driver));
+        $this->uploader = new $class($config);
         if(!$this->uploader){
             E("不存在上传驱动：{$name}");
         }
