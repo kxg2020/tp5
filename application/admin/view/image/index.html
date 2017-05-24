@@ -19,7 +19,7 @@
         <div class="col-lg-12">
             <div class="widget">
                 <div class="widget-header"> <i class="icon-table"></i>
-                    <h3>Table</h3>
+                    <h3>图片列表</h3>
                 </div>
                 <div class="widget-content">
                     <div class="body">
@@ -29,46 +29,48 @@
                                 <th >#</th>
                                 <th>图片</th>
                                 <th>类型</th>
+                                <th>排序</th>
                                 <th>是否显示</th>
                                 <th class="hidden-xs">创建时间</th>
                                 <th class="hidden-xs">操作</th>
                             </tr>
                             </thead>
-                            <tbody>
+                            <tbody id="image_table">
                             {volist name="images" id="im"}
                             <tr >
                                 <td>{$im.id}</td>
                                 <td><img style="height: 50px;width: 50px" src="{$im.image_url}"></td>
                                 <td> {$im.type}</td>
-                                <td class="hidden-xs">{$im.is_active}</td>
-                                <td class="hidden-xs"> {:date('Y-m-d H:i:s',$im.create_time)}</td>
-                                <td class="hidden-xs"><button class="btn btn-sm btn-primary"> Edit </button>
-                                    <button data-toggle="button" class="btn btn-sm btn-warning"> Delete </button></td>
+                                <td> {$im.sort}</td>
+                                <td class="hidden-xs">{if condition="$im['is_active'] eq 1"}<span class="status" data-id="{$im['id']}" data-status="{$im['is_active']}"><span style="cursor: pointer" class="icon-ok " ></span></span>{else/}<span class="status" data-id="{$im['id']}" data-status="{$im['is_active']}"><span style="cursor: pointer" class="icon-remove" data-id="{$im['id']}" data-status="{$im['is_active']}"></span></span>{/if}</td>
+                                <td class="hidden-xs"> {$im.create_time}</td>
+                                <td class="hidden-xs">
+                                    <button data-toggle="button" data-id="{$im.id}" class="btn btn-sm btn-warning image-delete"> 删除</button></td>
                             </tr>
                             {/volist}
                             </tbody>
                         </table>
+
+
                         <div class="clearfix">
                             <div class="pull-right">
                                 <div class="btn-group">
-                                    <button data-toggle="dropdown" class="btn btn-sm btn-inverse dropdown-toggle"> &nbsp; Clear &nbsp; <i class="icon-caret-down"></i> </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Clear</a></li>
-                                        <li><a href="#">Move ...</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a></li>
-                                    </ul>
+                                     <span class="btn btn-success fileinput-button" style="position: relative">
+                                        <i class="icon-plus"></i>
+                                        <span>上传</span>
+                                                <div id="shangChuan">
+                                       <a href="{:url('Image/insert')}">
+                                           <input type="button"   style="opacity: 0;position: absolute;top: 0;left: 0;width: 100%;height: 100%;cursor: pointer">
+                                       </a>
+                                                </div>
+                                    </span>
                                 </div>
-                                <button class="btn btn-default btn-sm"> Send to ... </button>
                             </div>
-                            <ul class="pagination no-margin">
-                                <li class="disabled"><a href="#">Prev</a></li>
-                                <li class="active"><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">Next</a></li>
-                            </ul>
+                            <input type="hidden" value="{$pages}" name="pages">
+                                <div class="clearfix">
+                                    <div id="demo"></div>
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -82,5 +84,6 @@
 
 
 {block name="js"}
-
+<script src="admin_public/js/mine/mine.js"></script>
+<script src="admin_public/js/jquery.html5upload.js"></script>
 {/block}

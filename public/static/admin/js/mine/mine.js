@@ -72,5 +72,110 @@ $(function () {
         })
     });
 
+    /**
+     * 分页图片
+     */
+    layui.use(['laypage', 'layer'], function(){
+        var laypage = layui.laypage,layer = layui.layer;
+        laypage({
+            cont: 'demo',
+            skin:'#B0AD8F'
+            ,pages: $('input[name = pages]').val()
+            ,jump: function(obj, first){
+                if(!first){
+                    $.ajax({
+                        'type':'post',
+                        'dataType':'json',
+                        'url':location.protocol+'//'+window.location.host+'/Image/index',
+                        'data':{
+                            'pgNum':obj.curr,
+                            'pgSize':6,
+                        },
+                        success:function(result){
+                            $('#image_table').html('');
+                            $.each(result.list,function(k,v){
+                                if(v.is_active == 1){
+                                    $('#image_table').append('<tr >'+
+                                        '<td>'+v.id+'</td>'+
+                                        '<td><img style="height: 50px;width: 50px" src="'+v.image_url+'"></td>'+
+                                        '<td>'+v.type+'</td>'+
+                                        '<td>'+v.sort+'</td>'+
+                                        '<td class="hidden-xs">'+'<span class="status" data-status="'+v.is_active+'" style="cursor: pointer" data-id="'+v.id+'"><span  style="cursor: pointer" class="icon-ok"></span></span>'+'</td>'+
+                                        '<td class="hidden-xs">'+v.create_time+'</td>'+
+                                        '<td class="hidden-xs">'+
+                                        '<button data-toggle="button" data-id="'+v.id+'" class="btn btn-sm btn-warning image-delete"> 删除 </button></td>'+
+                                        '</tr>'
+                                    );
+                                }else {
+                                    $('#image_table').append('<tr >'+
+                                        '<td>'+v.id+'</td>'+
+                                        '<td><img style="height: 50px;width: 50px" src="'+v.image_url+'"></td>'+
+                                        '<td>'+v.type+'</td>'+
+                                        '<td>'+v.sort+'</td>'+
+                                        '<td class="hidden-xs">'+'<span class="status" data-status="'+v.is_active+'" style="cursor: pointer" data-id="'+v.id+'" ><span  style="cursor: pointer" class="icon-remove" ></span></span>'+'</td>'+
+                                        '<td class="hidden-xs">'+v.create_time+'</td>'+
+                                        '<td class="hidden-xs">'+
+                                        '<button data-toggle="button" data-id="'+v.id+'" class="btn btn-sm btn-warning image-delete"> 删除 </button></td>'+
+                                        '</tr>'
+                                    );
+                                }
+
+                            });
+                        }
+                    });
+                }
+            }
+        });
+    });
+
+    /**
+     * 修改状态
+     */
+    $('body').on('click','.status',function () {
+        status = $(this).attr('data-status');
+        cstatus = 1 ^ status;
+        id = $(this).attr('data-id');
+        $.ajax({
+            'type':'post',
+            'dataType':'json',
+            'url':location.protocol+'//'+window.location.host+'/Image/update',
+            'data':{'is_active':status,'id':id},
+            success:function (e) {
+                if(e.status == 1){
+                    if(status == 1){
+                        $(this).attr({'data-status':cstatus});
+                        $(this).html('<span style="cursor: pointer" class="icon-remove " ></span>');
+                    }else {
+                        $(this).attr({'data-status':cstatus});
+                        $(this).html('<span style="cursor: pointer" class="icon-ok " ></span>');
+                    }
+                    layer.msg(e.msg,{time:300});
+                }else {
+
+                    layer.msg(e.msg);
+                }
+            }.bind(this)
+        });
+    });
+
+    /**
+     * 删除图片
+     */
+    $('body').on('click','.image-delete',function () {
+        var id = $(this).attr('data-id');
+        $.ajax({
+            'type':'post',
+            'dataType':'json',
+            'url':location.protocol+'//'+window.location.host+'/Image/delete',
+            'data':{'id':id},
+            success:function (e) {
+                if(e.status == 1){
+                    layer.msg(e.msg,{time:300},function () {
+                        location.reload();
+                    });
+                }
+            }.bind(this)
+        })
+    });
 });
 

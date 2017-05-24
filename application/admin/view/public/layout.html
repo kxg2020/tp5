@@ -9,7 +9,8 @@
     <link href="admin_public/css/font-awesome.css" rel="stylesheet" media="screen">
     <link href="admin_public/style/style.css" rel="stylesheet">
     <link href="admin_public/style/dashboard.css" rel="stylesheet">
-    <script src="base_public/layer/skin/layer.css"></script>
+    <link href="base_public/layer/skin/default/layer.css" rel="stylesheet" media="screen">
+    <link href="base_public/layer/css/admin-layui.css" rel="stylesheet" media="screen">
     <link href="admin_public/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
     {block name="css"}
 
@@ -51,9 +52,8 @@
                 </li>
                 <li> <a href="#"> <i class="icon-edit"></i>  文章管理 <span class="label label-info pull-right"></span> <i class="arrow icon-angle-left"></i></a>
                     <ul class="sub-menu">
-                        <li> <a href="form_elements.html"> <i class="icon-angle-right"></i> Form Elements </a> </li>
-                        <li> <a href="form_validation.html"> <i class="icon-angle-right"></i> Form Validation</a> </li>
-                        <li> <a href="form_masks.html"> <i class="icon-angle-right"></i> Form Masks </a> </li>
+                        <li> <a href="{:url('Article/index')}"> <i class="icon-angle-right"></i> 文章列表 </a> </li>
+                        <li> <a href="{:url('Article/insert')}"> <i class="icon-angle-right"></i> 文章添加</a> </li>
                     </ul>
                 </li>
             </ul>
@@ -652,6 +652,8 @@
 <script src="admin_public/assets/switcher/switcher.js"></script>
 <script src="admin_public/assets/switcher/moderziner.custom.js"></script>
 <script src="base_public/layer/layer.js"></script>
+<script src="base_public/layer/laypage.js"></script>
+<script src="base_public/layer/layui.js"></script>
 {block name="js"}
 
 {/block}

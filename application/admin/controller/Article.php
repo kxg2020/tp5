@@ -1,0 +1,95 @@
+<?php
+namespace app\admin\controller;
+use  think\Db;
+class Article extends Base {
+
+
+    /**
+     * 文章列表
+     */
+    public function indexAction(){
+
+        $params = request()->param('','','intval');
+
+        $pgNum = isset($params['pgNum']) ? $params['pgNum'] : 1;
+
+        $pgSize = isset($params['pgSize']) ? $params['pgSize'] : 10;
+
+        $list = Db::table('xm_article')->select();
+
+        $pages = ceil(count($list) / 10);
+
+        $articles = pagination($list,$pgNum,$pgSize);
+
+        if(request()->isAjax()){
+
+            return json(['status'=>1,'articles'=>$articles]);
+        }
+
+        $this->assign([
+            'pages'=>$pages,
+            'articles'=>$articles,
+        ]);
+        return view('article/index');
+    }
+
+    /**
+     * 文章添加
+     */
+    public function insertAction(){
+
+        if(request()->isAjax()){
+
+            $params = request()->param('','','string');
+
+            if($params){
+
+                $insertData = [
+                    'title'=>$params['title'],
+                    'content'=>$params['content'],
+                    'author'=>'董小姐',
+                    'type'=>'1',
+                    'create_time'=>time(),
+                    'is_active'=>1
+                ];
+
+                $result = Db::table('xm_article')->insertGetId($insertData);
+
+                if($result){
+
+                    return json(['status'=>1,'msg'=>'保存成功']);
+                }
+            }else{
+
+                return json(['status'=>0,'msg'=>'数据为空']);
+            }
+        }
+
+        return view('article/insert');
+    }
+
+    /**
+     * 图片上传
+     */
+    public function uploadAction(){
+
+
+        $callback = request()->param('CKEditorFuncNum','','string');
+        $result = upload();
+
+        //>> 判断是否上传成功
+        if ($result == false) {
+
+            return json(['status'=>0,'msg'=>'上传失败']);
+        }
+
+        if($result){
+
+            return "<script type='text/javascript'>window.parent.CKEDITOR.tools.callFunction($callback,'".$result['url']."','');</script>";
+
+        }else{
+
+            return json(['status'=>0,'msg'=>'上传失败']);
+        }
+    }
+}

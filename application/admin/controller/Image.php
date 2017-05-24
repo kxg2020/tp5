@@ -9,9 +9,36 @@ class Image extends Base{
      */
     public function indexAction(){
 
-        $images = Db::table('xm_image')->select();
+        $params = request()->param();
 
-        $this->assign('images',$images);
+        $pgNum = isset($params['pgNum']) ? $params['pgNum'] : 1;
+
+        $pgSize = isset($params['pgSize']) ? $params['pgSize'] : 6;
+
+        $list = Db::table('xm_image')->select();
+
+        foreach ($list as $key => &$value){
+
+            $value['create_time'] = date('Y-m-d H:i:s',$value['create_time']);
+            switch ($value['type']){
+                case 1:
+                    $value['type'] = '照片';
+                    break;
+            }
+        }
+        unset($value);
+
+        $pages = ceil(count($list) / 6);
+
+        $images = pagination($list,$pgNum,$pgSize);
+
+        if($this->request->isAjax()){
+
+            return json(['status'=>1,'list'=>$images]);
+        }
+
+        $this->assign(['images'=>$images,'pages'=>$pages]);
+
         return view('image/index');
     }
 
@@ -34,14 +61,34 @@ class Image extends Base{
 
         $res = Db::table('xm_image')->where(['id'=>$param])->delete();
 
-        if(!$res){
+        if($res == false){
 
-            return json(['status'=>0]);
+            return json(['status'=>0,'msg'=>'删除失败']);
         }
 
-        return json(['status'=>1]);
+        return json(['status'=>1,'msg'=>'删除成功']);
     }
 
+
+    /**
+     * 修改状态
+     */
+    public function updateAction(){
+
+        $params = request()->param('','','intval');
+
+        $status = 1 ^ $params['is_active'];
+
+        $result = Db::table('xm_image')->where(['id'=>$params['id']])->update(['is_active'=>$status]);
+
+        if($result == false){
+
+            return json(['status'=>0,'msg'=>'修改失败']);
+        }
+
+        return json(['status'=>1,'msg'=>'修改成功']);
+
+    }
 
     /**
      * 图片上传
