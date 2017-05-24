@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html";i:1495618038;s:71:"D:\phpStudy\WWW\tp5\public/../application/admin\view\public\layout.html";i:1495603978;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"D:\phpStudy\WWW\tp5\public/../application/admin\view\image\index.html";i:1495602938;s:71:"D:\phpStudy\WWW\tp5\public/../application/admin\view\public\layout.html";i:1495603978;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -73,40 +73,60 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="widget">
-                <div class="widget-header"> <i class="icon-check"></i>
-                    <h3>文章列表 </h3>
+                <div class="widget-header"> <i class="icon-table"></i>
+                    <h3>图片列表</h3>
                 </div>
                 <div class="widget-content">
-                    <ul class="to-do-list ui-sortable" id="sortable-todo">
-                        <?php if(is_array($articles) || $articles instanceof \think\Collection || $articles instanceof \think\Paginator): $i = 0; $__LIST__ = $articles;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ar): $mod = ($i % 2 );++$i;?>
-                        <li class="clearfix"><span class="drag-marker"> <i></i> </span>
-                            <div class="todo-check pull-left">
-                                <input type="checkbox" value="None" id="todo-check<?php echo $ar['id']; ?>">
-                                <label for="todo-check<?php echo $ar['id']; ?>"></label>
+                    <div class="body">
+                        <table class="table table-striped table-images">
+                            <thead >
+                            <tr >
+                                <th >#</th>
+                                <th>图片</th>
+                                <th>类型</th>
+                                <th>排序</th>
+                                <th>是否显示</th>
+                                <th class="hidden-xs">创建时间</th>
+                                <th class="hidden-xs">操作</th>
+                            </tr>
+                            </thead>
+                            <tbody id="image_table">
+                            <?php if(is_array($images) || $images instanceof \think\Collection || $images instanceof \think\Paginator): $i = 0; $__LIST__ = $images;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$im): $mod = ($i % 2 );++$i;?>
+                            <tr >
+                                <td><?php echo $im['id']; ?></td>
+                                <td><img style="height: 50px;width: 50px" src="<?php echo $im['image_url']; ?>"></td>
+                                <td> <?php echo $im['type']; ?></td>
+                                <td> <?php echo $im['sort']; ?></td>
+                                <td class="hidden-xs"><?php if($im['is_active'] == 1): ?><span class="status" data-id="<?php echo $im['id']; ?>" data-status="<?php echo $im['is_active']; ?>"><span style="cursor: pointer" class="icon-ok " ></span></span><?php else: ?><span class="status" data-id="<?php echo $im['id']; ?>" data-status="<?php echo $im['is_active']; ?>"><span style="cursor: pointer" class="icon-remove" data-id="<?php echo $im['id']; ?>" data-status="<?php echo $im['is_active']; ?>"></span></span><?php endif; ?></td>
+                                <td class="hidden-xs"> <?php echo $im['create_time']; ?></td>
+                                <td class="hidden-xs">
+                                    <button data-toggle="button" data-id="<?php echo $im['id']; ?>" class="btn btn-sm btn-warning image-delete"> 删除</button></td>
+                            </tr>
+                            <?php endforeach; endif; else: echo "" ;endif; ?>
+                            </tbody>
+                        </table>
+
+
+                        <div class="clearfix">
+                            <div class="pull-right">
+                                <div class="btn-group">
+                                     <span class="btn btn-success fileinput-button" style="position: relative">
+                                        <i class="icon-plus"></i>
+                                        <span>上传</span>
+                                                <div id="shangChuan">
+                                       <a href="<?php echo url('Image/insert'); ?>">
+                                           <input type="button"   style="opacity: 0;position: absolute;top: 0;left: 0;width: 100%;height: 100%;cursor: pointer">
+                                       </a>
+                                                </div>
+                                    </span>
+                                </div>
                             </div>
-                          <p class="todo-title"> <?php echo $ar['title']; ?></p>
-                            <div class="todo-actionlist pull-right clearfix"> <a href="#" class="todo-edit"><i class="icon-pencil "></i></a> <a class="todo-remove" data-id="<?php echo $ar['id']; ?>"><i class="icon-remove icon-muted"></i></a> </div>
-                        </li>
-                        <?php endforeach; endif; else: echo "" ;endif; ?>
-                    </ul>
-                    <div class="clearfix">
-                        <div id="demo"></div>
-                    </div>
-                    <div class="todo-action-bar">
-                        <!--row start-->
-                        <div class="row">
-                            <div class="col-xs-3 btn-todo-select">
-                                <button type="submit" class="btn btn-default"><i class="icon-ok"></i>全选</button>
-                            </div>
-                            <div class="col-xs-6 todo-search-wrap">
-                                <input type="text" class="form-control todo-search pull-right" placeholder="搜索">
-                            </div>
-                            <div class="col-xs-3 btn-add-task">
-                                <a href="<?php echo url('Article/insert'); ?>"><button type="submit" class="btn btn-default btn-danger"><i class="icon-plus"></i> 添加</button></a>
-                            </div>
+                            <input type="hidden" value="<?php echo $pages; ?>" name="pages">
+                                <div class="clearfix">
+                                    <div id="demo"></div>
+                                </div>
+
                         </div>
-                        <!--row end-->
-                        <input type="hidden" name="pages" value="<?php echo $pages; ?>">
                     </div>
                 </div>
             </div>
@@ -145,8 +165,8 @@
 <script src="/static/base/layer/laypage.js"></script>
 <script src="/static/base/layer/layui.js"></script>
 
-<script src="/static/admin/js/to-do-admin.js"></script>
-<script src="/static/admin/js/mine/pagination-article.js"></script>
+<script src="/static/admin/js/mine/mine.js"></script>
+<script src="/static/admin/js/jquery.html5upload.js"></script>
 
 <link href="/static/admin/assets/switcher/switcher.css" rel="stylesheet">
 <link href="/static/admin/assets/switcher/switcher-defult.css" rel="stylesheet">

@@ -1,587 +1,6 @@
 ---------------------------------------------------------------
-[ 2017-05-24T16:32:23+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,585.03kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'accept-encoding' => 'gzip, deflate, sdch',
-  'accept-language' => 'zh-CN,zh;q=0.8',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:35:04+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,586.20kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=h',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:35:29+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,586.20kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:35:36+08:00 ] 127.0.0.1 127.0.0.1 POST /Article/insert
-[ info ] admin.tp.com/Article/insert [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,045.50kb] [文件加载：44]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'application/json, text/javascript, */*; q=0.01',
-  'origin' => 'http://admin.tp.com',
-  'x-requested-with' => 'XMLHttpRequest',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-  'content-length' => '55',
-)
-[ info ] [ PARAM ] array (
-  'content' => 'asda',
-  'title' => '测试一下',
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.021001s ]
-[ sql ] [ SQL ] INSERT INTO `xm_article` (`title` , `content` , `author` , `type` , `create_time` , `is_active`) VALUES ('测试一下' , 'asda' , '董小姐' , 1 , 1495614936 , 1) [ RunTime:0.001001s ]
----------------------------------------------------------------
-[ 2017-05-24T16:35:37+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,598.52kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:36:32+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,586.20kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:36:39+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：1,586.20kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:36:48+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,586.20kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:36:57+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：1,586.20kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:37:30+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,586.25kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:37:32+08:00 ] 127.0.0.1 127.0.0.1 GET /artile/index.volt
-[ info ] admin.tp.com/artile/index.volt [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,050.84kb] [文件加载：31]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'artile',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:37:55+08:00 ] 127.0.0.1 127.0.0.1 GET /artile/index.volt
-[ info ] admin.tp.com/artile/index.volt [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,051.11kb] [文件加载：31]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'artile',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:37:57+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,586.25kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:38:12+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,586.34kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:38:14+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,598.77kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:38:18+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,598.77kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:42:40+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,333.69kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.024001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:43:51+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.076005s][吞吐率：13.16req/s] [内存消耗：2,333.74kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:44:11+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.089006s][吞吐率：11.24req/s] [内存消耗：2,333.70kb] [文件加载：48]
+[ 2017-05-24T17:41:08+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
+[ info ] admin.tp.com/article/index.volt [运行时间：0.093006s][吞吐率：10.75req/s] [内存消耗：2,347.20kb] [文件加载：48]
 [ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
 [ info ] [ BIND ] 'admin'
 [ info ] [ ROUTE ] array (
@@ -616,10 +35,48 @@
 [ info ] [ LOG ] INIT File
 [ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-05-24T17:41:54+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
+[ info ] admin.tp.com/article/index.volt [运行时间：0.079005s][吞吐率：12.66req/s] [内存消耗：2,347.19kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/insert.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
+  0 => 'pages',
+  1 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.024001s ]
 [ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
 ---------------------------------------------------------------
-[ 2017-05-24T16:44:42+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.079004s][吞吐率：12.66req/s] [内存消耗：2,333.70kb] [文件加载：48]
+[ 2017-05-24T17:42:16+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
+[ info ] admin.tp.com/article/index.volt [运行时间：0.084004s][吞吐率：11.90req/s] [内存消耗：2,347.19kb] [文件加载：48]
 [ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
 [ info ] [ BIND ] 'admin'
 [ info ] [ ROUTE ] array (
@@ -653,11 +110,11 @@
 ) ]
 [ info ] [ LOG ] INIT File
 [ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
 ---------------------------------------------------------------
-[ 2017-05-24T16:44:57+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,333.69kb] [文件加载：48]
+[ 2017-05-24T17:42:56+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
+[ info ] admin.tp.com/article/index.volt [运行时间：0.075005s][吞吐率：13.33req/s] [内存消耗：2,347.55kb] [文件加载：48]
 [ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
 [ info ] [ BIND ] 'admin'
 [ info ] [ ROUTE ] array (
@@ -690,12 +147,126 @@
   1 => 'articles',
 ) ]
 [ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_article` ORDER BY create_time desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2017-05-24T17:43:03+08:00 ] 127.0.0.1 127.0.0.1 POST /Article/index
+[ info ] admin.tp.com/Article/index [运行时间：0.071005s][吞吐率：14.08req/s] [内存消耗：2,058.45kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://admin.tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+  'content-length' => '17',
+)
+[ info ] [ PARAM ] array (
+  'pgNum' => '2',
+  'pgSize' => '10',
+)
+[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_article` ORDER BY create_time desc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2017-05-24T17:43:04+08:00 ] 127.0.0.1 127.0.0.1 POST /Article/index
+[ info ] admin.tp.com/Article/index [运行时间：0.079005s][吞吐率：12.66req/s] [内存消耗：2,058.43kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://admin.tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+  'content-length' => '17',
+)
+[ info ] [ PARAM ] array (
+  'pgNum' => '1',
+  'pgSize' => '10',
+)
+[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
 [ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_article` ORDER BY create_time desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-05-24T17:43:08+08:00 ] 127.0.0.1 127.0.0.1 POST /Article/delete
+[ info ] admin.tp.com/Article/delete [运行时间：0.114007s][吞吐率：8.77req/s] [内存消耗：2,131.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'delete',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://admin.tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+  'content-length' => '5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '58',
+)
+[ info ] [ RUN ] app\admin\controller\Article->deleteAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.024001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] DELETE FROM `xm_article`    WHERE  `id` = 58 [ RunTime:0.002000s ]
 ---------------------------------------------------------------
-[ 2017-05-24T16:45:47+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：2,334.38kb] [文件加载：48]
+[ 2017-05-24T17:43:10+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
+[ info ] admin.tp.com/article/index.volt [运行时间：0.079004s][吞吐率：12.66req/s] [内存消耗：2,347.81kb] [文件加载：48]
 [ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
 [ info ] [ BIND ] 'admin'
 [ info ] [ ROUTE ] array (
@@ -728,49 +299,12 @@
   1 => 'articles',
 ) ]
 [ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:45:48+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：2,334.23kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
 [ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_article` ORDER BY create_time desc [ RunTime:0.001001s ]
 ---------------------------------------------------------------
-[ 2017-05-24T16:45:50+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,334.38kb] [文件加载：48]
+[ 2017-05-24T17:43:27+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
+[ info ] admin.tp.com/article/index.volt [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,347.81kb] [文件加载：48]
 [ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
 [ info ] [ BIND ] 'admin'
 [ info ] [ ROUTE ] array (
@@ -789,7 +323,7 @@
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
+  'referer' => 'http://admin.tp.com/article/insert.volt',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
   'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
@@ -804,1734 +338,11 @@
 ) ]
 [ info ] [ LOG ] INIT File
 [ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023002s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:46:17+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：2,333.75kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.024001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:46:18+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.078004s][吞吐率：12.82req/s] [内存消耗：2,333.75kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023002s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:46:20+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,590.08kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:46:22+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：2,333.59kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023002s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:46:24+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,590.08kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:46:25+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.092005s][吞吐率：10.87req/s] [内存消耗：2,333.59kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:46:33+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,590.08kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:46:37+08:00 ] 127.0.0.1 127.0.0.1 POST /Article/insert
-[ info ] admin.tp.com/Article/insert [运行时间：0.084005s][吞吐率：11.90req/s] [内存消耗：2,049.38kb] [文件加载：44]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'application/json, text/javascript, */*; q=0.01',
-  'origin' => 'http://admin.tp.com',
-  'x-requested-with' => 'XMLHttpRequest',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-  'content-length' => '22',
-)
-[ info ] [ PARAM ] array (
-  'content' => 'asda',
-  'title' => 'das',
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] INSERT INTO `xm_article` (`title` , `content` , `author` , `type` , `create_time` , `is_active`) VALUES ('das' , 'asda' , '董小姐' , 1 , 1495615597 , 1) [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:46:38+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.098005s][吞吐率：10.20req/s] [内存消耗：2,334.59kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023002s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:46:40+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,590.06kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/Article/index',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:46:43+08:00 ] 127.0.0.1 127.0.0.1 POST /Article/insert
-[ info ] admin.tp.com/Article/insert [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：2,049.41kb] [文件加载：44]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'application/json, text/javascript, */*; q=0.01',
-  'origin' => 'http://admin.tp.com',
-  'x-requested-with' => 'XMLHttpRequest',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-  'content-length' => '25',
-)
-[ info ] [ PARAM ] array (
-  'content' => 'dgsdg',
-  'title' => 'ddsgd',
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.022001s ]
-[ sql ] [ SQL ] INSERT INTO `xm_article` (`title` , `content` , `author` , `type` , `create_time` , `is_active`) VALUES ('ddsgd' , 'dgsdg' , '董小姐' , 1 , 1495615603 , 1) [ RunTime:0.002001s ]
----------------------------------------------------------------
-[ 2017-05-24T16:46:44+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,335.73kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023002s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:47:31+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.080004s][吞吐率：12.50req/s] [内存消耗：2,324.99kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002001s ]
----------------------------------------------------------------
-[ 2017-05-24T16:48:33+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,326.99kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:51:18+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：2,326.84kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.012001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:51:33+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：2,326.94kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.011000s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:52:25+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：2,329.33kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.015001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:52:29+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,329.33kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.011000s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001001s ]
----------------------------------------------------------------
-[ 2017-05-24T16:52:58+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.074005s][吞吐率：13.51req/s] [内存消耗：2,329.33kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.014001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:53:25+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.089006s][吞吐率：11.24req/s] [内存消耗：2,329.33kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:53:50+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：2,329.49kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:54:06+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,329.34kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:54:14+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：1,590.06kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/Article/index',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:54:17+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：2,329.08kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.024001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:54:58+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
-[ info ] admin.tp.com/article/index.volt [运行时间：0.093006s][吞吐率：10.75req/s] [内存消耗：2,329.33kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.022001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:55:02+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：1,590.08kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/index.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:55:06+08:00 ] 127.0.0.1 127.0.0.1 POST /Article/insert
-[ info ] admin.tp.com/Article/insert [运行时间：0.084004s][吞吐率：11.90req/s] [内存消耗：2,049.57kb] [文件加载：44]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'application/json, text/javascript, */*; q=0.01',
-  'origin' => 'http://admin.tp.com',
-  'x-requested-with' => 'XMLHttpRequest',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-  'content-length' => '87',
-)
-[ info ] [ PARAM ] array (
-  'content' => '爱上大声地',
-  'title' => '撒大大',
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.022001s ]
-[ sql ] [ SQL ] INSERT INTO `xm_article` (`title` , `content` , `author` , `type` , `create_time` , `is_active`) VALUES ('撒大大' , '爱上大声地' , '董小姐' , 1 , 1495616106 , 1) [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:55:07+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.089006s][吞吐率：11.24req/s] [内存消耗：2,330.84kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.022001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:55:09+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,590.06kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/Article/index',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:55:13+08:00 ] 127.0.0.1 127.0.0.1 POST /Article/insert
-[ info ] admin.tp.com/Article/insert [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,049.66kb] [文件加载：44]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'application/json, text/javascript, */*; q=0.01',
-  'origin' => 'http://admin.tp.com',
-  'x-requested-with' => 'XMLHttpRequest',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-  'content-length' => '150',
-)
-[ info ] [ PARAM ] array (
-  'content' => '法规的规定',
-  'title' => '大富大贵发多少公司的',
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.021001s ]
-[ sql ] [ SQL ] INSERT INTO `xm_article` (`title` , `content` , `author` , `type` , `create_time` , `is_active`) VALUES ('大富大贵发多少公司的' , '法规的规定' , '董小姐' , 1 , 1495616113 , 1) [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:55:14+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.102006s][吞吐率：9.80req/s] [内存消耗：2,332.78kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:55:16+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
-[ info ] admin.tp.com/article/insert.volt [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,590.06kb] [文件加载：41]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/Article/index',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
-) ]
-[ info ] [ LOG ] INIT File
----------------------------------------------------------------
-[ 2017-05-24T16:55:19+08:00 ] 127.0.0.1 127.0.0.1 POST /Article/insert
-[ info ] admin.tp.com/Article/insert [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：2,049.61kb] [文件加载：44]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'insert',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'application/json, text/javascript, */*; q=0.01',
-  'origin' => 'http://admin.tp.com',
-  'x-requested-with' => 'XMLHttpRequest',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-  'content-length' => '105',
-)
-[ info ] [ PARAM ] array (
-  'content' => '地方的所发生的',
-  'title' => '撒大大',
-)
-[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.022001s ]
-[ sql ] [ SQL ] INSERT INTO `xm_article` (`title` , `content` , `author` , `type` , `create_time` , `is_active`) VALUES ('撒大大' , '地方的所发生的' , '董小姐' , 1 , 1495616119 , 1) [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:55:20+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：2,334.73kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:56:08+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：2,334.92kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023002s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:56:14+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：2,335.23kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'pragma' => 'no-cache',
-  'cache-control' => 'no-cache',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.022002s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:57:20+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,334.92kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.022001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:58:23+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.080004s][吞吐率：12.50req/s] [内存消耗：2,335.10kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.022002s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:58:38+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,334.92kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.022002s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:58:39+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：2,334.92kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.022001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:58:51+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：2,334.99kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.011001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:58:52+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：2,334.99kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.015001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T16:58:52+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：2,334.99kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T17:00:32+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：2,334.98kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.012001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T17:00:33+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.067003s][吞吐率：14.92req/s] [内存消耗：2,334.98kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.011001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T17:00:41+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.079005s][吞吐率：12.66req/s] [内存消耗：2,334.98kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.012001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
----------------------------------------------------------------
-[ 2017-05-24T17:01:12+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：2,334.98kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.012000s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_article` ORDER BY create_time desc [ RunTime:0.001000s ]
 ---------------------------------------------------------------
-[ 2017-05-24T17:02:31+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,335.19kb] [文件加载：48]
+[ 2017-05-24T17:43:40+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,602.35kb] [文件加载：41]
 [ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
 [ info ] [ BIND ] 'admin'
 [ info ] [ ROUTE ] array (
@@ -2539,37 +350,30 @@
   'module' => 
   array (
     0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
+    1 => 'image',
+    2 => 'insert',
   ),
 )
 [ info ] [ HEADER ] array (
   'host' => 'admin.tp.com',
   'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
+  'referer' => 'http://admin.tp.com/article/index.volt',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
   'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.008001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.024001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
 ---------------------------------------------------------------
-[ 2017-05-24T17:02:37+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.110006s][吞吐率：9.09req/s] [内存消耗：2,335.19kb] [文件加载：48]
+[ 2017-05-24T17:48:56+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,601.20kb] [文件加载：41]
 [ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
 [ info ] [ BIND ] 'admin'
 [ info ] [ ROUTE ] array (
@@ -2577,8 +381,8 @@
   'module' => 
   array (
     0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
+    1 => 'image',
+    2 => 'insert',
   ),
 )
 [ info ] [ HEADER ] array (
@@ -2588,26 +392,606 @@
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
+  'referer' => 'http://admin.tp.com/article/index.volt',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
   'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
 ) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:50:23+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,602.69kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:50:42+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,602.66kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:50:49+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,602.69kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:51:07+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,602.73kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:51:22+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,602.77kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:51:34+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,602.77kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:51:48+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,602.67kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:52:14+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,602.75kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:52:41+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,602.71kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:53:08+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,602.55kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:53:13+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.056004s][吞吐率：17.86req/s] [内存消耗：1,602.55kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:53:37+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.046002s][吞吐率：21.74req/s] [内存消耗：1,602.74kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:53:47+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,602.74kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:54:09+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,602.76kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:54:17+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,602.80kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/article/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:54:23+08:00 ] 127.0.0.1 127.0.0.1 GET /image/insert.volt
+[ info ] admin.tp.com/image/insert.volt [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,602.58kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/image/insert.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-24T17:54:24+08:00 ] 127.0.0.1 127.0.0.1 GET /image/index.volt
+[ info ] admin.tp.com/image/index.volt [运行时间：0.107007s][吞吐率：9.35req/s] [内存消耗：2,342.48kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'image',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'referer' => 'http://admin.tp.com/image/insert.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Image->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\image\index.html [ array (
+  0 => 'images',
+  1 => 'pages',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_image` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_image` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-05-24T17:54:26+08:00 ] 127.0.0.1 127.0.0.1 POST /Image/index
+[ info ] admin.tp.com/Image/index [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：2,055.65kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Image',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'admin.tp.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://admin.tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://admin.tp.com/image/index.volt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+  'content-length' => '16',
+)
+[ info ] [ PARAM ] array (
+  'pgNum' => '2',
+  'pgSize' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Image->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
+[ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
 [ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.027001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_image` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_image` [ RunTime:0.001000s ]
 ---------------------------------------------------------------
-[ 2017-05-24T17:02:46+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.093006s][吞吐率：10.75req/s] [内存消耗：2,335.19kb] [文件加载：48]
+[ 2017-05-24T17:54:28+08:00 ] 127.0.0.1 127.0.0.1 POST /Image/index
+[ info ] admin.tp.com/Image/index [运行时间：0.068004s][吞吐率：14.70req/s] [内存消耗：2,055.63kb] [文件加载：44]
 [ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
 [ info ] [ BIND ] 'admin'
 [ info ] [ ROUTE ] array (
@@ -2615,37 +999,37 @@
   'module' => 
   array (
     0 => 'admin',
-    1 => 'Article',
+    1 => 'Image',
     2 => 'index',
   ),
 )
 [ info ] [ HEADER ] array (
   'host' => 'admin.tp.com',
   'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://admin.tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
   'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://admin.tp.com/image/index.volt',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
   'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
+  'content-length' => '16',
 )
 [ info ] [ PARAM ] array (
+  'pgNum' => '1',
+  'pgSize' => '6',
 )
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
+[ info ] [ RUN ] app\admin\controller\Image->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Image.php ]
 [ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
 [ info ] [ LOG ] INIT File
 [ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_image` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_image` [ RunTime:0.001000s ]
 ---------------------------------------------------------------
-[ 2017-05-24T17:02:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.084004s][吞吐率：11.90req/s] [内存消耗：2,335.19kb] [文件加载：48]
+[ 2017-05-24T17:54:30+08:00 ] 127.0.0.1 127.0.0.1 GET /article/index.volt
+[ info ] admin.tp.com/article/index.volt [运行时间：0.078004s][吞吐率：12.82req/s] [内存消耗：2,347.60kb] [文件加载：48]
 [ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
 [ info ] [ BIND ] 'admin'
 [ info ] [ ROUTE ] array (
@@ -2653,18 +1037,17 @@
   'module' => 
   array (
     0 => 'admin',
-    1 => 'Article',
+    1 => 'article',
     2 => 'index',
   ),
 )
 [ info ] [ HEADER ] array (
   'host' => 'admin.tp.com',
   'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
+  'referer' => 'http://admin.tp.com/image/index.volt',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
   'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
@@ -2679,11 +1062,11 @@
 ) ]
 [ info ] [ LOG ] INIT File
 [ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.022002s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_article` ORDER BY create_time desc [ RunTime:0.002000s ]
 ---------------------------------------------------------------
-[ 2017-05-24T17:02:52+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：2,335.19kb] [文件加载：48]
+[ 2017-05-24T17:54:35+08:00 ] 127.0.0.1 127.0.0.1 GET /article/insert.volt
+[ info ] admin.tp.com/article/insert.volt [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,594.04kb] [文件加载：41]
 [ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
 [ info ] [ BIND ] 'admin'
 [ info ] [ ROUTE ] array (
@@ -2691,107 +1074,24 @@
   'module' => 
   array (
     0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
+    1 => 'article',
+    2 => 'insert',
   ),
 )
 [ info ] [ HEADER ] array (
   'host' => 'admin.tp.com',
   'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
   'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
   'upgrade-insecure-requests' => '1',
   'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
+  'referer' => 'http://admin.tp.com/article/index.volt',
   'accept-encoding' => 'gzip, deflate',
   'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
   'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
 )
 [ info ] [ PARAM ] array (
 )
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
+[ info ] [ RUN ] app\admin\controller\Article->insertAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html [ array (
 ) ]
 [ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.029002s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T17:03:08+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.096006s][吞吐率：10.42req/s] [内存消耗：2,335.19kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.023001s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.002000s ]
----------------------------------------------------------------
-[ 2017-05-24T17:03:17+08:00 ] 127.0.0.1 127.0.0.1 GET /Article/index
-[ info ] admin.tp.com/Article/index [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：2,335.19kb] [文件加载：48]
-[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
-[ info ] [ BIND ] 'admin'
-[ info ] [ ROUTE ] array (
-  'type' => 'module',
-  'module' => 
-  array (
-    0 => 'admin',
-    1 => 'Article',
-    2 => 'index',
-  ),
-)
-[ info ] [ HEADER ] array (
-  'host' => 'admin.tp.com',
-  'connection' => 'keep-alive',
-  'cache-control' => 'max-age=0',
-  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-  'upgrade-insecure-requests' => '1',
-  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.2716.5 Safari/537.36',
-  'referer' => 'http://admin.tp.com/article/insert.volt',
-  'accept-encoding' => 'gzip, deflate',
-  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
-  'cookie' => 'ckCsrfToken=N01GOqmYHSe325ymXZp6ajcBbmQ2I4U4i1exxF09; style=d',
-)
-[ info ] [ PARAM ] array (
-)
-[ info ] [ RUN ] app\admin\controller\Article->indexAction[ D:\phpStudy\WWW\tp5\application\admin\controller\Article.php ]
-[ info ] [ DB ] INIT mysql
-[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html [ array (
-  0 => 'pages',
-  1 => 'articles',
-) ]
-[ info ] [ LOG ] INIT File
-[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=xm_db;host=127.0.0.1;port=3306;charset=utf8
-[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_article` [ RunTime:0.024002s ]
-[ sql ] [ SQL ] SELECT * FROM `xm_article` [ RunTime:0.001000s ]

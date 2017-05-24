@@ -15,7 +15,13 @@ class Article extends Base {
 
         $pgSize = isset($params['pgSize']) ? $params['pgSize'] : 10;
 
-        $list = Db::table('xm_article')->select();
+        $list = Db::table('xm_article')->order('create_time desc')->select();
+
+        foreach ($list as $key => &$value){
+
+            $value['title'] = mb_substr($value['content'],0,24,'utf-8');
+        }
+        unset($value);
 
         $pages = ceil(count($list) / 10);
 
@@ -66,6 +72,23 @@ class Article extends Base {
         }
 
         return view('article/insert');
+    }
+
+    /**
+     * 删除文章
+     */
+    public function deleteAction(){
+
+        $param = request()->param('id','','intval');
+
+        $result = Db::table('xm_article')->where(['id'=>$param])->delete();
+
+        if($result == false){
+
+            return json(['status'=>0]);
+        }
+
+        return json(['status'=>1]);
     }
 
     /**

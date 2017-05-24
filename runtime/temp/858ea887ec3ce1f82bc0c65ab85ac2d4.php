@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html";i:1495618038;s:71:"D:\phpStudy\WWW\tp5\public/../application/admin\view\public\layout.html";i:1495603978;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:70:"D:\phpStudy\WWW\tp5\public/../application/admin\view\image\insert.html";i:1495619656;s:71:"D:\phpStudy\WWW\tp5\public/../application/admin\view\public\layout.html";i:1495603978;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +14,7 @@
     <link href="/static/base/layer/css/admin-layui.css" rel="stylesheet" media="screen">
     <link href="/static/admin/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
     
-
+<link rel="stylesheet" href="/static/admin/css/mine/mine.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -63,56 +63,67 @@
     <div class="page-content">
 
         
-
-<div class="content container">
-    <div class="row">
-        <div class="col-lg-12">
-            <h2 class="page-title">Static Tables <small>Different variations</small></h2>
+    <div class="content container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-title">Multiple File Upload <small>Multiple upload sample</small></h2>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="widget">
-                <div class="widget-header"> <i class="icon-check"></i>
-                    <h3>文章列表 </h3>
-                </div>
-                <div class="widget-content">
-                    <ul class="to-do-list ui-sortable" id="sortable-todo">
-                        <?php if(is_array($articles) || $articles instanceof \think\Collection || $articles instanceof \think\Paginator): $i = 0; $__LIST__ = $articles;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ar): $mod = ($i % 2 );++$i;?>
-                        <li class="clearfix"><span class="drag-marker"> <i></i> </span>
-                            <div class="todo-check pull-left">
-                                <input type="checkbox" value="None" id="todo-check<?php echo $ar['id']; ?>">
-                                <label for="todo-check<?php echo $ar['id']; ?>"></label>
-                            </div>
-                          <p class="todo-title"> <?php echo $ar['title']; ?></p>
-                            <div class="todo-actionlist pull-right clearfix"> <a href="#" class="todo-edit"><i class="icon-pencil "></i></a> <a class="todo-remove" data-id="<?php echo $ar['id']; ?>"><i class="icon-remove icon-muted"></i></a> </div>
-                        </li>
-                        <?php endforeach; endif; else: echo "" ;endif; ?>
-                    </ul>
-                    <div class="clearfix">
-                        <div id="demo"></div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="widget">
+                    <div class="widget-header"> <i class="icon-external-link"></i>
+                        <h3> 图片添加 </h3>
                     </div>
-                    <div class="todo-action-bar">
-                        <!--row start-->
-                        <div class="row">
-                            <div class="col-xs-3 btn-todo-select">
-                                <button type="submit" class="btn btn-default"><i class="icon-ok"></i>全选</button>
+                    <div class="widget-content">
+
+
+
+                        <div class="panel-body">
+                            <div class="alert alert-info">
+                                <i class="icon-info-sign"></i> 脸色苍白的伙伴
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
                             </div>
-                            <div class="col-xs-6 todo-search-wrap">
-                                <input type="text" class="form-control todo-search pull-right" placeholder="搜索">
-                            </div>
-                            <div class="col-xs-3 btn-add-task">
-                                <a href="<?php echo url('Article/insert'); ?>"><button type="submit" class="btn btn-default btn-danger"><i class="icon-plus"></i> 添加</button></a>
-                            </div>
+                            <p style="margin-bottom: 10px">第二天上学，我但心坐地虎阿龙会对我们实施报复，<br><br>但我的担心是多余的了，他没来找我们碴；<br><br>在走廊上擦肩而过，他都不敢抬眼来瞪我们；<br><br>操场上远远望见我们，他都宁愿绕个大圈避开。他害怕了，尽管他长和像头小公牛。我体会到，正义必然战胜邪恶。<br><br>
+                                我不让史潜文替我背书包了。我坦白地告诉他，我只能砸断中间有裂纹的红砖，而且必须戴手套，他笑了，说他连有裂纹的红砖也砸不断。这倒是真话。<br><br>君子协定，每天下午放学后，史潜文帮我和张福庆补习数学，累了，我们就在操场上踢足球玩。我们班那些好汉当面笑我倒过来做了史潜文的伙伴。<br><br>我没生气，也没反驳。我觉得这种伙伴关系很无聊，没意思。史潜文说得对，我们是好同学、好朋友.</p>
+
+                            <br>
+                            <!-- The file upload form used as target for the file upload widget -->
+                                <!-- Redirect browsers with JavaScript disabled to the origin page -->
+
+                                <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
+                                <div class="row fileupload-buttonbar">
+                                    <div class="col-lg-7">
+                                        <div class="btn-toolbar">
+                                            <!-- The fileinput-button span is used to style the file input field as button -->
+                                            <span class="btn btn-success fileinput-button" style="position: relative">
+                                        <i class="icon-plus"></i>
+                                        <span>开始上传</span>
+                                                <div id="shangChuan">
+                                        <input type="file" name="files" id="file_upload" multiple="" style="opacity: 0;position: absolute;top: 0;left: 0;width: 100%;height: 100%;cursor: pointer">
+                                                </div>
+                                    </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- The table listing the files available for upload/download -->
+                                <table role="presentation" class="table table-striped">
+                                    <tbody class="files"></tbody>
+                                </table>
+
                         </div>
-                        <!--row end-->
-                        <input type="hidden" name="pages" value="<?php echo $pages; ?>">
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+<div class="progress progress-striped active" id="progress" style="display: none">
+    <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+        <span class="sr-only" style="border: 1px solid red">4Complete</span>
+    </div>
 </div>
 
     </div>
@@ -145,8 +156,8 @@
 <script src="/static/base/layer/laypage.js"></script>
 <script src="/static/base/layer/layui.js"></script>
 
-<script src="/static/admin/js/to-do-admin.js"></script>
-<script src="/static/admin/js/mine/pagination-article.js"></script>
+<script src="/static/admin/js/jquery.html5upload.js"></script>
+<script src="/static/admin/js/mine/mine.js"></script>
 
 <link href="/static/admin/assets/switcher/switcher.css" rel="stylesheet">
 <link href="/static/admin/assets/switcher/switcher-defult.css" rel="stylesheet">

@@ -29,11 +29,14 @@
                                 <input type="checkbox" value="None" id="todo-check{$ar['id']}">
                                 <label for="todo-check{$ar['id']}"></label>
                             </div>
-                          <p class="todo-title"> {:mb_substr($ar['content'],0,24,'utf-8')}</p>
-                            <div class="todo-actionlist pull-right clearfix"> <a href="#" class="todo-done"><i class="icon-ok"></i></a> <a href="#" class="todo-edit"><i class="icon-pencil "></i></a> <a class="todo-remove"><i class="icon-remove icon-muted"></i></a> </div>
+                          <p class="todo-title"> {$ar['title']}</p>
+                            <div class="todo-actionlist pull-right clearfix"> <a href="#" class="todo-edit"><i class="icon-pencil "></i></a> <a class="todo-remove" data-id="{$ar['id']}"><i class="icon-remove icon-muted"></i></a> </div>
                         </li>
                         {/volist}
                     </ul>
+                    <div class="clearfix">
+                        <div id="demo"></div>
+                    </div>
                     <div class="todo-action-bar">
                         <!--row start-->
                         <div class="row">
@@ -48,6 +51,7 @@
                             </div>
                         </div>
                         <!--row end-->
+                        <input type="hidden" name="pages" value="{$pages}">
                     </div>
                 </div>
             </div>
@@ -61,5 +65,5 @@
 
 {block name="js"}
 <script src="admin_public/js/to-do-admin.js"></script>
-
+<script src="admin_public/js/mine/pagination-article.js"></script>
 {/block}

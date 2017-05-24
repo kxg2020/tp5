@@ -1,9 +1,6 @@
-    $(function() {
-		$( "#sortable-todo" ).sortable();
-		$( "#sortable-todo" ).disableSelection();
-	});
+
 	
-	$('#sortable-todo li input').on('click', function(e) {
+	$('body').on('click', '#sortable-todo li input',function(e) {
 		
 		if($(this).is(":checked"))
 		{
@@ -18,8 +15,24 @@
 		}
 		
 	});
-	$('.todo-remove').on('click', function(e) {
-		$(this).closest('li').remove();
+	$('body').on('click','.todo-remove', function(e) {
+
+		id = $(this).attr('data-id');
+		//>> 删除数据
+		$.ajax({
+			'type':'post',
+			'dataType':'json',
+			'url':location.protocol+'//'+window.location.host+'/Article/delete',
+			'data':{'id':id},
+			success:function (e) {
+
+               if(e.status == 1){
+
+                   $(this).closest('li').remove();
+			   }
+            }.bind(this)
+		});
+
 	});
 	$(document).ready(function(){
 		$('.todo-list-active').wrap("<strike>");
