@@ -92,6 +92,14 @@ class Article extends Base {
     }
 
     /**
+     * 文章编辑
+     */
+    public function editAction(){
+
+        return view('article/edit');
+    }
+
+    /**
      * 图片上传
      */
     public function uploadAction(){

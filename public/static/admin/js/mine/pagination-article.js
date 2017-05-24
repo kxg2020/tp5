@@ -30,9 +30,7 @@ $(function () {
                                         '<div class="todo-check pull-left">'+
                                         '<input type="checkbox" value="None" id="todo-check'+v.id+'">'+
                                         '<label for="todo-check'+v.id+'"></label>'+
-                                        '</div>'+
-                                        '<p class="todo-title">'+v.title+'</p>'+
-                                    '<div class="todo-actionlist pull-right clearfix"><a href="#" class="todo-edit"><i class="icon-pencil "></i></a> <a class="todo-remove" data-id="'+v.id+'"><i class="icon-remove icon-muted"></i></a> </div></li>'
+                                        '</div>'+ '<p class="todo-title">'+v.title+'</p>'+ '<div class="todo-actionlist pull-right clearfix"><a href="'+location.protocol+'//'+window.location.host+'/Article/edit/id'+v.id+'class="todo-edit" data-id="'+v.id+'"><i class="icon-pencil "></i></a> <a class="todo-remove" data-id="'+v.id+'"><i class="icon-remove icon-muted"></i></a> </div></li>'
                                     );
                                 }
 
