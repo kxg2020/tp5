@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3349db11-db6f-4190-9826-5ef9f5bce535" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkphp" afterPath="$PROJECT_DIR$/thinkphp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -322,12 +321,12 @@
       <workItem from="1495180070141" duration="5800000" />
       <workItem from="1495413663794" duration="1285000" />
       <workItem from="1495418645925" duration="45740000" />
-      <workItem from="1495588343027" duration="29289000" />
+      <workItem from="1495588343027" duration="29911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107788000" />
+    <option name="totallyTimeSpent" value="108410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
