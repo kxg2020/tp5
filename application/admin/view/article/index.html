@@ -29,8 +29,10 @@
                                 <input type="checkbox" value="None" id="todo-check{$ar['id']}">
                                 <label for="todo-check{$ar['id']}"></label>
                             </div>
-                          <p class="todo-title"> {$ar['title']}</p>
-                            <div class="todo-actionlist pull-right clearfix"> <a href="{:url('Article/edit')}" class="todo-edit" data-id="{$ar['id']}"><i class="icon-pencil "></i></a> <a class="todo-remove" data-id="{$ar['id']}"><i class="icon-remove icon-muted"></i></a> </div>
+                          <p class="todo-title"> {$ar['title']}......</p>
+                            <div class="todo-actionlist pull-right clearfix">
+                                <a href="#" class="todo-edit detail" data-id="{$ar['id']}"><i class="icon-eye-open"></i></a>
+                                <a href="{:url('Article/edit',['id'=>$ar['id']])}" class="todo-edit" data-id="{$ar['id']}"><i class="icon-pencil "></i></a> <a class="todo-remove" data-id="{$ar['id']}"><i class="icon-remove icon-muted"></i></a> </div>
                         </li>
                         {/volist}
                     </ul>

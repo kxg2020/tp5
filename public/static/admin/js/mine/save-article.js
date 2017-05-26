@@ -9,21 +9,26 @@ $(function () {
          */
         var content =  CKEDITOR.instances.ckeditor.document.getBody().getText();
         var title = $('input[name = title]').val();
-
-        if(content == '' || title == ''){
-            layer.msg('标题或内容不能为空',{time:800});return false;
-        }
+        var is_top = $('input[name = is-top]:checked').val();
 
         /**
          * 获取标签文本
          */
         var html = CKEDITOR.instances.ckeditor.getData();
 
+        if(content == '' || title == '' || html == ''){
+
+            layer.msg('标题或内容不能为空',{time:800});
+            return false;
+        }
+
+
+
         $.ajax({
             'type':'post',
             'dataType':'json',
             'url':location.protocol+'//'+window.location.host+'/Article/insert',
-            'data':{'content':content,'title':title},
+            'data':{'content':content,'title':title,'html':html,'is_top':is_top},
             success:function (e) {
                 if(e.status == 1){
 

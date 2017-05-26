@@ -46,17 +46,19 @@ class Article extends Base {
 
         if(request()->isAjax()){
 
-            $params = request()->param('','','string');
+            $params = request()->param('');
 
             if($params){
 
                 $insertData = [
                     'title'=>$params['title'],
+                    'html_content'=>$params['html'],
                     'content'=>$params['content'],
                     'author'=>'董小姐',
                     'type'=>'1',
                     'create_time'=>time(),
-                    'is_active'=>1
+                    'is_active'=>1,
+                    'is_top'=>isset($params['is_top']) ? $params['is_top'] : 0
                 ];
 
                 $result = Db::table('xm_article')->insertGetId($insertData);
@@ -96,7 +98,55 @@ class Article extends Base {
      */
     public function editAction(){
 
+        $param = request()->param('id','','intval');
+
+        $article = Db::table('xm_article')->where(['id'=>$param])->find();
+
+        $this->assign('article',$article);
+
         return view('article/edit');
+    }
+
+    /**
+     * 文章预览
+     */
+    public function detailAction(){
+
+        $param  = request()->param('id','','intval');
+
+        $article = Db::table('xm_article')->where(['id'=>$param])->find();
+
+        $this->assign('article',$article);
+
+        return view('article/detail');
+    }
+
+    /**
+     * 文章更新
+     */
+
+    public function updateAction(){
+
+        $params = request()->param();
+
+        $updateData = [
+            'update_time'=>time(),
+            'title'=>$params['title'],
+            'content'=>$params['content'],
+            'html_content'=>$params['html'],
+            'type'=>1,
+            'is_active'=>1,
+            'author'=>'董小姐',
+            'is_top'=>isset($params['is_top']) ? $params['is_top'] : 0
+        ];
+        $result = Db::table('xm_article')->where(['id'=>$params['id']])->update($updateData);
+
+        if($result == false){
+
+            return json(['status'=>0,'msg'=>'更新失败']);
+        }
+
+        return json(['status'=>1,'msg'=>'更新成功']);
     }
 
     /**

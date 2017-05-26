@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:72:"D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html";i:1495615090;s:71:"D:\phpStudy\WWW\tp5\public/../application/admin\view\public\layout.html";i:1495603978;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:72:"D:\phpStudy\WWW\tp5\public/../application/admin\view\article\insert.html";i:1495692589;s:71:"D:\phpStudy\WWW\tp5\public/../application/admin\view\public\layout.html";i:1495603978;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -90,9 +90,12 @@
                                     <textarea class="ckeditor" name="ckeditor"  style="visibility: hidden;"></textarea>
                                 </div>
                             </div>
+                            <input type="checkbox" name="is-top" class="" value="1">&nbsp;推荐
                         </form>
                     </div>
+
                 </div>
+
                 <br>
                 <div class="doc-buttons"> <a class="btn btn-s-md btn-success save-article">保存</a>&nbsp;
                     <a class="btn btn-s-md btn-primary" href="<?php echo url('Article/index'); ?>">列表</a>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html";i:1495620064;s:71:"D:\phpStudy\WWW\tp5\public/../application/admin\view\public\layout.html";i:1495603978;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:71:"D:\phpStudy\WWW\tp5\public/../application/admin\view\article\index.html";i:1495687044;s:71:"D:\phpStudy\WWW\tp5\public/../application/admin\view\public\layout.html";i:1495603978;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -84,8 +84,10 @@
                                 <input type="checkbox" value="None" id="todo-check<?php echo $ar['id']; ?>">
                                 <label for="todo-check<?php echo $ar['id']; ?>"></label>
                             </div>
-                          <p class="todo-title"> <?php echo $ar['title']; ?></p>
-                            <div class="todo-actionlist pull-right clearfix"> <a href="<?php echo url('Article/edit'); ?>" class="todo-edit" data-id="<?php echo $ar['id']; ?>"><i class="icon-pencil "></i></a> <a class="todo-remove" data-id="<?php echo $ar['id']; ?>"><i class="icon-remove icon-muted"></i></a> </div>
+                          <p class="todo-title"> <?php echo $ar['title']; ?>......</p>
+                            <div class="todo-actionlist pull-right clearfix">
+                                <a href="#" class="todo-edit detail" data-id="<?php echo $ar['id']; ?>"><i class="icon-eye-open"></i></a>
+                                <a href="<?php echo url('Article/edit',['id'=>$ar['id']]); ?>" class="todo-edit" data-id="<?php echo $ar['id']; ?>"><i class="icon-pencil "></i></a> <a class="todo-remove" data-id="<?php echo $ar['id']; ?>"><i class="icon-remove icon-muted"></i></a> </div>
                         </li>
                         <?php endforeach; endif; else: echo "" ;endif; ?>
                     </ul>

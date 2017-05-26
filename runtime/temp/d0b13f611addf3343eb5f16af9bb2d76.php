@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"D:\phpStudy\WWW\tp5\public/../application/admin\view\image\index.html";i:1495602938;s:71:"D:\phpStudy\WWW\tp5\public/../application/admin\view\public\layout.html";i:1495603978;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:69:"D:\phpStudy\WWW\tp5\public/../application/admin\view\image\index.html";i:1495687413;s:71:"D:\phpStudy\WWW\tp5\public/../application/admin\view\public\layout.html";i:1495603978;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -86,6 +86,7 @@
                                 <th>类型</th>
                                 <th>排序</th>
                                 <th>是否显示</th>
+                                <th>首页轮播</th>
                                 <th class="hidden-xs">创建时间</th>
                                 <th class="hidden-xs">操作</th>
                             </tr>
@@ -98,6 +99,11 @@
                                 <td> <?php echo $im['type']; ?></td>
                                 <td> <?php echo $im['sort']; ?></td>
                                 <td class="hidden-xs"><?php if($im['is_active'] == 1): ?><span class="status" data-id="<?php echo $im['id']; ?>" data-status="<?php echo $im['is_active']; ?>"><span style="cursor: pointer" class="icon-ok " ></span></span><?php else: ?><span class="status" data-id="<?php echo $im['id']; ?>" data-status="<?php echo $im['is_active']; ?>"><span style="cursor: pointer" class="icon-remove" data-id="<?php echo $im['id']; ?>" data-status="<?php echo $im['is_active']; ?>"></span></span><?php endif; ?></td>
+                                <td class="hidden-xs">
+
+                                    <?php if($im['type'] == 2): ?><span class="banner" data-id="<?php echo $im['id']; ?>" data-status="<?php echo $im['type']; ?>"><span style="cursor: pointer" class="icon-ok " ></span></span><?php else: ?><span class="banner" data-id="<?php echo $im['id']; ?>" data-status="<?php echo $im['type']; ?>"><span style="cursor: pointer" class="icon-remove" data-id="<?php echo $im['id']; ?>" data-status="<?php echo $im['type']; ?>"></span></span><?php endif; ?>
+
+                                </td>
                                 <td class="hidden-xs"> <?php echo $im['create_time']; ?></td>
                                 <td class="hidden-xs">
                                     <button data-toggle="button" data-id="<?php echo $im['id']; ?>" class="btn btn-sm btn-warning image-delete"> 删除</button></td>

@@ -20,11 +20,7 @@ class Image extends Base{
         foreach ($list as $key => &$value){
 
             $value['create_time'] = date('Y-m-d H:i:s',$value['create_time']);
-            switch ($value['type']){
-                case 1:
-                    $value['type'] = '照片';
-                    break;
-            }
+
         }
         unset($value);
 
@@ -90,6 +86,45 @@ class Image extends Base{
 
     }
 
+
+    /**
+     * 修改轮播
+     */
+    public function bannerAction(){
+
+        $params = request()->param('','','intval');
+
+        switch ($params['type']){
+
+            case 1:
+
+                $result = Db::table('xm_image')->where(['id'=>$params['id']])->update(['type'=>2]);
+
+                if($result == false){
+
+                    return json(['status'=>0,'msg'=>'修改失败']);
+                }
+
+                return json(['status'=>1,'msg'=>'修改成功']);
+
+                break;
+
+            case 2:
+
+                $result = Db::table('xm_image')->where(['id'=>$params['id']])->update(['type'=>1]);
+
+                if($result == false){
+
+                    return json(['status'=>0,'msg'=>'修改失败']);
+                }
+
+                return json(['status'=>1,'msg'=>'修改成功']);
+
+                break;
+        }
+
+    }
+
     /**
      * 图片上传
      */
@@ -97,7 +132,7 @@ class Image extends Base{
 
         $result = upload();
 
-        //>> 判断是否上传成功
+        //>> 是否上传成功
         if ($result == false) {
 
             return json(['status'=>0,'msg'=>'上传失败']);
@@ -111,7 +146,7 @@ class Image extends Base{
             'sort'=>1
         ];
 
-        //>> 保存到数据库
+        //>> 保存数据
         $id = Db::table('xm_image')->insertGetId($insertData);
 
         if($id){

@@ -1,10 +1,173 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h1>index_public</h1>
-</body>
-</html>
+{extend name="/public/layout"/}
+
+{block name="css"}
+<link rel="stylesheet" type="text/css" href="index_public/frontend/plugin/css/jq22.css" />
+<link rel="stylesheet" type="text/css" href="index_public/frontend/plugin/css/style1.css" />
+{/block}
+
+
+
+{block name="main"}
+<!-- header -->
+<div class="banner">
+    <ul class="cb-slideshow" style="cursor: pointer">
+        {volist name="banner" id="ba"}
+        <li ><span style="cursor: pointer;background-image: url({$ba['image_url']})"></span><div><h3></h3></div></li>
+        {/volist}
+    </ul>
+
+</div>
+<!---->
+<div class="welcome">
+    <div class="container">
+        <div class="welcome-info">
+            <h3>从前慢</h3>
+            <h4>从前的日色变得慢，车、马、邮件都慢，一生只爱一个人</h4>
+            <p> 从前的锁也很好看，钥匙精美有样子。</p>
+        </div>
+    </div>
+</div>
+<!---->
+<div class="content">
+    <div class="container">
+        <div class="col-md-8 content-left">
+            <div class="information">
+                <h4>博主推荐</h4>
+                <div class="information_grids">
+                    <div class="info">
+                        <p>" Etiam ante arcu, vestibulum diam. Curabitur quis lectus. Pellentesque dictum odio velit.</p>
+                        <a href="about.html">点击阅读</a>
+                    </div>
+                    <div class="info-pic">
+                        <img src="index_public/frontend/banner/images/ps.png" class="img-responsive" alt=""/>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="games-grids">
+                <div class="game-grid-left">
+                    <div class="grid1">
+                        <h5 class="act"><a href="single.html">Action</a></h5>
+                        <a href="single.html"><img src="index_public/frontend/banner/images/c1.jpg" class="img-responsive" alt=""/></a>
+                        <div class="grid1-info">
+                            <h4><a href="single.html">Watch Dogs</a></h4>
+                            <p>Integer ut leo vitae nibh cursus aliquetr Sed, condimentum bibendum nibh accumsan vel.</p>
+                        </div>
+                        <div class="more">
+                            <a href="single.html">Read more</a>
+                        </div>
+                    </div>
+                    <div class="grid2">
+                        <h5 class="race"><a href="single.html">Racing</a></h5>
+                        <a href="single.html"><img src="index_public/frontend/banner/images/c2.jpg" class="img-responsive" alt=""/></a>
+                        <div class="grid1-info">
+                            <h4><a href="single.html">Monster Racing</a></h4>
+                            <p>Integer ut leo vitae nibh cursus aliquetr Sed, condimentum bibendum nibh accumsan vel.</p>
+                        </div>
+                        <div class="more">
+                            <a href="single.html">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-grid-right">
+                    <div class="grid3">
+                        <h5 class="sport"><a href="single.html">Sports</a></h5>
+                        <a href="single.html"><img src="index_public/frontend/banner/images/c3.jpg" class="img-responsive" alt=""/></a>
+                        <div class="grid1-info">
+                            <h4><a href="single.html">FIFA 2015</a></h4>
+                            <p>Integer ut leo vitae nibh cursus aliquetr Sed, condimentum bibendum nibh accumsan vel.</p>
+                        </div>
+                        <div class="more">
+                            <a href="single.html">Read more</a>
+                        </div>
+                    </div>
+                    <div class="grid4">
+                        <h5 class="arc"><a href="single.html">Arcade</a></h5>
+                        <a href="single.html"><img src="index_public/frontend/banner/images/c4.jpg" class="img-responsive" alt=""/></a>
+                        <div class="grid1-info">
+                            <h4><a href="single.html">Skylanders</a></h4>
+                            <p>Integer ut leo vitae nibh cursus aliquetr Sed, condimentum bibendum nibh accumsan vel.</p>
+                        </div>
+                        <div class="more">
+                            <a href="single.html">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
+        <div class="col-md-4 content-right">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav2" role="tablist">
+                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">最近发表</a></li>
+                <li role="presentation" ><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">最近拍摄</a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active re-pad2" id="home">
+                    {volist name="topThree" id="to"}
+                    <div class="game1">
+                        <div class="col-md-3 tab-pic">
+                            <a href="single.html"><img src="index_public/frontend/banner/images/tr3.jpg" alt="/" class="img-responsive"></a>
+                        </div>
+                        <div class="col-md-9 tab-pic-info">
+                            <h4><a href="single.html">{:mb_substr($to['title'],0,8,'utf-8')}</a></h4>
+                            <p>{:mb_substr($to['content'],0,24,'utf-8')}</p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    {/volist}
+
+                </div>
+                <div role="tabpanel" class="tab-pane re-pad2" id="profile">
+                    {volist name="$image" id="ima"}
+                    <div class="game-post">
+                        <div class="col-md-3 tab-pic">
+                            <a href="single.html"><img src="index_public/frontend/banner/images/tr3.jpg" alt="/" class="img-responsive"></a>
+                        </div>
+                        <div class="col-md-9 tab-post-info">
+                            <h4><a href="single.html">董小姐</a></h4>
+                            <p>作者: <a href="#">董小姐</a> &nbsp;&nbsp; {:date('Y-m-d',$ima['create_time'])} &nbsp;&nbsp; <a href="#">评论 (10)</a></p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    {/volist}
+                </div>
+            </div>
+            <!---->
+            <div class="category blog-ctgry">
+                <h4>文章列表</h4>
+                <div class="list-group">
+                    {volist name="articles" id="ar"}
+                    <a href="#" class="list-group-item">{$ar['title']}</a>
+                    {/volist}
+                </div>
+            </div>
+            <div class="photo-gallery">
+                <h4>照片墙</h4>
+                {for start="0" end="3" name="var"}
+                <div class="gallery-1">
+                    {volist name="gallery[$var]" id="im"}
+                    <div class="col-md-4 gallery-grid-pic">
+                        <a class="example-image-link" href="index_public/frontend/banner/images/p2.jpg" data-lightbox="example-set"><img class="example-image" src="index_public/frontend/banner/images/p2.jpg" alt=""/></a>
+                    </div>
+                    {/volist}
+                    <div class="clearfix"></div>
+                </div>
+                {/for}
+            </div>
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+{/block}
+
+
+{block name="js"}
+<script src="index_public/frontend/banner/js/lightbox-plus-jquery.min.js"></script>
+<script type="text/javascript" src="index_public/frontend/plugin/js/modernizr.custom.86080.js"></script>
+{/block}

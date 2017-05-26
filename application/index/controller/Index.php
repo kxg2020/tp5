@@ -9,15 +9,38 @@ class Index extends Controller{
     public function indexAction(){
 
 
-
-        //>> 查询
-        $info = Db::table('an_member_recharge a')
-            ->field('a.money,b.*')
-            ->join('an_member b','a.member_id = b.id','LEFT')
-            ->where(['a.member_id'=>11])
+        $banner = Db::table('xm_image')->field('image_url')
+            ->where(['type'=>2,'is_active'=>1])
+            ->order('sort desc')
+            ->limit(6)
             ->select();
 
-        $this->assign('info',$info);
+        $images = Db::table('xm_image')->field('image_url,create_time')
+            ->order('create_time desc')
+            ->limit(9)
+            ->select();
+
+        $gallery = array_chunk($images,3);
+
+        $image = array_slice($images,0,3);
+
+        $articles = Db::table('xm_article')->order('create_time desc')->select();
+
+        $topThree = [];
+
+        foreach ($articles as $key => $value){
+
+            if($key <= 3){
+                $topThree[$key] = $value;
+            }
+        }
+
+        $this->assign(['banner'=>$banner,
+            'articles'=>$articles,
+            'topThree'=>$topThree,
+            'gallery'=>$gallery,
+            'image'=>$image
+        ]);
 
         return view('index/index');
 
@@ -25,31 +48,18 @@ class Index extends Controller{
 
     public function insertAction(){
 
-        echo  1;exit;
 
-        //>> 添加
-        $insertData = [
-            'name'=>'大宝',
-            'image_url'=>'www.baidu.com',
-            'create_time'=>time(),
-            'account'=>'123456',
-            'bank'=>'农业银行',
-            'username'=>'Macarinal'
-        ];
-
-        Db::table('an_pay')->insert($insertData);
 
     }
 
     public function delAction(){
 
-        //>> 删除
-        Db::table('an_pay')->where(['id'=>1])->delete();
+
     }
 
     public function editAction(){
 
-        Db::table('an_pay')->where(['id'=>9])->update(['name'=>'zhangtao']);
+
 
     }
 
