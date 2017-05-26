@@ -35,7 +35,7 @@
                 <h4>博主推荐</h4>
                 <div class="information_grids">
                     <div class="info">
-                        <p>" Etiam ante arcu, vestibulum diam. Curabitur quis lectus. Pellentesque dictum odio velit.</p>
+                        <p>"{:mb_substr($topOne['content'],0,45,'utf-8')}......"</p>
                         <a href="about.html">点击阅读</a>
                     </div>
                     <div class="info-pic">
@@ -125,7 +125,7 @@
                     {volist name="$image" id="ima"}
                     <div class="game-post">
                         <div class="col-md-3 tab-pic">
-                            <a href="single.html"><img src="index_public/frontend/banner/images/tr3.jpg" alt="/" class="img-responsive"></a>
+                            <a href="single.html"><img src="{$ima['image_url']}" alt="/" class="img-responsive"></a>
                         </div>
                         <div class="col-md-9 tab-post-info">
                             <h4><a href="single.html">董小姐</a></h4>
@@ -150,11 +150,13 @@
                 <h4>照片墙</h4>
                 {for start="0" end="3" name="var"}
                 <div class="gallery-1">
+                   {if !empty($gallery[$var])}
                     {volist name="gallery[$var]" id="im"}
                     <div class="col-md-4 gallery-grid-pic">
-                        <a class="example-image-link" href="index_public/frontend/banner/images/p2.jpg" data-lightbox="example-set"><img class="example-image" src="index_public/frontend/banner/images/p2.jpg" alt=""/></a>
+                        <a class="example-image-link" href="{$im['image_url']}" data-lightbox="example-set"><img class="example-image" src="{$im['image_url']}" alt=""/></a>
                     </div>
                     {/volist}
+                    {/if}
                     <div class="clearfix"></div>
                 </div>
                 {/for}

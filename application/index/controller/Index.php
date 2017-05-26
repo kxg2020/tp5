@@ -27,11 +27,16 @@ class Index extends Controller{
         $articles = Db::table('xm_article')->order('create_time desc')->select();
 
         $topThree = [];
-
+        $topOne = [];
         foreach ($articles as $key => $value){
 
             if($key <= 3){
                 $topThree[$key] = $value;
+            }
+
+            if($value['is_top'] == 1){
+
+                $topOne = $value;
             }
         }
 
@@ -39,6 +44,7 @@ class Index extends Controller{
             'articles'=>$articles,
             'topThree'=>$topThree,
             'gallery'=>$gallery,
+            'topOne'=>$topOne,
             'image'=>$image
         ]);
 
