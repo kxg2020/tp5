@@ -55,7 +55,7 @@ $(function () {
             title: '文章预览',
             shadeClose: true,
             shade: 0.8,
-            area: ['50%', '90%'],
+            area: ['70%', '90%'],
             content: location.protocol+'//'+window.location.host+'/Article/detail/id/'+id //iframe的url
         });
 

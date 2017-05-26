@@ -31,16 +31,24 @@ return [
 
     // 定义路由分组
 
+    '__domain__'=>[
+        // 泛域名规则建议在最后定义
+        'admin'    =>  'Login',
+
+    ],
+
     //'__miss__'  => 'miss/miss',
 
     '/'    => 'index/index',
 
 
-//    '[index]' => [
-//        ':year/:month' => ['index/hello', ['method' => 'get'], ['year' => '\d{4}', 'month' => '\d{2}']],
-//        ':id'          => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
-//        ':name'        => ['index/hello', ['method' => 'get'], ['name' => '\w+']],
-//    ],
+
+
+    '[index]' => [
+        ':year/:month' => ['index/hello', ['method' => 'get'], ['year' => '\d{4}', 'month' => '\d{2}']],
+        ':id'          => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
+        ':name'        => ['index/hello', ['method' => 'get'], ['name' => '\w+']],
+    ],
 
 
     // 快捷路由

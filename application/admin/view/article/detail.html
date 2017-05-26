@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Macarinal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="admin_public/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="admin_public/css/thin-admin.css" rel="stylesheet" media="screen">
+    <link href="admin_public/css/font-awesome.css" rel="stylesheet" media="screen">
+    <link href="admin_public/style/style.css" rel="stylesheet">
+    <link href="admin_public/style/dashboard.css" rel="stylesheet">
+    <link href="base_public/layer/skin/default/layer.css" rel="stylesheet" media="screen">
+    <link href="base_public/layer/css/admin-layui.css" rel="stylesheet" media="screen">
+    <link href="admin_public/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen"/>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="admin_public/assets/js/html5shiv.js"></script>
+    <script src="admin_public/assets/js/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-{$article.html_content}
-</body>
-</html>
+<div class="col-lg-12">
+    <div class="widget">
+        <div class="widget-header"> <i class="icon-calendar"></i>
+            <h3>{$article['title']}</h3>
+        </div>
+        <div class="widget-content" style="color: white">
+            {$article['html_content']}
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="admin_public/js/jquery.js"></script>
+<script src="admin_public/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="admin_public/js/smooth-sliding-menu.js"></script>
+<script class="include" type="text/javascript" src="admin_public/javascript/jquery191.min.js"></script>
+<script class="include" type="text/javascript" src="admin_public/javascript/jquery.jqplot.min.js"></script>
+<script src="admin_public/assets/sparkline/jquery.sparkline.js" type="text/javascript"></script>
+<script src="admin_public/assets/sparkline/jquery.customSelect.min.js" ></script>
+<script src="admin_public/assets/sparkline/sparkline-chart.js"></script>
+<script src="admin_public/js/select-checkbox.js"></script>

@@ -13,7 +13,7 @@ class Image extends Base{
 
         $pgNum = isset($params['pgNum']) ? $params['pgNum'] : 1;
 
-        $pgSize = isset($params['pgSize']) ? $params['pgSize'] : 6;
+        $pgSize = isset($params['pgSize']) ? $params['pgSize'] : 7;
 
         $list = Db::table('xm_image')->select();
 
@@ -24,7 +24,7 @@ class Image extends Base{
         }
         unset($value);
 
-        $pages = ceil(count($list) / 6);
+        $pages = ceil(count($list) / 7);
 
         $images = pagination($list,$pgNum,$pgSize);
 

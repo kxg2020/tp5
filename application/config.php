@@ -275,4 +275,12 @@ return [
         'bucket'         => 'macarin', //空间名称
         'timeout'        => 300, //超时时间
     ],
+
+    // 验证码
+    'captcha' => [
+        'width'=>100,
+        'height'=>30,
+        'num'=>5
+    ],
+
 ];

@@ -89,7 +89,7 @@ $(function () {
                         'url':location.protocol+'//'+window.location.host+'/Image/index',
                         'data':{
                             'pgNum':obj.curr,
-                            'pgSize':6,
+                            'pgSize':7,
                         },
                         success:function(result){
                             $('#image_table').html('');

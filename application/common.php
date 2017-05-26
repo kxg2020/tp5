@@ -9,7 +9,10 @@
 // | Author: 流年 <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 use  upload\Upload;
-
+use utils\Util;
+/**
+ * @return array 图片上传
+ */
 function upload(){
 
     //>> 获取上传配置
@@ -27,6 +30,13 @@ function upload(){
     return $result;
 }
 
+/**
+ * @param array $data
+ * @param string $pgNum
+ * @param string $pgSize
+ * @return array|bool
+ * 分页方法
+ */
 function pagination($data = [], $pgNum = '', $pgSize = ''){
 
     if(empty($data)) return false;
@@ -37,3 +47,15 @@ function pagination($data = [], $pgNum = '', $pgSize = ''){
 
     return $sliceArr;
 }
+
+
+/**
+ * 检测输入
+ */
+function checkInput(){
+
+    $instance = new Util();
+
+    return $instance;
+}
+
