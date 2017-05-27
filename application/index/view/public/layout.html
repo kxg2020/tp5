@@ -26,7 +26,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <div class="banner_head_top">
     <div class="logo">
-        <h1><a href="index.html">Mi<span class="glyphicon glyphicon-knight" aria-hidden="true"></span><span>Sum</span></a></h1>
+        <h1><a href="{:url('Index/index')}">Mi<span class="glyphicon glyphicon-knight" aria-hidden="true"></span><span>Sum</span></a></h1>
     </div>
     <div class="top-menu">
         <div class="content white">
@@ -44,13 +44,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">首页</a></li>
                         <li><a href="{{url('frontend/article/list')}}">日志</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="scroll dropdown-toggle" data-toggle="dropdown">Reviews<b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="review.html">Review 1</a></li>
-                                <li><a href="review.html">Review 2</a></li>
-                                <li><a href="review.html">Review 3</a></li>
-                            </ul>
+                        <li>
+                            <a href="{:url('step/index')}">足迹</a>
+
                         </li>
                         <li><a href="{{url('frontend/photo/list')}}">照片墙</a></li>
                         <li><a href="shortcodes.html">关于我们</a></li>

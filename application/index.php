@@ -12,5 +12,7 @@ use  think\Route;
 
 //>> www.tp.com/article/detail/id/75.volt 会显示成 www.tp.com/d/id/75.volt
 Route::rule('d/:id','Article/detail','get','id');
+Route::rule('/','Index/index','','');
+Route::rule('s','Step/index','get','');
 
 

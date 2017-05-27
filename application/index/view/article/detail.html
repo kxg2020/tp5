@@ -16,7 +16,7 @@
             <div  class="col-lg-12" style=";text-align: center;margin-top: 20px"><h2>{$article['title']}</h2></div>
             <br>
             <div  class="col-lg-12" style="height: 39px;line-height: 39px;text-align: center;border: 1px dashed grey;margin: 20px 0 ;">
-                发布时间：{:date('Y-m-d',$article['create_time'])}&nbsp;&nbsp;编辑：<span style="color: #009999">{$article['author']}</span>&nbsp;&nbsp;阅读（99538）
+                发布时间：<span style="color: #009999">{:date('Y-m-d',$article['create_time'])}</span>&nbsp;&nbsp;编辑：<span style="color: #009999">{$article['author']}</span>&nbsp;&nbsp;阅读（{$article['click']}）
             </div>
             <div class="games-grids" id="content"  style="height: 800px;width: 100%;overflow: hidden">
                 {$article['html_content']}
