@@ -1,9 +1,6 @@
 <?php
 namespace app\admin\controller;
 
-use think\Cookie;
-use think\Session;
-
 class Index extends  Base {
 
     public function indexAction(){

@@ -19,7 +19,7 @@ return [
     // 应用调试模式
     'app_debug'              => true,
     // 应用Trace
-    'app_trace'              => false,
+    'app_trace'              => true,
     // 应用模式状态
     'app_status'             => '',
     // 是否支持多模块
@@ -93,7 +93,7 @@ return [
     // 路由使用完整匹配
     'route_complete_match'   => false,
     // 路由配置文件（支持配置多个）
-    'route_config_file'      => ['route'],
+    'route_config_file'      => ['index','admin'],
     // 是否强制使用路由
     'url_route_must'         => false,
     // 域名部署
@@ -282,5 +282,6 @@ return [
         'height'=>30,
         'num'=>5
     ],
+
 
 ];

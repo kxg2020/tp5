@@ -25,6 +25,17 @@
                     <div class="form-group">
                        标题: <input type="text" value="" required="" class="form-control parsley-validated" name="title">
                     </div>
+
+                <div class="form-group" style="position: relative" >
+                    封面:
+                    <input type="file" id="file_upload" style="position: absolute;top: 0;left: 35px;opacity: 0;cursor: pointer;height: 35px;width: 75px">
+                     <button style="cursor: pointer" data-toggle="class:btn-success" href="#btn-1" id="btn-1" class="btn btn-default"> <i class="icon-cloud-upload text"></i> <span class="text">上传</span> </button>
+                </div>
+
+                <div id="cover" class="form-group" style="display: none;background: url('');width: 200px;height: 150px ;border-radius: 3px">
+
+                </div>
+
                         内容:
                 <div class="widget-content">
                     <div class="form">
@@ -35,10 +46,22 @@
                                     <textarea class="ckeditor" name="ckeditor"  style="visibility: hidden;"></textarea>
                                 </div>
                             </div>
-                            <input type="checkbox" name="is-top" class="" value="1">&nbsp;推荐
+                            <input type="checkbox" name="is-top"  value="1">&nbsp;推荐
+                            &nbsp;
+                            <div class="m-b-sm" style="display: inline-block">
+                                <div class="btn-group">
+                                    <button data-toggle="dropdown" style="width: 70px" class="btn btn-default btn-xs dropdown-toggle crr-type">类型 <span class="caret"></span></button>
+                                    <ul class="dropdown-menu " style="min-width: auto">
+                                        <li><a style="cursor: pointer" class="article-type">游记</a></li>
+                                        <li><a  style="cursor: pointer" class="article-type">散文</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
                         </form>
                     </div>
-
+                    <input type="hidden" name="article-type" value="">
+                    <input type="hidden" name="image_url" value="">
                 </div>
 
                 <br>
@@ -56,5 +79,6 @@
 
 {block name="js"}
 <script  src="base_public/ckeditor/ckeditor.js"></script>
+<script src="admin_public/js/jquery.html5upload.js"></script>
 <script  src="admin_public/js/mine/save-article.js"></script>
 {/block}

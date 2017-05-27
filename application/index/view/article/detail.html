@@ -1,0 +1,127 @@
+{extend name="/public/layout"/}
+
+
+{block name="css"}
+<link rel="stylesheet" href="index_public/css/mine/article-detail.css">
+{/block}
+
+{block name="main"}
+
+<div class="content">
+
+
+    <div class="container">
+
+        <div class="col-md-8 content-left">
+            <div  class="col-lg-12" style=";text-align: center;margin-top: 20px"><h2>{$article['title']}</h2></div>
+            <br>
+            <div  class="col-lg-12" style="height: 39px;line-height: 39px;text-align: center;border: 1px dashed grey;margin: 20px 0 ;">
+                发布时间：{:date('Y-m-d',$article['create_time'])}&nbsp;&nbsp;编辑：<span style="color: #009999">{$article['author']}</span>&nbsp;&nbsp;阅读（99538）
+            </div>
+            <div class="games-grids" id="content"  style="height: 800px;width: 100%;overflow: hidden">
+                {$article['html_content']}
+            </div>
+            <div style="width: 100%;margin-bottom: 10px">
+                <button style="width: 100%" class="layui-btn layui-btn-primary loadMore">加载</button>
+                <br>
+            </div>
+        </div>
+        <div class="copyrights">Collect from <a href="http://www.cssmoban.com/"></a></div>
+        <div class="col-md-4 content-right" style="margin-top: 70px">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav2" role="tablist">
+                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">最近发表</a></li>
+                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">最近拍摄</a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active re-pad2" id="home">
+                    <div class="game1">
+                        <div class="col-md-3 tab-pic">
+                            <a href="/d/75.volt"><img src="http://on58ea572.bkt.clouddn.com/2017-05-26_5927df470d90b.jpg" alt="/" class="img-responsive"></a>
+                        </div>
+                        <div class="col-md-9 tab-pic-info">
+                            <h4><a href="/d/75.volt">花开芬芳</a></h4>
+                            <p>夏季，田田的荷叶，簇拥着粉嫩的荷花，在纷纷扬扬的</p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="game1">
+                        <div class="col-md-3 tab-pic">
+                            <a href="/d/73.volt"><img src="http://on58ea572.bkt.clouddn.com/2017-05-26_5927df470d90b.jpg" alt="/" class="img-responsive"></a>
+                        </div>
+                        <div class="col-md-9 tab-pic-info">
+                            <h4><a href="/d/73.volt">孔乙己</a></h4>
+                            <p>鲁镇的酒店的格局，是和别处不同的：都是当街一个曲</p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="game1">
+                        <div class="col-md-3 tab-pic">
+                            <a href="/d/72.volt"><img src="http://on58ea572.bkt.clouddn.com/2017-05-26_5927df470d90b.jpg" alt="/" class="img-responsive"></a>
+                        </div>
+                        <div class="col-md-9 tab-pic-info">
+                            <h4><a href="/d/72.volt">此生遇到你</a></h4>
+                            <p>伫立初冬的边缘，摺叠起岁月的忧伤，聆听风从指尖滑</p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                </div>
+                <div role="tabpanel" class="tab-pane re-pad2" id="profile">
+                    <div class="game-post">
+                        <div class="col-md-3 tab-pic">
+                            <a href="single.html"><img src="http://on58ea572.bkt.clouddn.com/2017-05-27_5928e7ef6aa4d.jpg" alt="/" class="img-responsive"></a>
+                        </div>
+                        <div class="col-md-9 tab-post-info">
+                            <h4><a href="single.html">董小姐</a></h4>
+                            <p>作者: <a href="#">董小姐</a> &nbsp;&nbsp; 2017-05-27 &nbsp;&nbsp; <a href="#">评论 (10)</a></p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="game-post">
+                        <div class="col-md-3 tab-pic">
+                            <a href="single.html"><img src="http://on58ea572.bkt.clouddn.com/2017-05-27_5928e7ef26095.jpg" alt="/" class="img-responsive"></a>
+                        </div>
+                        <div class="col-md-9 tab-post-info">
+                            <h4><a href="single.html">董小姐</a></h4>
+                            <p>作者: <a href="#">董小姐</a> &nbsp;&nbsp; 2017-05-27 &nbsp;&nbsp; <a href="#">评论 (10)</a></p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="game-post">
+                        <div class="col-md-3 tab-pic">
+                            <a href="single.html"><img src="http://on58ea572.bkt.clouddn.com/2017-05-27_5928e7eeb7c86.jpg" alt="/" class="img-responsive"></a>
+                        </div>
+                        <div class="col-md-9 tab-post-info">
+                            <h4><a href="single.html">董小姐</a></h4>
+                            <p>作者: <a href="#">董小姐</a> &nbsp;&nbsp; 2017-05-27 &nbsp;&nbsp; <a href="#">评论 (10)</a></p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                </div>
+            </div>
+            <!---->
+            <div class="category blog-ctgry">
+                <h4>文章列表</h4>
+                <div class="list-group">
+                    <a href="/d/75.volt" class="list-group-item">花开芬芳</a>
+                    <a href="/d/73.volt" class="list-group-item">孔乙己</a>
+                    <a href="/d/72.volt" class="list-group-item">此生遇到你</a>
+                    <a href="/d/71.volt" class="list-group-item">三月的雨</a>
+                    <a href="/d/70.volt" class="list-group-item">脸色苍白的伙伴</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+{/block}
+
+{block name="js"}
+<script src="index_public/js/mine/load-more.js"></script>
+{/block}

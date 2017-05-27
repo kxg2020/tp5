@@ -52,10 +52,12 @@ class Article extends Base {
 
                 $insertData = [
                     'title'=>$params['title'],
+                    'image_url'=>$params['image_url'],
                     'html_content'=>$params['html'],
                     'content'=>$params['content'],
                     'author'=>'董小姐',
                     'type'=>'1',
+                    'article_type'=>$params['article_type'],
                     'create_time'=>time(),
                     'is_active'=>1,
                     'is_top'=>isset($params['is_top']) ? $params['is_top'] : 0
@@ -167,6 +169,29 @@ class Article extends Base {
         if($result){
 
             return "<script type='text/javascript'>window.parent.CKEDITOR.tools.callFunction($callback,'".$result['url']."','');</script>";
+
+        }else{
+
+            return json(['status'=>0,'msg'=>'上传失败']);
+        }
+    }
+
+    /**
+     * 封面上传
+     */
+    public function uploadOneAction(){
+
+        $result = upload();
+
+        //>> 判断是否上传成功
+        if ($result == false) {
+
+            return json(['status'=>0,'msg'=>'上传失败']);
+        }
+
+        if($result){
+
+            return json(['status'=>1,'data'=>$result]);
 
         }else{
 
