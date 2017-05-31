@@ -5,6 +5,7 @@ class Index extends  Base {
 
     public function indexAction(){
 
+
         if($this->isLogin == 0){
 
             $this->redirect('login/index');

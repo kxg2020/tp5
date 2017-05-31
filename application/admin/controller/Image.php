@@ -9,6 +9,8 @@ class Image extends Base{
      */
     public function indexAction(){
 
+        if($this->isLogin == 0){ $this->redirect('login/index');};
+
         $params = request()->param();
 
         $pgNum = isset($params['pgNum']) ? $params['pgNum'] : 1;
@@ -44,6 +46,7 @@ class Image extends Base{
      */
     public function insertAction(){
 
+        if($this->isLogin == 0){ $this->redirect('login/index');};
 
         return view('image/insert');
     }

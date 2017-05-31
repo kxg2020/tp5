@@ -9,6 +9,8 @@ class Article extends Base {
      */
     public function indexAction(){
 
+        if($this->isLogin == 0){ $this->redirect('login/index');};
+
         $params = request()->param('','','intval');
 
         $pgNum = isset($params['pgNum']) ? $params['pgNum'] : 1;
@@ -43,6 +45,8 @@ class Article extends Base {
      * 文章添加
      */
     public function insertAction(){
+
+        if($this->isLogin == 0){ $this->redirect('login/index');};
 
         if(request()->isAjax()){
 
