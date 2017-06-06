@@ -253,8 +253,8 @@ return [
     //分页配置
     'paginate'               => [
         'type'      => 'bootstrap',
-        'var_page'  => 'page',
-        'list_rows' => 15,
+        'var_page'  => 'p',
+        'list_rows' => 10,
     ],
 
     //上传图片配置

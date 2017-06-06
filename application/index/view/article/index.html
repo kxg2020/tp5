@@ -4,7 +4,7 @@
 {block name="css"}
 <link rel="icon" href="http://on58ea572.bkt.clouddn.com/2017-05-26_5927df45ebf64.jpg">
 <link href="index_public/css/mine/article-list.css" type="text/css" rel="stylesheet"/>
-
+<link href="base_public/layer/css/layui.css" rel="stylesheet">
 
 {/block}
 
@@ -13,11 +13,12 @@
 <div class="content" style="background: url('index_public/images/bg/bg-1.jpg')">
     <div class="container" style=" background-color: white;padding: 0">
         <div class="main">
-            <div class="main_lt left" style="height: 714px;margin-left: 11.5%" >
+            <div class="main_lt left" style="height: 714px;margin-left: 11.5%;position: relative" >
                 <h2><span class="xc_current">日志列表</span>
+                    <input type="hidden" value="{$pages}" name="pages">
                 </h2>
-                <div class="mrfl">
-                    <ul>
+                <div class="mrfl" >
+                    <ul id="lists">
                         {volist name="articles" id="art"}
                         <li >
                             <h2 style="margin-top: 10px;border-bottom: 1px dotted #aeaeae">
@@ -31,10 +32,11 @@
                        {/volist}
                     </ul>
                 </div>
+                <div id="demo" style="float: right;position: absolute;right: 0;bottom: 0">xx</div>
             </div>
 
 
-            <div class="main_rt right" style="background-color: grey">
+            <div class="main_rt right" style="background-color: grey;height: 715px">
                 <div class="user_par">
                     <div class="tp find_name">
                         <a href="http://timshengmingguoke.bokee.com">
@@ -91,10 +93,9 @@
         <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             <span itemprop="name">TIM生命過客</span></span></a></h2>
                     <ul class="user_par_ul" itemprop="aggregateRating" itemscope="" itemtype="">
-                        <li>文章总数<span itemprop="ratingValue" id="allartnum">421</span></li>
-                        <li>画报总数<span class="articlenum">0</span></li>
-                        <li>画报点击数<span class="clicknum">0</span></li>
-                        <li>文章点击数<span itemprop="ratingCount" id="allartclicknum">7225880</span></li>
+                        <li>文章总数<span itemprop="ratingValue" id="allartnum">{$count}</span></li>
+                        <li>画报总数<span class="articlenum">{$imageNum}</span></li>
+                        <li>文章点击数<span itemprop="ratingCount" id="allartclicknum">{$articleClicks}</span></li>
                         <!--<li>评论数：<span id="allartcommentnum">0</span></li>
                         <li>支持数：<span itemprop="bestRating" id="allartsupport">0</span></li>
                         <li>反对数：<span id="allartoppose">0</span></li>-->
@@ -121,5 +122,7 @@
 {/block}
 
 {block name="js"}
-
+<script src="index_public/js/mine/pagination-article.js"></script>
+<script src="base_public/layer/layui.js"></script>
+<script src="base_public/layer/laypage.js"></script>
 {/block}

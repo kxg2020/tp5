@@ -27,21 +27,18 @@ class Index extends Controller{
 
         $articles = Db::table('xm_article')
             ->field('is_top,content,html_content,title,id,create_time,author,article_type,image_url')
-            ->order('create_time desc,update_time desc')->select();
+            ->order('create_time desc,update_time desc')->limit(10)->select();
 
         $topThree = [];
-        $topOne = [];
+        $topOne = Db::table('xm_article')
+            ->field('content,title,id,image_url')
+            ->where(['is_top'=>1])->order('update_time desc')->find();
         $travels = [];
         $prose = [];
         foreach ($articles as $key => $value){
 
             if($key <= 2){
                 $topThree[$key] = $value;
-            }
-
-            if($value['is_top'] == 1){
-
-                $topOne[] = $value;
             }
 
             if($value['article_type'] === '游记'){

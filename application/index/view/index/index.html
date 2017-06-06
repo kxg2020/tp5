@@ -34,20 +34,23 @@
             <div class="information">
                 <h4>博主推荐</h4>
                 <div class="information_grids">
+                    {if !empty($topOne)}
                     <div class="info">
-                        <p>{if !empty($topOne)}"{:mb_substr($topOne[0]['content'],0,45,'utf-8')}......"{/if}</p>
-                        <a href="about.html">点击阅读</a>
+                        <p>"{:mb_substr($topOne['content'],0,45,'utf-8')}......"</p>
+                        <a href="{:url('article/detail',['id'=>$topOne['id']])}">点击阅读</a>
                     </div>
                     <div class="info-pic">
-                        <img src="{$topOne[0]['image_url']}" class="img-responsive" alt=""/>
+                       <img src="{$topOne['image_url']}" class="img-responsive" alt=""/>
                     </div>
                     <div class="clearfix"></div>
+                    {/if}
                 </div>
             </div>
             <div class="games-grids" >
                 <div class="game-grid-left">
                     <div class="grid1">
-                        <h5 class="act"><a>{$travels[0]['author']}|{$travels[0]['article_type']}</a></h5>
+                       {if !empty($travels[0])}
+                        <h5 class="act"><a>{if !empty($travels)}{$travels[0]['author']}|{$travels[0]['article_type']}{/if}</a></h5>
                         <a href="{:url('article/detail',['id'=>$travels[0]['id']])}"><img style="width: 357px;height: 201px" src="{$travels[0]['image_url']}" class="img-responsive" alt=""></a>
                         <div class="grid1-info">
                             <h4><a href="{:url('article/detail',['id'=>$travels[0]['id']])}">{$travels[0]['title']}</a></h4>
@@ -56,9 +59,10 @@
                         <div class="more">
                             <a href="{:url('article/detail',['id'=>$travels[0]['id']])}">点击阅读</a>
                         </div>
+                        {/if}
                     </div>
                     <div class="grid2">
-                        <h5 class="race"><a>{$travels[1]['author']}|{$travels[1]['article_type']}</a></h5>
+                        {if !empty($travels[1])} <h5 class="race"><a>{$travels[1]['author']}|{$travels[1]['article_type']}</a></h5>
                         <a href="{:url('article/detail',['id'=>$travels[1]['id']])}"><img style="width: 357px;height: 444px" src="{$travels[1]['image_url']}" class="img-responsive" alt=""></a>
                         <div class="grid1-info">
                             <h4><a href="{:url('article/detail',['id'=>$travels[1]['id']])}">{$travels[1]['title']}</a></h4>
@@ -67,11 +71,13 @@
                         <div class="more">
                             <a href="{:url('article/detail',['id'=>$travels[1]['id']])}">点击阅读</a>
                         </div>
+                        {/if}
                     </div>
                 </div>
 
 
                 <div class="game-grid-right">
+                  {if !empty($prose[0])}
                     <div class="grid3">
                         <h5 class="sport"><a>{$prose[0]['author']}|{$prose[0]['article_type']}</a></h5>
                         <a href="{:url('article/detail',['id'=>$prose[0]['id']])}"><img style="width: 356px;height: 444px" src="{$prose[0]['image_url']}" class="img-responsive" alt=""></a>
@@ -83,6 +89,9 @@
                             <a href="{:url('article/detail',['id'=>$prose[0]['id']])}">点击阅读</a>
                         </div>
                     </div>
+                    {/if}
+
+                    {if !empty($prose[1])}
                     <div class="grid4">
                         <h5 class="arc"><a>{$prose[1]['author']}|{$prose[1]['article_type']}</a></h5>
                         <a href="{:url('article/detail',['id'=>$prose[1]['id']])}"><img style="width: 357px;height: 201px" src="{$prose[1]['image_url']}" class="img-responsive" alt=""></a>
@@ -94,7 +103,9 @@
                             <a href="{:url('article/detail',['id'=>$prose[1]['id']])}">点击阅读</a>
                         </div>
                     </div>
+                    {/if}
                 </div>
+
                 <div class="clearfix"></div>
             </div>
         </div>
