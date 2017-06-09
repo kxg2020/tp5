@@ -9,17 +9,15 @@ class Article extends Controller{
 
         $params = request()->param('','','intval');
 
-        $pgSize = isset($params['pgSize']) ? $params['pgSize'] : 10;
+        $pgSize = isset($params['pgSize']) ? $params['pgSize'] : 4;
 
         $pgNum = isset($params['pgNum']) ? $params['pgNum'] : 1;
 
-        $articles = Db::table('xm_article')->field('title,content,create_time,id')->select();
-
-        $articleClicks = Db::table('xm_article')->sum('click');
+        $articles = Db::table('xm_article')->field('title,content,create_time,id,click,author,image_url,article_type')->select();
 
         $imageNum = Db::table('xm_image')->count();
 
-        $pages = ceil(count($articles) / 10);
+        $pages = ceil(count($articles) / 4);
 
         $count = count($articles);
 
@@ -31,6 +29,7 @@ class Article extends Controller{
 
             foreach ($articles as &$value){
                 $value['create_time'] = date('Y-m-d H:i:s',$value['create_time']);
+                $value['content'] = mb_substr($value['content'],0,100,'UTF-8');
             }
 
             unset($value);
@@ -42,8 +41,8 @@ class Article extends Controller{
             'pages'=>$pages,
             'count'=>$count,
             'imageNum'=>$imageNum,
-            'articleClicks'=>$articleClicks
         ]);
+
 
         return view('article/index');
     }

@@ -1,21 +1,68 @@
-<!DOCTYPE HTML>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>微信安全支付</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+    <title>微信支付样例</title>
+    <style type="text/css">
+        ul {
+            margin-left:10px;
+            margin-right:10px;
+            margin-top:10px;
+            padding: 0;
+        }
+        li {
+            width: 32%;
+            float: left;
+            margin: 0px;
+            margin-left:1%;
+            padding: 0px;
+            height: 100px;
+            display: inline;
+            line-height: 100px;
+            color: #fff;
+            font-size: x-large;
+            word-break:break-all;
+            word-wrap : break-word;
+            margin-bottom: 5px;
+        }
+        a {
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+        	text-decoration:none;
+            color:#fff;
+        }
+        a:link{
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+        	text-decoration:none;
+            color:#fff;
+        }
+        a:visited{
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+        	text-decoration:none;
+            color:#fff;
+        }
+        a:hover{
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+        	text-decoration:none;
+            color:#fff;
+        }
+        a:active{
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+        	text-decoration:none;
+            color:#fff;
+        }
+    </style>
 </head>
 <body>
-	</br></br>
-	<div >
-		<ul>
-			<h1><a href="./demo/js_api_call.php" >1.JSapi支付demo(在微信客户端中点击)</a></h1>
-			<h1><a href="./demo/native_call_qrcode.php" >2.native支付模式一demo(用微信扫的静态链接二维码)</a></h1>
-			<h1><a href="./demo/native_dynamic_qrcode.php" >3.native支付模式二demo(用微信扫的动态链接二维码)</a></h1>
-			<h1><a href="./demo/order_query.php" >4.支付查询接口demo</a></h1>
-			<h1><a href="./demo/download_bill.php" >5.对账单接口demo</a></h1>
-			<h1><a href="./demo/refund.php" >6.退款接口demo</a></h1>
-			<h1><a href="./demo/refund_query.php" >7.退款查询接口demo</a></h1>
-		</ul>
+	<div align="center">
+        <ul>
+            <li style="background-color:#FF7F24"><a href="http://127.0.0.1/DelphiRequest/Wxpay/example/jsapi.php">JSAPI支付</a></li>
+            <li style="background-color:#698B22"><a href="http://127.0.0.1/DelphiRequest/Wxpay/example/micropay.php">刷卡支付</a></li>
+            <li style="background-color:#8B6914"><a href="http://127.0.0.1/DelphiRequest/Wxpay/example/native.php">扫码支付</a></li>
+            <li style="background-color:#CDCD00"><a href="http://127.0.0.1/DelphiRequest/Wxpay/example/orderquery.php">订单查询</a></li>
+            <li style="background-color:#CD3278"><a href="http://127.0.0.1/DelphiRequest/Wxpay/example/refund.php">订单退款</a></li>
+            <li style="background-color:#848484"><a href="http://127.0.0.1/DelphiRequest/Wxpay/example/refundquery.php">退款查询</a></li>
+            <li style="background-color:#8EE5EE"><a href="http://127.0.0.1/DelphiRequest/Wxpay/example/download.php">下载订单</a></li>
+        </ul>
 	</div>
 </body>
 </html>

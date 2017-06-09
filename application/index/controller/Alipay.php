@@ -3,6 +3,7 @@ namespace app\index\controller;
 
 use think\Controller;
 use think\Loader;
+use think\Log;
 
 
 class Alipay extends Controller{
@@ -36,7 +37,11 @@ class Alipay extends Controller{
         if($type == 'alipay_web'){
 
             //>> 如果是alipay_web就是PC端的支付服务
-            $service = 'create_direct_pay_by_user';//PC端
+            $service = 'create_direct_pay_by_user';//PC端及时到账接口
+            //'create_partner_trade_by_buyer'  PC端担保交易接口
+            //'create_direct_pay_by_user'   PC端及时到账接口
+
+
         }else{
 
             //>> 否则就是移动端的支付服务
@@ -46,17 +51,17 @@ class Alipay extends Controller{
         // 支付宝配置
         $alipay_config = array(
 
-            // 收款商家支付宝邮箱
-            'email' => 'yangtao@ecshy.com',
+            // 收款商家支付宝邮箱,可以不填
+            'email' => 'admin@diandodo.com',
 
             // 加密key，开通支付宝账户后得到
-            'key' => 'wcgf9kam5w2iwsnmk15w26stvr8ya24h',
+            'key' => '4t3m3qnwiq4lzqvv66sfu2vy9r3skkcn', // wcgf9kam5w2iwsnmk15w26stvr8ya24h
 
             // 合作商家PID,申请后得到
-            'partner' => '2088221781617250',
+            'partner' => '2088221883850827',// 2088221781617250
 
             // 收款支付宝账号，以2088开头由16位纯数字组成的字符串，一般情况下收款账号就是签约账号
-            'seller_id' => '2088221781617250',
+            'seller_id' => '2088221883850827',
 
             // 签名方式(有MD5|RSA|RSA2三种)
             'sign_type' => strtoupper('MD5'),
@@ -138,17 +143,17 @@ class Alipay extends Controller{
         // 支付宝配置
         $alipay_config = array(
 
-            // 收款商家支付宝邮箱
-            'email' => 'yangtao@ecshy.com',
+            // 收款商家支付宝邮箱,可以不填
+            'email' => 'admin@diandodo.com',
 
             // 加密key，开通支付宝账户后得到
-            'key' => 'wcgf9kam5w2iwsnmk15w26stvr8ya24h',
+            'key' => '4t3m3qnwiq4lzqvv66sfu2vy9r3skkcn', // wcgf9kam5w2iwsnmk15w26stvr8ya24h
 
             // 合作商家PID,申请后得到
-            'partner' => '2088221781617250',
+            'partner' => '2088221883850827',// 2088221781617250
 
             // 收款支付宝账号，以2088开头由16位纯数字组成的字符串，一般情况下收款账号就是签约账号
-            'seller_id' => '2088221781617250',
+            'seller_id' => '2088221883850827',
 
             // 签名方式(有MD5|RSA|RSA2三种)
             'sign_type' => strtoupper('MD5'),
@@ -197,7 +202,7 @@ class Alipay extends Controller{
             //交易状态
             $trade_status = $params['trade_status'];
 
-            dump($params);exit;
+            Log::write($_POST);exit;
             if($_POST['trade_status'] == 'TRADE_FINISHED') {
                 //判断该笔订单是否在商户网站中已经做过处理
                 //如果没有做过处理，根据订单号（out_trade_no）在商户网站的订单系统中查到该笔订单的详细，并执行商户的业务程序
@@ -245,23 +250,23 @@ class Alipay extends Controller{
         // 支付宝配置
         $alipay_config = array(
 
-            // 收款商家支付宝邮箱
-            'email' => 'yangtao@ecshy.com',
+            // 收款商家支付宝邮箱,可以不填
+            'email' => 'admin@diandodo.com',
 
             // 加密key，开通支付宝账户后得到
-            'key' => 'wcgf9kam5w2iwsnmk15w26stvr8ya24h',
+            'key' => '4t3m3qnwiq4lzqvv66sfu2vy9r3skkcn', // wcgf9kam5w2iwsnmk15w26stvr8ya24h
 
             // 合作商家PID,申请后得到
-            'partner' => '2088221781617250',
+            'partner' => '2088221883850827',// 2088221781617250
 
             // 收款支付宝账号，以2088开头由16位纯数字组成的字符串，一般情况下收款账号就是签约账号
-            'seller_id' => '2088221781617250',
+            'seller_id' => '2088221883850827',
 
             // 签名方式(有MD5|RSA|RSA2三种)
             'sign_type' => strtoupper('MD5'),
 
             // 字符编码格式 目前支持utf-8
-            'input_charset' => strtolower('utf-8'),
+            'input_charset' => strtolower('UTF-8'),
 
             // 支付类型 ，无需修改
             'payment_type' => '1',
@@ -314,7 +319,7 @@ class Alipay extends Controller{
                 echo "trade_status=".$_GET['trade_status'];
             }
 
-            echo "验证成功<br />";
+            echo "验证成功";
 
             //——请根据您的业务逻辑来编写程序（以上代码仅作参考）——
 

@@ -21,6 +21,9 @@ table{font-size:inherit;font:100%;}
 pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
 h2,h3{ font-size:14px; font-weight:bold;}
 
+#title:hover{
+    color: #007046;
+}
 
 /*basic*/
 .left{ float:left;}

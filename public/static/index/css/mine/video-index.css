@@ -1,0 +1,16 @@
+.video{
+
+    position: relative;
+
+}
+
+h4{
+    text-align: center;
+}
+
+.video img {
+
+    position: absolute;
+    top: 34%;
+    left: 42%;
+}

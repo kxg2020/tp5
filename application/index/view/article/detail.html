@@ -3,29 +3,62 @@
 
 {block name="css"}
 <link rel="stylesheet" href="index_public/css/mine/article-detail.css">
+<link rel="stylesheet" href="index_public/comment/css/sinaFaceAndEffec.css">
+<link rel="stylesheet" href="index_public/comment/css/main.css">
 {/block}
 
 {block name="main"}
 
-<div class="content">
+<div class="content" style="background-color: #EEEEEE">
 
 
-    <div class="container" style=" background-color: white">
+    <div class="container" style=" background-color: white;padding-bottom: 50px">
 
         <div class="col-md-8 content-left" >
-            <div  class="col-lg-12" style=";text-align: center;margin-top: 20px"><h2>{$article['title']}</h2></div>
+            <div  class="col-lg-12" style=";text-align: left;margin-top: 20px"><h2>{$article['title']}</h2></div>
             <br>
-            <div  class="col-lg-12" style="height: 39px;line-height: 39px;text-align: center;border: 1px dashed grey;margin: 20px 0 ;">
-                发布时间：<span style="color: #009999">{:date('Y-m-d H:i:s',$article['create_time'])}</span>&nbsp;&nbsp;编辑：<span style="color: #009999">{$article['author']}</span>&nbsp;&nbsp;&nbsp;阅读（{$article['click']}）
+            <div  class="col-lg-12" style="height: 39px;line-height: 39px;text-align: left;margin: 20px 0 ;">
+                <p class="auth-span">
+                    <span class="muted"><i class="glyphicon glyphicon-user"></i> <a href="#" style="color: #00a67c">{$article['author']}</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="muted"><i class="glyphicon glyphicon-time"></i>{:date('Y-m-d H:i:s',$article['create_time'])}</span>&nbsp;&nbsp;&nbsp;&nbsp;	<span class="muted"><i class="glyphicon glyphicon-eye-open"></i> 26℃</span>&nbsp;&nbsp;&nbsp;&nbsp;	<span class="muted"><i class="glyphicon glyphicon-pencil"></i> <a style="color: #00a67c" href="#">2评论</a></span><span class="muted">
+</span></p>
             </div>
-            <div class="games-grids" id="content"  style="height: 800px;width: 100%;overflow: hidden">
+            <div class="games-grids" id="contents"  style="height: 800px;width: 100%;overflow: hidden">
                 {$article['html_content']}
             </div>
             <div style="width: 100%;margin-bottom: 10px">
                 <button style="width: 100%" class="layui-btn layui-btn-primary loadMore">加载</button>
                 <br>
             </div>
+            <div id="content" style="width: 100%; height: auto;">
+                <div class="wrap">
+                    <div class="comment">
+                        <div class="comt-title">
+
+                            <div class="comt-avatar pull-left" style="margin-top: 50px;margin-bottom: 20px;vertical-align: middle">
+                                <img style="height: 30px;width: 30px;" alt="" src="index_public/comment/images/user.png" class="avatar avatar-54 photo avatar-default" height="54" width="54">
+                            &nbsp;发表我的评论
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="cont-box">
+                                <textarea class="text" placeholder="请输入..."></textarea>
+                            </div>
+                            <div class="tools-box">
+                                <div class="operator-box-btn"><span class="face-icon"  >☺</span><span class="img-icon">▧</span></div>
+                                <div class="submit-btn"><input type="button" onClick="out()"value="提交评论" /></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="info-show">
+                        <ul></ul>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
+
         <div class="copyrights">Collect from <a href="http://www.cssmoban.com/"></a></div>
         <div class="col-md-4 content-right" style="margin-top: 70px">
             <!-- Nav tabs -->
@@ -100,6 +133,7 @@
                     </div>
 
                 </div>
+
             </div>
             <!---->
             <div class="category blog-ctgry">
@@ -119,4 +153,30 @@
 
 {block name="js"}
 <script src="index_public/js/mine/load-more.js"></script>
+<script type="text/javascript" src="index_public/comment/js/main.js"></script>
+<script type="text/javascript" src="index_public/comment/js/sinaFaceAndEffec.js"></script>
+<script type="text/javascript">
+    // 绑定表情
+    $('.face-icon').SinaEmotion($('.text'));
+    // 测试本地解析
+    function out() {
+        var inputText = $('.text').val();
+        $('#info-show ul').append(reply(AnalyticEmotion(inputText)));
+    }
+
+    var html;
+    function reply(content){
+        html  = '<li>';
+        html += '<div class="head-face">';
+        html += '<img src="index_public/comment/images/user.png" / >';
+        html += '</div>';
+        html += '<div class="reply-cont">';
+        html += '<p class="username">匿名用户</p>';
+        html += '<p class="comment-body">'+content+'</p>';
+        html += '<p class="comment-footer">2016年10月5日　回复　点赞54　转发12</p>';
+        html += '</div>';
+        html += '</li>';
+        return html;
+    }
+</script>
 {/block}

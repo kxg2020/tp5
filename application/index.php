@@ -15,9 +15,14 @@ use  think\Route;
 Route::rule('d/:id','Article/detail','get','id');
 
 Route::rule('/','Index/index','','');
+
 Route::rule('s','Step/index','get','');
 
 Route::rule('a','Article/index','*','');
+
+Route::rule('i','Image/index','*','');
+
+Route::rule('v','Video/index','*','');
 
 
 

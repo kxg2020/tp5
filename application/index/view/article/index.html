@@ -4,6 +4,7 @@
 {block name="css"}
 <link rel="icon" href="http://on58ea572.bkt.clouddn.com/2017-05-26_5927df45ebf64.jpg">
 <link href="index_public/css/mine/article-list.css" type="text/css" rel="stylesheet"/>
+<link href="index_public/css/mine/article-list-1.css" type="text/css" rel="stylesheet"/>
 <link href="base_public/layer/css/layui.css" rel="stylesheet">
 
 {/block}
@@ -13,110 +14,38 @@
 <div class="content" style="background: url('index_public/images/bg/bg-1.jpg')">
     <div class="container" style=" background-color: white;padding: 0">
         <div class="main">
-            <div class="main_lt left" style="height: 714px;margin-left: 11.5%;position: relative" >
-                <h2><span class="xc_current">日志列表</span>
-                    <input type="hidden" value="{$pages}" name="pages">
-                </h2>
-                <div class="mrfl" >
-                    <ul id="lists">
-                        {volist name="articles" id="art"}
-                        <li >
-                            <h2 style="margin-top: 10px;border-bottom: 1px dotted #aeaeae">
-                                <a   href="{:url('article/detail',['id'=>$art['id']])}"  title="【原创】蜀中纪行：千年皇家道场云台观">
-                                <span>【原创】{$art['title']}</span>
-                            </a>
-                                <span><a href="{:url('article/detail',['id'=>$art['id']])}"><img src="http://js.bokee.com/newbokee_home/default/images/pl_list_pic.png" title="此博文包含图片" alt="此博文包含图片"></a></span>
-                                <span style="float: right">{:date('Y-m-d H:i:s',$art['create_time'])}</span>
-                            </h2>
-                        </li>
-                       {/volist}
-                    </ul>
-                </div>
-                <div id="demo" style="float: right;position: absolute;right: 0;bottom: 0">xx</div>
-            </div>
-
-
-            <div class="main_rt right" style="background-color: grey;height: 715px">
-                <div class="user_par">
-                    <div class="tp find_name">
-                        <a href="http://timshengmingguoke.bokee.com">
-                            <img class="find_name_img" src="http://on58ea572.bkt.clouddn.com/2017-05-26_5927df45ebf64.jpg" onerror="this.src='http://on58ea572.bkt.clouddn.com/2017-05-26_5927df45ebf64.jpg'" title="TIM生命過客" alt="TIM生命過客">
-                        </a>
-
-
-
-                        <!--头像用户信息-->
-                        <div class="name_zl name_zl_rt130" style="display: none;">
-                            <div class="name_zl_top " style="background: url('http://avatar.blogchina.com/HeadPic/089c10a31a90cb47e137e3b2ea38c3d0!big') no-repeat center ; background-size:cover;">
-                                <div class="name_zzc"></div>
-                                <div class="clearfix name_pl">
-                                    <div class="name_tl">
-                                        <a href="" target="_blank">
-                                            <img src="http://avatar.blogchina.com/HeadPic/089c10a31a90cb47e137e3b2ea38c3d0!big" onerror="this.src='http://js.bokee.com/newbokee_home/default/images/bokee_default_avatar.png'">
-                                        </a>
-                                    </div>
-                                    <div class="name_zl_xx">
-                                        <h2 style="margin:0px;">
-                                            <a target="_blank" href="#">TIM生命過客</a>
-                                        </h2>
-                                        <h3>
-                                            <a href="" target="_blank" id="intro" title=""></a>
-                                        </h3>
-
-                                        <div class="name_zl_ct">
-                                            <ul class="clearfix n_ct_jy">
-                                                <li>
-                                                    <a href="">画报<br><span class="line" id="articleCount">0</span></a><i></i>
-                                                </li>
-                                                <li>
-                                                    <a href="" style="cursor:pointer;">图样<br><span class="line" id="tyCount">0</span> </a><i></i>
-                                                </li>
-                                                <li>
-                                                    <a href="javascript:;" style="cursor:pointer;"> 好友<br><span class="line " id="friendCount">0</span></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="speedbar">
+                        <div class="toptip"><strong class="text-success"><i class="glyphicon glyphicon-volume-up"></i> </strong> </div>
+                    </div>
+                    <div class="content-wrap">
+                        <div class="content" id="content">
+                            {volist name = "articles" id="ar"}
+                            <article class="excerpt">
+                                <header><a  class="label label-important" href="#">{$ar['article_type']}<i class="label-arrow"></i></a><h2><a id="title" style="color: #00a67c;text-decoration: none;" target="_blank" href="{:url('article/detail',['id'=>$ar['id']])}" title="{$ar['title']}">{$ar['title']}  </a></h2>
+                                </header>
+                                <div class="focus"><a target="_blank" href="{:url('article/detail',['id'=>$ar.id])}"><img style="width: 200px;height: 123px;" class="thumb" src="{$ar['image_url']}" alt="{$ar['title']}"></a></div>
+                                <span class="note">
+                                    {:mb_substr($ar['content'],0,100,'UTF-8')}......
+                                </span>
+                                <p class="auth-span">
+                                    <span class="muted"><i class="glyphicon glyphicon-user"></i> <a href="#">{$ar.author}</a></span>
+                                    <span class="muted"><i class="glyphicon glyphicon-time"></i>{:date('Y-m-d H:i:s',$ar['create_time'])}</span>	<span class="muted"><i class="glyphicon glyphicon-eye-open"></i> 26℃</span>	<span class="muted"><i class="glyphicon glyphicon-pencil"></i> <a href="#">2评论</a></span><span class="muted">
+<a href="javascript:;" data-action="ding" data-id="91" id="Addlike" class="action"><i class="glyphicon glyphicon-heart"></i><span class="count">{$ar['click']}</span>喜欢</a></span></p>
+                            </article>
+                            {/volist}
                         </div>
 
-                        <!--头像信息结束-->
-
-
-
-
                     </div>
-                    <h2><a href="">
-        <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-            <span itemprop="name">TIM生命過客</span></span></a></h2>
-                    <ul class="user_par_ul" itemprop="aggregateRating" itemscope="" itemtype="">
-                        <li>文章总数<span itemprop="ratingValue" id="allartnum">{$count}</span></li>
-                        <li>画报总数<span class="articlenum">{$imageNum}</span></li>
-                        <li>文章点击数<span itemprop="ratingCount" id="allartclicknum">{$articleClicks}</span></li>
-                        <!--<li>评论数：<span id="allartcommentnum">0</span></li>
-                        <li>支持数：<span itemprop="bestRating" id="allartsupport">0</span></li>
-                        <li>反对数：<span id="allartoppose">0</span></li>-->
-                    </ul>
-                </div>
-                <div id="sliderFix">
-                    <div class="bwfl">
-                        <span>博文分类</span>
-                        <span id="manage"></span>
-                        <ul id="category">
-                            <li>· <a target="_self" href="">全部博文<span id="allblognum">(&nbsp;421&nbsp;)</span></a></li>
-                            <li>· <a target="_self" href="">默认分类<span>(&nbsp;421&nbsp;)</span></a></li></ul>
-                    </div>
-                    <div class="rqgd" id="archive"> <span>日期归档</span>
-                        <ul><li class="btnimg_pr btnimg"><span>2011</span><strong>辛卯年</strong><span>(&nbsp;43&nbsp;)</span></li><li class="li_line" style="display: none;"></li><li class="btnimg_pr btnimg"><span>2012</span><strong>壬辰年</strong><span>(&nbsp;92&nbsp;)</span></li><li class="li_line" style="display: none;"></li><li class="btnimg_pr btnimg"><span>2013</span><strong>癸巳年</strong><span>(&nbsp;60&nbsp;)</span></li><li class="li_line" style="display: none;"></li><li class="btnimg_pr btnimg"><span>2014</span><strong>甲午年</strong><span>(&nbsp;75&nbsp;)</span></li><li class="li_line" style="display: none;"></li><li class="btnimg_pr btnimg"><span>2015</span><strong>乙未年</strong><span>(&nbsp;79&nbsp;)</span></li><li class="li_line" style="display: none;"></li><li class="btnimg_pr btnimg"><span>2016</span><strong>丙申年</strong><span>(&nbsp;54&nbsp;)</span></li><li class="li_line" style="display: none;"></li><li class="btnimg_pr btnimg"><span>2017</span><strong>丁酉年</strong><span>(&nbsp;18&nbsp;)</span></li><li class="li_line" style="display: none;"></li></ul></div>
-
 
                 </div>
-
             </div>
+            <input type="hidden" name="pages" value="{$pages}">
+
         </div>
+        <div id="demo" style="float: right"></div>
+
     </div>
 </div>
 {/block}
