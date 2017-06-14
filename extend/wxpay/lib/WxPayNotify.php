@@ -15,7 +15,10 @@ class WxPayNotify extends WxPayNotifyReply
 	final public function Handle($needSign = true)
 	{
 		$msg = "OK";
-		//当返回false的时候，表示notify中调用NotifyCallBack回调失败获取签名校验失败，此时直接回复失败
+        //当返回false的时候，表示notify中调用NotifyCallBack回调失败
+        //若传入需要签名即传入true,获取签名校验失败，此时直接返回失败
+        //notify函数里面传入了NotifyCallBack回调函数名,这时候它会被调用
+        //$msg作为变量也传入了NotifyCallBack回调函数里面,$msg包含有支付信息
 		$result = WxpayApi::notify(array($this, 'NotifyCallBack'), $msg);
 		if($result == false){
 			$this->SetReturn_code("FAIL");
@@ -43,6 +46,8 @@ class WxPayNotify extends WxPayNotifyReply
 	public function NotifyProcess($data, &$msg)
 	{
 		//TODO 用户基础该类之后需要重写该方法，成功的时候返回true，失败返回false
+
+
 		return true;
 	}
 	
@@ -55,6 +60,8 @@ class WxPayNotify extends WxPayNotifyReply
 	final public function NotifyCallBack($data)
 	{
 		$msg = "OK";
+        //NotifyProcess就是我们要重写的函数
+
 		$result = $this->NotifyProcess($data, $msg);
 		
 		if($result == true){

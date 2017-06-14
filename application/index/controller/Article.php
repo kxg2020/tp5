@@ -49,19 +49,23 @@ class Article extends Controller{
 
     public function detailAction(){
 
-        $params = request()->param('','','intval');
+        $params = request()->param();
 
 
         $info = Db::table('xm_article')
-            ->field('create_time,html_content,author,click,title')
+            ->field('create_time,html_content,author,click,title,id')
             ->where(['id'=>$params['id']])->find();
+
+        $comments = Db::table('xm_comment')->where(['article_id'=>$info['id']])->order('create_time desc')->select();
 
         $topThree = Db::table('xm_article')->field('id,title,content,image_url')->order('create_time desc')->limit(8)->select();
 
         Db::table('xm_article')->where(['id'=>$params['id']])->update(['click'=>$info['click'] + 1]);
 
-        $this->assign(['article'=>$info,'topThree'=>$topThree]);
+        $this->assign(['article'=>$info,'topThree'=>$topThree,'comments'=>$comments]);
 
         return view('article/detail');
     }
+
+
 }

@@ -2,7 +2,7 @@
 namespace app\index\controller;
 
 use think\Controller;
-
+use think\Db;
 
 class About extends Controller{
 
@@ -10,6 +10,7 @@ class About extends Controller{
 
         return view('about/index');
     }
+
 
 
 }

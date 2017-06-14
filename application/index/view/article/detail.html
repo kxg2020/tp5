@@ -51,7 +51,23 @@
                         </div>
                     </div>
                     <div id="info-show">
-                        <ul></ul>
+                        <ul>
+                            {if condition = "!empty($comments)"}
+{volist name = "comments" id="co"}
+                            <li>
+                                <div class="head-face">
+                                    <img src="index_public/comment/images/user.png" />
+                                </div>
+                                <div class="reply-cont">
+                                    <p class="username">游客</p>
+                                    <p class="comment-body">{$co.content}</p>
+                                    <p class="comment-footer">{:date('Y-m-d H:i:s',$co['create_time'])}</p>
+                                </div>
+                            </li>
+{/volist}
+                            {/if}
+
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -144,7 +160,7 @@
                    {/volist}
                 </div>
             </div>
-
+            <input type="hidden" value="{:request()->param('id')}" name="article-id">
         </div>
         <div class="clearfix"></div>
     </div>
@@ -156,12 +172,33 @@
 <script type="text/javascript" src="index_public/comment/js/main.js"></script>
 <script type="text/javascript" src="index_public/comment/js/sinaFaceAndEffec.js"></script>
 <script type="text/javascript">
+
     // 绑定表情
     $('.face-icon').SinaEmotion($('.text'));
     // 测试本地解析
     function out() {
+        var article_id = $('input[name = article-id ]').val();
         var inputText = $('.text').val();
-        $('#info-show ul').append(reply(AnalyticEmotion(inputText)));
+
+        if(inputText === ''){
+
+            $('.text').attr('placeholder','请输入评论').focus();
+
+            return false;
+        }
+
+        $.ajax({
+            type:'post',
+            dataType:'json',
+            url:location.protocol+'//'+window.location.host+'/comment/insert',
+            data:{'content':AnalyticEmotion(inputText),'article_id':article_id},
+            success:function (e) {
+                if(e.status === 1){
+
+                    $('#info-show ul').append(reply(AnalyticEmotion(inputText)));
+                }
+            }
+        });
     }
 
     var html;
@@ -171,12 +208,29 @@
         html += '<img src="index_public/comment/images/user.png" / >';
         html += '</div>';
         html += '<div class="reply-cont">';
-        html += '<p class="username">匿名用户</p>';
+        html += '<p class="username">游客</p>';
         html += '<p class="comment-body">'+content+'</p>';
-        html += '<p class="comment-footer">2016年10月5日　回复　点赞54　转发12</p>';
+        html += '<p class="comment-footer">'+getNowFormatDate()+'</p>';
         html += '</div>';
         html += '</li>';
         return html;
+    }
+    function getNowFormatDate() {
+        var date = new Date();
+        var seperator1 = "-";
+        var seperator2 = ":";
+        var month = date.getMonth() + 1;
+        var strDate = date.getDate();
+        if (month >= 1 && month <= 9) {
+            month = "0" + month;
+        }
+        if (strDate >= 0 && strDate <= 9) {
+            strDate = "0" + strDate;
+        }
+        var currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate
+            + " " + date.getHours() + seperator2 + date.getMinutes()
+            + seperator2 + date.getSeconds();
+        return currentdate;
     }
 </script>
 {/block}

@@ -3,9 +3,19 @@
  */
 $(function () {
 
-    $('body').on('click','img',function () {
+    var flag = false;
+    $('body').on('click','.video',function () {
 
-        $(this).parent().children('a').children('video').attr({'controls':'controls'}).get(0).play();
-        $(this).hide();
+        if(flag){
+            $(this).children('video').attr({'controls':'controls'}).get(0).pause();
+            $(this).children('img').show();
+            flag = false;
+
+        }else {
+            $(this).children('video').attr({'controls':'controls'}).get(0).play();
+            $(this).children('img').hide();
+            flag = true;
+        }
+
     });
 });

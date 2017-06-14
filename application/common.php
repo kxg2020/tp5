@@ -10,18 +10,19 @@
 // +----------------------------------------------------------------------
 use  upload\Upload;
 use utils\Util;
+use think\Config;
 /**
  * @return array 图片上传
  */
 function upload(){
 
     //>> 获取上传配置
-    $config = \think\Config::get('upload');
+    $config = Config::get('upload');
 
     //>> 获取七牛配置
-    $qiniu = \think\Config::get('qiniu');
+    $qiniu = Config::get('qiniu');
 
-    $driver = \think\Config::get('driver');
+    $driver = Config::get('driver');
 
     $upload = new Upload($config,$driver,$qiniu);
 
@@ -31,11 +32,22 @@ function upload(){
 }
 
 /**
+ * 微信实例
+ */
+function wechat(){
+
+    $config = Config::get('wechat');
+
+
+    return \utils\WeChat::getInstance($config);
+}
+
+/**
  * @param array $data
  * @param string $pgNum
  * @param string $pgSize
  * @return array|bool
- * 分页方法
+ * 数组分页
  */
 function pagination($data = [], $pgNum = '', $pgSize = ''){
 
