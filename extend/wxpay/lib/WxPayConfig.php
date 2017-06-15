@@ -27,7 +27,7 @@ class WxPayConfig{
 	const KEY = '37cad6113077813a53c016fd714f66f6';
 
 
-	const APPSECRET = '';
+	const APPSECRET = '1a67921d654bbb8419d6daf9356ad617';
 	
 	//=======【证书路径设置】=====================================
 	/**

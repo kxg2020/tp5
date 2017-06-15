@@ -97,6 +97,7 @@ class Index extends Controller {
                     $userInfo = wechat()->getUserInfo($openId);
 
                     if(false === $userInfo){
+
                         die('获取用户信息失败');
                     }
 
@@ -154,7 +155,7 @@ class Index extends Controller {
     public function textMsg($responseArr)
     {
         switch($responseArr['Content']){
-            case 'qj19':
+            case 'zt2':
                 //回复文字和语音
                 $text = "<a href='www.baidu.com'>测试登录</a>";
                 wechat()->text($text)->reply();
@@ -164,10 +165,10 @@ class Index extends Controller {
                 $media_id = $rows['allrow'][0]['media_id'];
                 $this->wechat->voice($media_id)->reply();
                 break;
-            case 'qj18':
+            case 'zt1':
                 //回复文字
-                $text = "<a href='".$this->config->sev_url->admin_login_url."'>商城管理后台登录</a>";
-                $this->wechat->text($text)->reply();
+                $text = "<a href='http://www.macarin.cn'>我的博客</a>";
+                wechat()->text($text)->reply();
                 break;
             case 'qj17':
                 //>> 回复语音
@@ -185,7 +186,7 @@ class Index extends Controller {
                 $description = 'authored by Macarinal';
                 $this->wechat->video($media_id,$title,$description)->reply();
                 break;
-            case 'qj15':
+            case 'zt5':
                 //回复图文
                 $where = ['type'=>'news'];
                 $rows = $this->mysql->getList($where,'*','','','','wx_media');
@@ -196,7 +197,7 @@ class Index extends Controller {
                 for($i = 0;$i < $count; ++ $i){
                     $news[$i] = ['Title'=>$row[$i]['title'],'Description'=>$row[$i]['digest'],'PicUrl'=>$picUrl,'Url'=>$row[$i]['url']];
                 }
-                $this->wechat->news($news,$count)->reply();
+                wechat()->news($news,$count)->reply();
                 break;
             default:
                 break;
@@ -262,6 +263,13 @@ class Index extends Controller {
     public function linkMsg($responseArr){
 
     }
+
+
+    /**
+     * 设置菜单
+     * Macarinal
+     */
+
 
 
     /**
