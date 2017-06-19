@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3349db11-db6f-4190-9826-5ef9f5bce535" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/controller/Wxnotify.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/extend/wxpay/lib/log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/extend/wxpay/lib/notify.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/index/view/about/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/About.php" afterPath="$PROJECT_DIR$/application/index/controller/About.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/Wxpay.php" afterPath="$PROJECT_DIR$/application/index/controller/Wxpay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/wechat/config.php" afterPath="$PROJECT_DIR$/application/wechat/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/wxpay/pay.html" afterPath="$PROJECT_DIR$/application/index/view/wxpay/pay.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/wechat/controller/Index.php" afterPath="$PROJECT_DIR$/application/wechat/controller/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/wxpay/example/notify.php" afterPath="$PROJECT_DIR$/extend/wxpay/example/notify.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/wxpay/lib/WxPayConfig.php" afterPath="$PROJECT_DIR$/extend/wxpay/lib/WxPayConfig.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/extend/wxpay/example/WxPayJsApiPay.php" afterPath="$PROJECT_DIR$/extend/wxpay/lib/WxPayJsApiPay.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/extend/wxpay/example/WxPayNativePay.php" afterPath="$PROJECT_DIR$/extend/wxpay/lib/WxPayNativePay.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/extend/wxpay/example/phpqrcode/phpqrcode.php" afterPath="$PROJECT_DIR$/extend/wxpay/lib/phpqrcode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/utils/WeChat.php" afterPath="$PROJECT_DIR$/extend/utils/WeChat.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,25 +18,53 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="About.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/index/controller/About.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#40#61#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/index/view/about/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Wxpayconfig</find>
-      <find>class</find>
-      <find>w</find>
-      <find>wx</find>
       <find>wxpay</find>
       <find>wxpayc</find>
       <find>wxpayconfig</find>
@@ -67,6 +91,10 @@
       <find>redis_obj</find>
       <find>addser</find>
       <find>access_token</find>
+      <find>/connect/oauth2</find>
+      <find>oauth</find>
+      <find>oauthW</find>
+      <find>xml</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -80,9 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/extend/authorize/sdk/MsnSDK.class.php" />
-        <option value="$PROJECT_DIR$/extend/authorize/sdk/QqSDK.class.php" />
-        <option value="$PROJECT_DIR$/extend/authorize/sdk/RenrenSDK.class.php" />
         <option value="$PROJECT_DIR$/extend/authorize/sdk/SinaSDK.class.php" />
         <option value="$PROJECT_DIR$/extend/authorize/sdk/SohuSDK.class.php" />
         <option value="$PROJECT_DIR$/extend/authorize/sdk/T163SDK.class.php" />
@@ -92,7 +117,6 @@
         <option value="$PROJECT_DIR$/extend/authorize/sdk/X360SDK.class.php" />
         <option value="$PROJECT_DIR$/extend/authorize/ThinkOauth.php" />
         <option value="$PROJECT_DIR$/extend/authorize/Login.php" />
-        <option value="$PROJECT_DIR$/application/index/view/about/index.html" />
         <option value="$PROJECT_DIR$/application/index/controller/Alipay.php" />
         <option value="$PROJECT_DIR$/extend/wxpay/lib/WxPayNotify.php" />
         <option value="$PROJECT_DIR$/extend/wxpay/lib/notify.php" />
@@ -107,7 +131,6 @@
         <option value="$PROJECT_DIR$/build.php" />
         <option value="$PROJECT_DIR$/application/wechat/controller/Wechat.php" />
         <option value="$PROJECT_DIR$/extend/utils/Wechat.php" />
-        <option value="$PROJECT_DIR$/application/index/controller/About.php" />
         <option value="$PROJECT_DIR$/public/static/index/js/mine/video-index.js" />
         <option value="$PROJECT_DIR$/application/index/view/video/index.html" />
         <option value="$PROJECT_DIR$/public/static/index/comment/js/sinaFaceAndEffec.js" />
@@ -118,7 +141,6 @@
         <option value="$PROJECT_DIR$/application/common.php" />
         <option value="$PROJECT_DIR$/application/database.php" />
         <option value="$PROJECT_DIR$/extend/utils/XRedis.php" />
-        <option value="$PROJECT_DIR$/extend/utils/WeChat.php" />
         <option value="$PROJECT_DIR$/extend/wxpay/example/notify.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Wxnotify.php" />
         <option value="$PROJECT_DIR$/extend/wxpay/example/WxPayJsApiPay.php" />
@@ -127,10 +149,16 @@
         <option value="$PROJECT_DIR$/extend/wxpay/lib/WxPayJsApiPay.php" />
         <option value="$USER_HOME$/Desktop/login.inc.php" />
         <option value="$USER_HOME$/Desktop/shyadmin.php" />
-        <option value="$PROJECT_DIR$/application/index/controller/Wxpay.php" />
-        <option value="$PROJECT_DIR$/application/wechat/config.php" />
         <option value="$PROJECT_DIR$/application/wechat/controller/Menu.php" />
+        <option value="$PROJECT_DIR$/public/static/base/datepiker/dateRange.css" />
+        <option value="$PROJECT_DIR$/public/static/base/datepiker/dateRange.js" />
+        <option value="$PROJECT_DIR$/application/index/view/wxpay/pay.html" />
+        <option value="$PROJECT_DIR$/application/wechat/config.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/Wxpay.php" />
+        <option value="$PROJECT_DIR$/extend/utils/WeChat.php" />
         <option value="$PROJECT_DIR$/application/wechat/controller/Index.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/About.php" />
+        <option value="$PROJECT_DIR$/application/index/view/about/index.html" />
       </list>
     </option>
   </component>
@@ -204,6 +232,24 @@
               <option name="myItemId" value="extend" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wxpay" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -216,6 +262,94 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,11 +375,11 @@
       <recent name="D:\phpStudy\WWW\tp5\public\static" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpStudy\WWW\tp5\public\static\base\datepiker" />
       <recent name="D:\phpStudy\WWW\tp5\application\wechat\controller" />
       <recent name="D:\phpStudy\WWW\tp5\extend\pay" />
       <recent name="D:\phpStudy\WWW\tp5\extend\wxpay\lib" />
       <recent name="D:\phpStudy\WWW\tp5\extend\authorize" />
-      <recent name="D:\phpStudy\WWW\tp5\extend" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -370,20 +504,25 @@
       <workItem from="1497001897408" duration="23829000" />
       <workItem from="1497262569996" duration="13234000" />
       <workItem from="1497400936107" duration="25906000" />
-      <workItem from="1497486512397" duration="22294000" />
+      <workItem from="1497486512397" duration="46284000" />
+      <workItem from="1497832952037" duration="404000" />
+      <workItem from="1497834805757" duration="2799000" />
+      <workItem from="1497852676400" duration="244000" />
+      <workItem from="1497853108050" duration="690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="409385000" />
+    <option name="totallyTimeSpent" value="437512000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18443497" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18854167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -412,92 +551,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="612" column="20" lean-forward="false" selection-start-line="612" selection-start-column="20" selection-end-line="612" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#39#60#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/article/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/article/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/utils/ChuangLan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/utils/YunPian.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/utils/Util.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/wxpay/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="173" column="27" lean-forward="false" selection-start-line="173" selection-start-column="27" selection-end-line="173" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/session/driver/Redis.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1343">
-          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinkphp/library/think/cache/driver/Redis.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-736">
@@ -509,7 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="95" column="33" lean-forward="false" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -532,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -548,60 +599,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="757">
           <caret line="71" column="12" lean-forward="false" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Wxnotify.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Wxnotify.php" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="423" column="9" lean-forward="false" selection-start-line="423" selection-start-column="9" selection-end-line="423" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/wxpay/lib/phpqrcode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="3091" column="9" lean-forward="true" selection-start-line="3091" selection-start-column="9" selection-end-line="3091" selection-end-column="9" />
-          <folding>
-            <marker date="1286478728000" expanded="true" signature="9714:9882" ph="..." />
-            <marker date="1286478728000" expanded="false" signature="9754:9784" ph="..." />
-            <marker date="1286478728000" expanded="false" signature="9809:9826" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="10031:10047" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="10357:10532" ph="..." />
-            <marker date="1286478728000" expanded="false" signature="10386:10412" ph="..." />
-            <marker date="1286478728000" expanded="false" signature="10425:10441" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="31808:31814" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="31814:31820" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32186:32192" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32192:32198" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32198:32204" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32204:32210" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32210:32216" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32216:32222" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32222:32228" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32228:32234" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32562:32568" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32664:32671" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="32766:32772" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32868:32875" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="32970:32977" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="33083:33090" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="33196:33203" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="33312:33318" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="33424:33431" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="33536:33542" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="33648:33655" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -609,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="280" column="6" lean-forward="false" selection-start-line="280" selection-start-column="6" selection-end-line="280" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,26 +693,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Alipay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="278" column="24" lean-forward="true" selection-start-line="278" selection-start-column="24" selection-end-line="278" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/index.php" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -725,100 +705,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/login.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1681">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/index.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/admin.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1060">
-          <caret line="12" column="84" lean-forward="true" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/main.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-736">
-          <caret line="11" column="166" lean-forward="false" selection-start-line="11" selection-start-column="166" selection-end-line="11" selection-end-column="166" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/admin.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3457">
-          <caret line="263" column="26" lean-forward="true" selection-start-line="263" selection-start-column="26" selection-end-line="263" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/shyadmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/login.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1909">
-          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime/log/201706/1497333803-13.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-724744">
-          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Wxpay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-          <folding>
-            <element signature="e#38#59#0#PHP" expanded="true" />
-            <marker date="1497515002491" expanded="true" signature="2794:3609" ph="..." />
-            <marker date="1497515002491" expanded="true" signature="2835:2861" ph="{...}" />
-            <marker date="1497515002491" expanded="true" signature="2835:3187" ph="{...}" />
-            <marker date="1497515002491" expanded="true" signature="2922:3179" ph="{...}" />
-            <marker date="1497515002491" expanded="true" signature="2928:2983" ph="//..." />
-            <marker date="1497515002491" expanded="true" signature="3037:3079" ph="{...}" />
-            <marker date="1497515002491" expanded="true" signature="3083:3174" ph="{...}" />
-            <marker date="1497515002491" expanded="true" signature="3208:3587" ph="{...}" />
-            <marker date="1497515002491" expanded="true" signature="3253:3556" ph="{...}" />
-            <marker date="1497515002491" expanded="true" signature="3292:3379" ph="{...}" />
-            <marker date="1497515002491" expanded="true" signature="3409:3552" ph="{...}" />
-            <marker date="1497515002491" expanded="true" signature="3560:3584" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/login.tpl.php" />
+    <entry file="file://$USER_HOME$/Desktop/index.html" />
+    <entry file="file://$USER_HOME$/Desktop/index.tpl.php" />
+    <entry file="file://$USER_HOME$/Desktop/admin.tpl.php" />
+    <entry file="file://$USER_HOME$/Desktop/main.tpl.php" />
+    <entry file="file://$USER_HOME$/Desktop/admin.class.php" />
+    <entry file="file://$USER_HOME$/Desktop/shyadmin.php" />
+    <entry file="file://$USER_HOME$/Desktop/login.inc.php" />
+    <entry file="file://$PROJECT_DIR$/runtime/log/201706/1497333803-13.log" />
     <entry file="file://$PROJECT_DIR$/application/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -827,41 +722,144 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/base/datepiker/dateRange.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="489" column="1" lean-forward="true" selection-start-line="489" selection-start-column="1" selection-end-line="489" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/base/datepiker/dateRange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/wxpay/lib/phpqrcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="3267" column="55" lean-forward="false" selection-start-line="3267" selection-start-column="55" selection-end-line="3267" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/article/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="19" column="135" lean-forward="true" selection-start-line="19" selection-start-column="135" selection-end-line="19" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/wxpay/pay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="88" lean-forward="false" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime/temp/2fde1c8a3d2baa7d00b6c9ce0f8c030f.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/wechat/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="230">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Wxpay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="75" column="28" lean-forward="false" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="565" column="9" lean-forward="false" selection-start-line="565" selection-start-column="9" selection-end-line="565" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SimpleXML/SimpleXML.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="335" column="9" lean-forward="false" selection-start-line="335" selection-start-column="9" selection-end-line="335" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/wechat/controller/Menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="86" column="7" lean-forward="true" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
-          <folding>
-            <element signature="e#40#57#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="127">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/wechat/controller/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="166" column="22" lean-forward="true" selection-start-line="166" selection-start-column="22" selection-end-line="166" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="564">
+          <caret line="233" column="0" lean-forward="true" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extend/utils/WeChat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="428" column="13" lean-forward="true" selection-start-line="428" selection-start-column="13" selection-end-line="428" selection-end-column="13" />
+        <state relative-caret-position="483">
+          <caret line="257" column="21" lean-forward="false" selection-start-line="257" selection-start-column="21" selection-end-line="257" selection-end-column="21" />
           <folding>
             <element signature="e#24#40#0#PHP" expanded="true" />
-            <element signature="e#37823#41389#0#PHP" expanded="false" />
-            <element signature="e#41445#42594#0#PHP" expanded="false" />
-            <marker date="1497434406176" expanded="true" signature="19246:19447" ph="..." />
+            <element signature="e#38190#41756#0#PHP" expanded="false" />
+            <element signature="e#41812#42961#0#PHP" expanded="false" />
+            <marker date="1497594874012" expanded="true" signature="19252:19453" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/wxpay/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Alipay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/db/Query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="1300" column="25" lean-forward="false" selection-start-line="1300" selection-start-column="25" selection-end-line="1300" selection-end-column="25" />
+          <folding>
+            <marker date="1494550858735" expanded="true" signature="9488:9528" ph="SELECT * FRO... ${$this-&gt;getTable()}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/about/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/About.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#61#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,1 +1,47 @@
-sasd
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<link rel="stylesheet" href="base_public/datepiker/dateRange.css">
+<link href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+<body>
+
+<div class="ta_date" id="div-date" style=";height: 32px;padding-top: 5px">
+    <span class="date_title" id="date" style=""></span>
+
+    <a class="opt_sel" id="input-trigger" href="#">
+
+        <i class="i_orderd"></i>
+    </a>
+   <div class="pagination">{$page}</div>
+</div>
+
+
+
+</body>
+<script src="index_public/js/jquery.js"></script>
+<script src="base_public/datepiker/dateRange.js"></script>
+
+<script>
+    var yesterday = '2017/01/01';
+    var time=new Date();
+    var now=time.getFullYear()+'-'+(time.getMonth()+1)+'-'+time.getDate();
+    var dateRange = new pickerDateRange('date', {
+        isTodayValid : true,
+        startDate : yesterday,
+        endDate : now,
+        needCompare : false,
+        defaultText : ' 至 ',
+        autoSubmit : true,
+        inputTrigger : 'input-trigger',
+        theme : 'ta',
+        success : function(obj) {
+            console.log(endDate);
+
+        }
+    });
+</script>
+</html>

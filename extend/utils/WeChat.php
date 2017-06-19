@@ -413,8 +413,8 @@ class WeChat{
         $msg = array(
             'ToUserName'=>$this->getRevFrom(),
             'FromUserName'=>$this->getRevTo(),
-            'MsgType'=>'video',
             'CreateTime'=>time(),
+            'MsgType'=>'video',
             'Video'=>[
                 'MediaId'=>$mediaId,
                 'Title'=>$title,
@@ -422,6 +422,7 @@ class WeChat{
             ],
         );
         $this->Message($msg);
+
         return $this;
     }
 
@@ -504,10 +505,15 @@ class WeChat{
             $signature = sha1($signature);
             $xmldata = $this->generate($encrypt, $signature, $timestamp, $nonce);
         }
+
         if ($return)
+
             return $xmldata;
+
         else
+
             echo $xmldata;
+
     }
 
     /**
@@ -767,6 +773,19 @@ class WeChat{
         return false;
     }
 
+    /**
+     * 网页授权
+     */
+
+    public function oauthWeb($redirectUrl){
+
+        if (!$this->access_token && !$this->checkAuth()) return false;
+
+        $oauthUrl =  self::OAUTH_PREFIX.self::OAUTH_AUTHORIZE_URL.'appid='.$this->appid.'&redirect_uri='.$redirectUrl.'&response_type=code&scope=SCOPE&state=STATE#wechat_redirect';
+
+        return $oauthUrl;
+
+    }
 
     /**
      * 设置缓存，按需重载

@@ -25,10 +25,11 @@ class Wxpay extends Controller{
 
 
         return view('wxpay/index');
+
     }
 
     // 将url生成二维码
-    public function qrCode($url){
+    public function qrCodeAction($url){
 
        \QRcode::png($url);
 
@@ -36,12 +37,6 @@ class Wxpay extends Controller{
     }
 
 
-    public function qrCodeAction(){
-
-        \QRcode::png('http://www.baidu.com');
-
-        exit;
-    }
 
     /**
      * 微信扫码支付(模式二)
@@ -66,8 +61,9 @@ class Wxpay extends Controller{
 
         $url = $result['code_url'];
 
-        // 组装好数据,显示订单信息给用户,并在支付按钮上绑定二维码链接
-        $this->qrCode($url);
+        $this->assign(['url'=>$url]);
+
+        return view('wxpay/pay');
     }
 
 
@@ -77,10 +73,10 @@ class Wxpay extends Controller{
     public function getJSAPIAction(){
 
         // 支付成功后的跳转地址
-        $success = 'http://www.macarin.cn';
+        $success = 'https://www.baidu.com';
 
         // 支付失败的跳转地址
-        $fail = 'http://www.baidu.com';
+        $fail = 'https://www.baidu.com';
 
         // 获取用户openid
         $tools = new \JsApiPay();

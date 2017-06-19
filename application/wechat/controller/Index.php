@@ -9,13 +9,12 @@ class Index extends Controller {
 
     public function indexAction(){
 
-        echo phpinfo();
-
+        echo  1;
     }
 
     /**
      * 验证服务器
-     * 验证机制:在未验证的情况下,微信服务器会以get请求发送一个xml包给配置的url地址,然后经过排序验证echo出这个字符.第二次微信服务器不会再发送验               证需要的xml包
+     * 验证机制:在未验证的情况下,微信服务器会以get请求发送一个xml包给配置的url地址,然后经过排序验证echo出这个字符.第二次微信服务器不会再发送验证需要的xml包
      */
     public function checkAction(){
 
@@ -96,6 +95,7 @@ class Index extends Controller {
                     //获取用户基本信息
                     $userInfo = wechat()->getUserInfo($openId);
 
+                    Log::write($userInfo);exit;
                     if(false === $userInfo){
 
                         die('获取用户信息失败');
@@ -145,6 +145,7 @@ class Index extends Controller {
             case 'view':
                 break;
             default:
+
                 break;
         }
     }
@@ -155,9 +156,9 @@ class Index extends Controller {
     public function textMsg($responseArr)
     {
         switch($responseArr['Content']){
-            case 'zt2':
+            case 'zt1':
                 //回复文字和语音
-                $text = "<a href='www.baidu.com'>测试登录</a>";
+                $text = "<a href='http://www.baidu.com'>测试登录</a>";
                 wechat()->text($text)->reply();
 
                 $where = ['type'=>'voice'];
@@ -165,19 +166,19 @@ class Index extends Controller {
                 $media_id = $rows['allrow'][0]['media_id'];
                 $this->wechat->voice($media_id)->reply();
                 break;
-            case 'zt1':
+            case 'zt2':
                 //回复文字
                 $text = "<a href='http://www.macarin.cn'>我的博客</a>";
                 wechat()->text($text)->reply();
                 break;
-            case 'qj17':
+            case 'zt3':
                 //>> 回复语音
                 $where = ['type'=>'voice'];
                 $rows = $this->mysql->getList($where,'*','','','','wx_media');
                 $media_id = $rows['allrow'][0]['media_id'];
                 $this->wechat->voice($media_id)->reply();
                 break;
-            case 'qj16':
+            case 'zt4':
                 //回复视频
                 $where = ['type'=>'video'];
                 $rows = $this->mysql->getList($where,'*','','','','wx_media');
@@ -189,15 +190,12 @@ class Index extends Controller {
             case 'zt5':
                 //回复图文
                 $where = ['type'=>'news'];
-                $rows = $this->mysql->getList($where,'*','','','','wx_media');
-                $row = array_slice($rows['allrow'],0,2);
                 $picUrl = 'http://mmbiz.qpic.cn/mmbiz_jpg/ddcarEBVG3yNfC8NIFwcuvKneILpDEnWuzLUNO7FpfgZduwLrKLGqPNDOvtPhmiaItvjAicSkfB9W3JxwJVb8Ngg/0?wx_fmt=jpeg';
-                $count = count($row);
                 $news = [];
-                for($i = 0;$i < $count; ++ $i){
-                    $news[$i] = ['Title'=>$row[$i]['title'],'Description'=>$row[$i]['digest'],'PicUrl'=>$picUrl,'Url'=>$row[$i]['url']];
-                }
-                wechat()->news($news,$count)->reply();
+
+                $news[] = ['Title'=>'测试','Description'=>'测试','PicUrl'=>$picUrl,'Url'=>'http://www.baidu.com'];
+
+                wechat()->news($news,1)->reply();
                 break;
             default:
                 break;
@@ -210,6 +208,12 @@ class Index extends Controller {
      */
     public function imageMsg($responseArr){
 
+
+        // 获取用户发送的图片MediaId
+        $mediaId = $responseArr['MediaId'];
+
+        // 将用户发送的图片再返回回去
+        wechat()->image($mediaId)->reply();
 
     }
 
@@ -228,8 +232,11 @@ class Index extends Controller {
      */
     public function voiceMsg($responseArr){
 
+        // 获取用户发送的语音MediaId
+        $mediaId = $responseArr['MediaId'];
 
-
+        // 将用户发送的语音再返回回去
+        wechat()->voice($mediaId)->reply();
     }
 
     /**
@@ -238,6 +245,17 @@ class Index extends Controller {
      */
     public function videoMsg($responseArr){
 
+        // 获取用户发送的视频MediaId
+        $mediaId = $responseArr['MediaId'];
+
+        // 自定义视频标题
+        $title = "这是一个测试标题";
+
+        // 自定义视频描述
+        $description = "测试一下接口怎么样";
+
+        // 将用户发送的语音再返回回去
+        wechat()->video($mediaId,$title,$description)->reply();
     }
 
     /**
@@ -245,6 +263,7 @@ class Index extends Controller {
      * Macarinal
      */
     public function shortVideoMsg($responseArr){
+
 
     }
 
@@ -254,6 +273,8 @@ class Index extends Controller {
      */
     public function locationMsg($responseArr){
 
+        wechat()->text('你在那干啥呢')->reply();
+
     }
 
     /**
@@ -262,13 +283,17 @@ class Index extends Controller {
      */
     public function linkMsg($responseArr){
 
+
     }
 
-
     /**
-     * 设置菜单
-     * Macarinal
+     * 网页授权
      */
+
+    public function oauthWebAction(){
+
+
+    }
 
 
 
