@@ -32,7 +32,17 @@ function upload(){
 }
 
 /**
- * 微信实例
+ * 文件下载(视频、图片、文件)
+ */
+function downLoad(){
+
+    $instance = new \utils\Download();
+
+    return $instance;
+
+}
+/**
+ * 微信实例(单例模式)
  */
 function wechat(){
 

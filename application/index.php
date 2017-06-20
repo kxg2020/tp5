@@ -10,7 +10,7 @@ use  think\Route;
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-//>> www.tp.com/article/detail/id/75.volt 会显示成 www.tp.com/d/id/75.volt
+//>> www.tp.com/article/detail/id/75.volt 会显示成 www.tp.com/d/75.volt
 
 Route::rule('d/:id','Article/detail','get','id');
 

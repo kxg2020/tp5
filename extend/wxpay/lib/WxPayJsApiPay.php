@@ -11,8 +11,7 @@
  * @author widy
  *
  */
-class JsApiPay
-{
+class JsApiPay{
 	/**
 	 * 
 	 * 网页授权接口微信服务器返回的数据，返回样例如下

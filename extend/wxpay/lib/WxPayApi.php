@@ -10,8 +10,7 @@
  * @author widyhu
  *
  */
-class WxPayApi
-{
+class WxPayApi{
 	/**
 	 * 
 	 * 统一下单，WxPayUnifiedOrder中out_trade_no、body、total_fee、trade_type必填

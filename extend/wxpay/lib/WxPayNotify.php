@@ -5,8 +5,7 @@
  * @author widyhu
  *
  */
-class WxPayNotify extends WxPayNotifyReply
-{
+class WxPayNotify extends WxPayNotifyReply{
 	/**
 	 * 
 	 * 回调入口
