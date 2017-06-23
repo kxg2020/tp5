@@ -1,6 +1,8 @@
 <?php
 namespace nestedsets\logic;
 
+use think\Db;
+
 class DbMysqlLogic implements DbMysqlInterface
 {
     /**
@@ -56,7 +58,7 @@ class DbMysqlLogic implements DbMysqlInterface
         foreach ($sqls as $key=>$value){
             $lastSql .= $value . $args[$key];
         }
-        $res = model()->execute($lastSql);
+        $res = Db::execute($lastSql);
         return $res;
     }
 
@@ -81,7 +83,7 @@ class DbMysqlLogic implements DbMysqlInterface
         }
         $dataStr = join(',', $dataStr);
         $sql = str_replace('?%', $dataStr, $sql);
-        $res = model()->execute($sql);
+        $res = Db::execute($sql);
         return $res;
 //        $lastSql = "";
 //        foreach ($sqls as $key=>$value){
@@ -152,7 +154,7 @@ class DbMysqlLogic implements DbMysqlInterface
         foreach ($sqls as $key=>$value){
             $lastSql .= $value . $args[$key];
         }
-        $rows = model()->query($lastSql);
+        $rows = Db::query($lastSql);
         $row = array_shift($rows);
         return $row;
     }

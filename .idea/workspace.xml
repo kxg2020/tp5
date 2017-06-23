@@ -2,17 +2,515 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3349db11-db6f-4190-9826-5ef9f5bce535" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/Example.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/admin/controller/Collect.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extend/kafuka" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/admin/controller/About.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/index/view/about/insert.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tp5.iml" afterPath="$PROJECT_DIR$/.idea/tp5.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/controller/Base.php" afterPath="$PROJECT_DIR$/application/admin/controller/Base.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/404.html" afterPath="$PROJECT_DIR$/application/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/article/detail.html" afterPath="$PROJECT_DIR$/application/admin/view/article/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/article/edit.html" afterPath="$PROJECT_DIR$/application/admin/view/article/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/article/index.html" afterPath="$PROJECT_DIR$/application/admin/view/article/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/article/insert.html" afterPath="$PROJECT_DIR$/application/admin/view/article/insert.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/image/index.html" afterPath="$PROJECT_DIR$/application/admin/view/image/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/image/insert.html" afterPath="$PROJECT_DIR$/application/admin/view/image/insert.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/index/index.html" afterPath="$PROJECT_DIR$/application/admin/view/index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/login/index.html" afterPath="$PROJECT_DIR$/application/admin/view/login/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/public/layout.html" afterPath="$PROJECT_DIR$/application/admin/view/public/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/video/index.html" afterPath="$PROJECT_DIR$/application/admin/view/video/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/admin/view/video/insert.html" afterPath="$PROJECT_DIR$/application/admin/view/video/insert.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/common.php" afterPath="$PROJECT_DIR$/application/common.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index.php" afterPath="$PROJECT_DIR$/application/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/About.php" afterPath="$PROJECT_DIR$/application/index/controller/About.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/about/index.html" afterPath="$PROJECT_DIR$/application/index/view/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/wxpay/lib/WxPayApi.php" afterPath="$PROJECT_DIR$/extend/wxpay/lib/WxPayApi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/wxpay/lib/WxPayJsApiPay.php" afterPath="$PROJECT_DIR$/extend/wxpay/lib/WxPayJsApiPay.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/wxpay/lib/WxPayNotify.php" afterPath="$PROJECT_DIR$/extend/wxpay/lib/WxPayNotify.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/alipay/index.html" afterPath="$PROJECT_DIR$/application/index/view/alipay/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/article/detail.html" afterPath="$PROJECT_DIR$/application/index/view/article/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/article/index.html" afterPath="$PROJECT_DIR$/application/index/view/article/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/image/index.html" afterPath="$PROJECT_DIR$/application/index/view/image/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/index/index.html" afterPath="$PROJECT_DIR$/application/index/view/index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/public/layout.html" afterPath="$PROJECT_DIR$/application/index/view/public/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/step/index.html" afterPath="$PROJECT_DIR$/application/index/view/step/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/video/index.html" afterPath="$PROJECT_DIR$/application/index/view/video/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/wxpay/index.html" afterPath="$PROJECT_DIR$/application/index/view/wxpay/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/view/wxpay/pay.html" afterPath="$PROJECT_DIR$/application/index/view/wxpay/pay.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/wechat/view/index/index.html" afterPath="$PROJECT_DIR$/application/wechat/view/index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/authorize/login.html" afterPath="$PROJECT_DIR$/extend/authorize/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/nestedsets/logic/DbMysqlLogic.class.php" afterPath="$PROJECT_DIR$/extend/nestedsets/logic/DbMysqlLogic.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/API_cn.html" afterPath="$PROJECT_DIR$/extend/ztree/api/API_cn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/API_en.html" afterPath="$PROJECT_DIR$/extend/ztree/api/API_en.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/fn.zTree._z.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/fn.zTree._z.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/fn.zTree.destroy.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/fn.zTree.destroy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/fn.zTree.getZTreeObj.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/fn.zTree.getZTreeObj.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/fn.zTree.init.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/fn.zTree.init.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.autoParam.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.autoParam.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.contentType.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.contentType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.dataFilter.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.dataFilter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.dataType.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.dataType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.enable.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.enable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.otherParam.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.otherParam.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.type.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.type.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.url.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.async.url.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeAsync.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeAsync.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeCheck.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeCheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeClick.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeClick.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeCollapse.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeCollapse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeDblClick.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeDblClick.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeDrag.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeDrag.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeDragOpen.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeDragOpen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeDrop.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeDrop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeEditName.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeEditName.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeExpand.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeExpand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeMouseDown.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeMouseDown.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeMouseUp.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeMouseUp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeRemove.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeRemove.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeRename.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeRename.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeRightClick.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.beforeRightClick.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onAsyncError.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onAsyncError.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onAsyncSuccess.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onAsyncSuccess.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onCheck.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onCheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onClick.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onClick.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onCollapse.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onCollapse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onDblClick.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onDblClick.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onDrag.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onDrag.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onDragMove.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onDragMove.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onDrop.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onDrop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onExpand.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onExpand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onMouseDown.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onMouseDown.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onMouseUp.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onMouseUp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onNodeCreated.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onNodeCreated.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onRemove.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onRemove.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onRename.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onRename.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onRightClick.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.callback.onRightClick.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.check.autoCheckTrigger.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.check.autoCheckTrigger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.check.chkDisabledInherit.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.check.chkDisabledInherit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.check.chkStyle.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.check.chkStyle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.check.chkboxType.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.check.chkboxType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.check.enable.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.check.enable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.check.nocheckInherit.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.check.nocheckInherit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.check.radioType.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.check.radioType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.keep.leaf.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.keep.leaf.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.keep.parent.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.keep.parent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.key.checked.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.key.checked.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.key.children.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.key.children.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.key.name.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.key.name.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.key.title.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.key.title.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.key.url.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.key.url.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.simpleData.enable.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.simpleData.enable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.simpleData.idKey.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.simpleData.idKey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.simpleData.pIdKey.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.simpleData.pIdKey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.simpleData.rootPId.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.data.simpleData.rootPId.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.autoExpandTrigger.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.autoExpandTrigger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.autoOpenTime.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.autoOpenTime.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.borderMax.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.borderMax.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.borderMin.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.borderMin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.inner.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.inner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.isCopy.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.isCopy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.isMove.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.isMove.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.maxShowNodeNum.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.maxShowNodeNum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.minMoveSize.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.minMoveSize.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.next.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.next.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.prev.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.drag.prev.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.editNameSelectAll.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.editNameSelectAll.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.enable.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.enable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.removeTitle.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.removeTitle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.renameTitle.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.renameTitle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.showRemoveBtn.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.showRemoveBtn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.showRenameBtn.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.edit.showRenameBtn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.treeId.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.treeId.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.treeObj.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.treeObj.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.addDiyDom.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.addDiyDom.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.addHoverDom.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.addHoverDom.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.autoCancelSelected.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.autoCancelSelected.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.dblClickExpand.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.dblClickExpand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.expandSpeed.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.expandSpeed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.fontCss.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.fontCss.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.nameIsHTML.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.nameIsHTML.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.removeHoverDom.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.removeHoverDom.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.selectedMulti.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.selectedMulti.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.showIcon.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.showIcon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.showLine.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.showLine.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.showTitle.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.showTitle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.txtSelectedEnable.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/setting.view.txtSelectedEnable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.check_Child_State.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.check_Child_State.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.check_Focus.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.check_Focus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.checked.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.checked.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.checkedOld.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.checkedOld.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.children.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.children.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.chkDisabled.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.chkDisabled.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.click.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.click.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.diy.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.diy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.editNameFlag.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.editNameFlag.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.getCheckStatus.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.getCheckStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.getIndex.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.getIndex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.getNextNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.getNextNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.getParentNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.getParentNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.getPath.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.getPath.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.getPreNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.getPreNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.halfCheck.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.halfCheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.icon.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.icon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.iconClose.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.iconClose.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.iconOpen.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.iconOpen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.iconSkin.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.iconSkin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.isAjaxing.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.isAjaxing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.isFirstNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.isFirstNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.isHidden.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.isHidden.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.isHover.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.isHover.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.isLastNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.isLastNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.isParent.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.isParent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.level.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.level.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.name.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.name.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.nocheck.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.nocheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.open.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.open.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.parentTId.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.parentTId.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.tId.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.tId.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.target.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.target.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.url.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.url.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.zAsync.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/treeNode.zAsync.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.addNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.addNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.cancelEditName.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.cancelEditName.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.cancelSelectedNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.cancelSelectedNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.checkAllNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.checkAllNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.checkNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.checkNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.copyNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.copyNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.destroy.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.destroy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.editName.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.editName.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.expandAll.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.expandAll.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.expandNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.expandNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getChangeCheckedNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getChangeCheckedNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getCheckedNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getCheckedNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getNodeByParam.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getNodeByParam.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getNodeByTId.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getNodeByTId.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getNodeIndex.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getNodeIndex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getNodesByFilter.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getNodesByFilter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getNodesByParam.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getNodesByParam.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getNodesByParamFuzzy.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getNodesByParamFuzzy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getSelectedNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.getSelectedNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.hideNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.hideNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.hideNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.hideNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.moveNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.moveNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.reAsyncChildNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.reAsyncChildNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.refresh.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.refresh.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.removeChildNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.removeChildNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.removeNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.removeNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.selectNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.selectNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.setChkDisabled.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.setChkDisabled.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.setEditable.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.setEditable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.setting.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.setting.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.showNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.showNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.showNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.showNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.transformToArray.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.transformToArray.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.transformTozTreeNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.transformTozTreeNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.updateNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/cn/zTreeObj.updateNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/fn.zTree._z.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/fn.zTree._z.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/fn.zTree.destroy.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/fn.zTree.destroy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/fn.zTree.getZTreeObj.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/fn.zTree.getZTreeObj.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/fn.zTree.init.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/fn.zTree.init.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.autoParam.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.autoParam.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.contentType.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.contentType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.dataFilter.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.dataFilter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.dataType.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.dataType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.enable.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.enable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.otherParam.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.otherParam.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.type.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.type.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.url.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.async.url.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeAsync.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeAsync.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeCheck.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeCheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeClick.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeClick.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeCollapse.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeCollapse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeDblClick.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeDblClick.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeDrag.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeDrag.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeDragOpen.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeDragOpen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeDrop.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeDrop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeEditName.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeEditName.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeExpand.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeExpand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeMouseDown.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeMouseDown.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeMouseUp.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeMouseUp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeRemove.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeRemove.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeRename.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeRename.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeRightClick.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.beforeRightClick.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onAsyncError.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onAsyncError.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onAsyncSuccess.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onAsyncSuccess.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onCheck.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onCheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onClick.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onClick.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onCollapse.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onCollapse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onDblClick.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onDblClick.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onDrag.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onDrag.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onDragMove.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onDragMove.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onDrop.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onDrop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onExpand.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onExpand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onMouseDown.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onMouseDown.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onMouseUp.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onMouseUp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onNodeCreated.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onNodeCreated.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onRemove.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onRemove.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onRename.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onRename.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onRightClick.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.callback.onRightClick.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.check.autoCheckTrigger.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.check.autoCheckTrigger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.check.chkDisabledInherit.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.check.chkDisabledInherit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.check.chkStyle.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.check.chkStyle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.check.chkboxType.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.check.chkboxType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.check.enable.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.check.enable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.check.nocheckInherit.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.check.nocheckInherit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.check.radioType.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.check.radioType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.keep.leaf.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.keep.leaf.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.keep.parent.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.keep.parent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.key.checked.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.key.checked.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.key.children.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.key.children.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.key.name.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.key.name.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.key.title.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.key.title.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.key.url.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.key.url.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.simpleData.enable.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.simpleData.enable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.simpleData.idKey.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.simpleData.idKey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.simpleData.pIdKey.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.simpleData.pIdKey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.simpleData.rootPId.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.data.simpleData.rootPId.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.autoExpandTrigger.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.autoExpandTrigger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.autoOpenTime.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.autoOpenTime.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.borderMax.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.borderMax.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.borderMin.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.borderMin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.inner.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.inner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.isCopy.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.isCopy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.isMove.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.isMove.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.maxShowNodeNum.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.maxShowNodeNum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.minMoveSize.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.minMoveSize.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.next.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.next.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.prev.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.drag.prev.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.editNameSelectAll.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.editNameSelectAll.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.enable.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.enable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.removeTitle.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.removeTitle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.renameTitle.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.renameTitle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.showRemoveBtn.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.showRemoveBtn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.showRenameBtn.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.edit.showRenameBtn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.treeId.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.treeId.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.treeObj.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.treeObj.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.addDiyDom.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.addDiyDom.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.addHoverDom.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.addHoverDom.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.autoCancelSelected.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.autoCancelSelected.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.dblClickExpand.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.dblClickExpand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.expandSpeed.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.expandSpeed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.fontCss.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.fontCss.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.nameIsHTML.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.nameIsHTML.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.removeHoverDom.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.removeHoverDom.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.selectedMulti.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.selectedMulti.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.showIcon.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.showIcon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.showLine.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.showLine.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.showTitle.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.showTitle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.txtSelectedEnable.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/setting.view.txtSelectedEnable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.check_Child_State.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.check_Child_State.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.check_Focus.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.check_Focus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.checked.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.checked.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.checkedOld.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.checkedOld.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.children.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.children.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.chkDisabled.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.chkDisabled.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.click.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.click.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.diy.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.diy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.editNameFlag.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.editNameFlag.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.getCheckStatus.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.getCheckStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.getIndex.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.getIndex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.getNextNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.getNextNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.getParentNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.getParentNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.getPath.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.getPath.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.getPreNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.getPreNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.halfCheck.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.halfCheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.icon.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.icon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.iconClose.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.iconClose.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.iconOpen.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.iconOpen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.iconSkin.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.iconSkin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.isAjaxing.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.isAjaxing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.isFirstNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.isFirstNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.isHidden.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.isHidden.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.isHover.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.isHover.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.isLastNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.isLastNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.isParent.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.isParent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.level.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.level.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.name.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.name.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.nocheck.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.nocheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.open.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.open.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.parentTId.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.parentTId.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.tId.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.tId.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.target.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.target.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.url.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.url.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.zAsync.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/treeNode.zAsync.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.addNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.addNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.cancelEditName.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.cancelEditName.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.cancelSelectedNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.cancelSelectedNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.checkAllNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.checkAllNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.checkNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.checkNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.copyNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.copyNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.destroy.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.destroy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.editName.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.editName.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.expandAll.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.expandAll.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.expandNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.expandNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getChangeCheckedNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getChangeCheckedNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getCheckedNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getCheckedNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getNodeByParam.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getNodeByParam.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getNodeByTId.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getNodeByTId.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getNodeIndex.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getNodeIndex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getNodesByFilter.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getNodesByFilter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getNodesByParam.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getNodesByParam.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getNodesByParamFuzzy.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getNodesByParamFuzzy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getSelectedNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.getSelectedNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.hideNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.hideNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.hideNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.hideNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.moveNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.moveNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.reAsyncChildNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.reAsyncChildNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.refresh.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.refresh.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.removeChildNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.removeChildNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.removeNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.removeNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.selectNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.selectNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.setChkDisabled.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.setChkDisabled.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.setEditable.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.setEditable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.setting.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.setting.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.showNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.showNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.showNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.showNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.transformToArray.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.transformToArray.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.transformTozTreeNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.transformTozTreeNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.updateNode.html" afterPath="$PROJECT_DIR$/extend/ztree/api/en/zTreeObj.updateNode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/bigdata/common.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/bigdata/common.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/bigdata/diy_async.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/bigdata/diy_async.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/bigdata/page.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/bigdata/page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/core/async.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/core/async.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/core/async_fun.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/core/async_fun.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/core/click.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/core/click.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/core/custom_font.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/core/custom_font.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/core/custom_icon.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/core/custom_icon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/core/custom_iconSkin.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/core/custom_iconSkin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/core/expand.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/core/expand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/core/noicon.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/core/noicon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/core/noline.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/core/noline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/core/otherMouse.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/core/otherMouse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/core/searchNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/core/searchNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/core/simpleData.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/core/simpleData.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/core/standardData.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/core/standardData.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/core/update_fun.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/core/update_fun.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/core/url.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/core/url.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/checkbox.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/checkbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/checkbox_chkDisabled.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/checkbox_chkDisabled.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/checkbox_count.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/checkbox_count.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/checkbox_fun.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/checkbox_fun.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/checkbox_halfCheck.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/checkbox_halfCheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/checkbox_nocheck.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/checkbox_nocheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/radio.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/radio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/radio_chkDisabled.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/radio_chkDisabled.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/radio_fun.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/radio_fun.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/radio_halfCheck.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/radio_halfCheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/radio_nocheck.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/excheck/radio_nocheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/async_edit.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/async_edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/drag.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/drag.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/drag_fun.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/drag_fun.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/drag_super.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/drag_super.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/edit.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/edit_fun.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/edit_fun.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/edit_super.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/edit_super.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/multiTree.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/exedit/multiTree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/exhide/checkbox.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/exhide/checkbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/exhide/common.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/exhide/common.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/exhide/radio.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/exhide/radio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/index.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/super/asyncForAll.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/super/asyncForAll.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/super/awesome.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/super/awesome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/super/checkbox_radio.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/super/checkbox_radio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/super/diydom.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/super/diydom.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/super/dragWithOther.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/super/dragWithOther.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/super/left_menu.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/super/left_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/super/left_menuForOutLook.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/super/left_menuForOutLook.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/super/metro.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/super/metro.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/super/oneclick.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/super/oneclick.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/super/oneroot.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/super/oneroot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/super/rightClickMenu.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/super/rightClickMenu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/super/select_menu.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/super/select_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/super/select_menu_checkbox.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/super/select_menu_checkbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/super/select_menu_radio.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/super/select_menu_radio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/cn/super/singlepath.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/cn/super/singlepath.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/bigdata/common.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/bigdata/common.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/bigdata/diy_async.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/bigdata/diy_async.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/bigdata/page.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/bigdata/page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/core/async.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/core/async.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/core/async_fun.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/core/async_fun.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/core/click.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/core/click.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/core/custom_font.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/core/custom_font.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/core/custom_icon.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/core/custom_icon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/core/custom_iconSkin.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/core/custom_iconSkin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/core/expand.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/core/expand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/core/noicon.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/core/noicon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/core/noline.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/core/noline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/core/otherMouse.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/core/otherMouse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/core/searchNodes.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/core/searchNodes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/core/simpleData.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/core/simpleData.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/core/standardData.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/core/standardData.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/core/update_fun.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/core/update_fun.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/core/url.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/core/url.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/checkbox.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/checkbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/checkbox_chkDisabled.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/checkbox_chkDisabled.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/checkbox_count.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/checkbox_count.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/checkbox_fun.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/checkbox_fun.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/checkbox_halfCheck.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/checkbox_halfCheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/checkbox_nocheck.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/checkbox_nocheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/radio.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/radio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/radio_chkDisabled.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/radio_chkDisabled.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/radio_fun.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/radio_fun.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/radio_halfCheck.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/radio_halfCheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/radio_nocheck.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/excheck/radio_nocheck.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/async_edit.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/async_edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/drag.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/drag.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/drag_fun.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/drag_fun.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/drag_super.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/drag_super.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/edit.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/edit_fun.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/edit_fun.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/edit_super.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/edit_super.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/multiTree.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/exedit/multiTree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/exhide/checkbox.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/exhide/checkbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/exhide/common.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/exhide/common.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/exhide/radio.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/exhide/radio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/index.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/asyncForAll.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/asyncForAll.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/awesome.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/awesome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/checkbox_radio.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/checkbox_radio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/diydom.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/diydom.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/dragWithOther.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/dragWithOther.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/left_menu.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/left_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/left_menuForOutLook.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/left_menuForOutLook.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/metro.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/metro.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/oneclick.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/oneclick.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/oneroot.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/oneroot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/rightClickMenu.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/rightClickMenu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/select_menu.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/select_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/select_menu_checkbox.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/select_menu_checkbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/select_menu_radio.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/select_menu_radio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/singlepath.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/singlepath.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extend/ztree/demo/en/super/ztree.html" afterPath="$PROJECT_DIR$/extend/ztree/demo/en/super/ztree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/admin/js/plupload/examples/custom.html" afterPath="$PROJECT_DIR$/public/static/admin/js/plupload/examples/custom.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/admin/js/plupload/examples/events.html" afterPath="$PROJECT_DIR$/public/static/admin/js/plupload/examples/events.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/admin/js/plupload/examples/jquery/all_runtimes.html" afterPath="$PROJECT_DIR$/public/static/admin/js/plupload/examples/jquery/all_runtimes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/admin/js/plupload/examples/jquery/jquery_ui_widget.html" afterPath="$PROJECT_DIR$/public/static/admin/js/plupload/examples/jquery/jquery_ui_widget.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/admin/js/plupload/examples/jquery/queue_widget.html" afterPath="$PROJECT_DIR$/public/static/admin/js/plupload/examples/jquery/queue_widget.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/index.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/ajax.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/ajax.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/api.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/api.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/appendto.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/appendto.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/datafiltering.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/datafiltering.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/dialog/dialog.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/dialog/dialog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/divreplace.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/divreplace.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/enterkey/enterkey.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/enterkey/enterkey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/htmlwriter/outputforflash.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/htmlwriter/outputforflash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/htmlwriter/outputhtml.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/htmlwriter/outputhtml.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/index.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/inlineall.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/inlineall.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/inlinebycode.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/inlinebycode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/inlinetextarea.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/inlinetextarea.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/jquery.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/jquery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/magicline/magicline.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/magicline/magicline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/readonly.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/readonly.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/replacebyclass.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/replacebyclass.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/replacebycode.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/replacebycode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/tabindex.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/tabindex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/toolbar/toolbar.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/toolbar/toolbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/uicolor.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/uicolor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/uilanguages.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/uilanguages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/wysiwygarea/fullpage.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/wysiwygarea/fullpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/xhtmlstyle.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/old/xhtmlstyle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/base/ckeditor/samples/toolbarconfigurator/index.html" afterPath="$PROJECT_DIR$/public/static/base/ckeditor/samples/toolbarconfigurator/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +530,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,8 +543,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wxpayc</find>
-      <find>wxpayconfig</find>
       <find>btn-toolbar</find>
       <find>uptoken</find>
       <find>stop</find>
@@ -75,6 +571,8 @@
       <find>oauthW</find>
       <find>xml</find>
       <find>pag</find>
+      <find>addBrokers</find>
+      <find>setProduceInterval</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -88,23 +586,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/index/view/wxpay/index.html" />
-        <option value="$PROJECT_DIR$/extend/wxpay/example/WxPayNativePay.php" />
-        <option value="$PROJECT_DIR$/build.php" />
-        <option value="$PROJECT_DIR$/application/wechat/controller/Wechat.php" />
-        <option value="$PROJECT_DIR$/extend/utils/Wechat.php" />
-        <option value="$PROJECT_DIR$/public/static/index/js/mine/video-index.js" />
-        <option value="$PROJECT_DIR$/application/index/view/video/index.html" />
-        <option value="$PROJECT_DIR$/public/static/index/comment/js/sinaFaceAndEffec.js" />
-        <option value="$PROJECT_DIR$/application/index/view/article/detail.html" />
-        <option value="$PROJECT_DIR$/application/index/controller/Comment.php" />
-        <option value="$PROJECT_DIR$/application/index/controller/Article.php" />
-        <option value="$PROJECT_DIR$/extend/utils/Redis.php" />
-        <option value="$PROJECT_DIR$/application/database.php" />
-        <option value="$PROJECT_DIR$/extend/utils/XRedis.php" />
-        <option value="$PROJECT_DIR$/extend/wxpay/example/notify.php" />
-        <option value="$PROJECT_DIR$/application/index/controller/Wxnotify.php" />
-        <option value="$PROJECT_DIR$/extend/wxpay/example/WxPayJsApiPay.php" />
         <option value="$PROJECT_DIR$/thinkphp/start.php" />
         <option value="$PROJECT_DIR$/extend/wxpay/lib/WxPayConfig.php" />
         <option value="$USER_HOME$/Desktop/login.inc.php" />
@@ -116,19 +597,15 @@
         <option value="$PROJECT_DIR$/application/wechat/config.php" />
         <option value="$PROJECT_DIR$/extend/utils/WeChat.php" />
         <option value="$PROJECT_DIR$/application/wechat/controller/Index.php" />
-        <option value="$PROJECT_DIR$/application/config.php" />
         <option value="$PROJECT_DIR$/application/index.php" />
         <option value="$PROJECT_DIR$/thinkphp/library/think/paginator/driver/Bootstrap.php" />
-        <option value="$PROJECT_DIR$/application/index/view/about/index.html" />
         <option value="$PROJECT_DIR$/extend/utils/download.php" />
-        <option value="$PROJECT_DIR$/application/common.php" />
         <option value="$PROJECT_DIR$/extend/utils/Download.php" />
         <option value="$PROJECT_DIR$/application/index/controller/test.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Test.php" />
         <option value="$PROJECT_DIR$/extend/wxpay/pay.php" />
         <option value="$PROJECT_DIR$/extend/wxpay/Weixinpay.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Weixinpay.php" />
-        <option value="$PROJECT_DIR$/application/index/controller/About.php" />
         <option value="$PROJECT_DIR$/extend/wxpay/lib/WxPayApi.php" />
         <option value="$PROJECT_DIR$/extend/wxpay/lib/WxPayJsApiPay.php" />
         <option value="$PROJECT_DIR$/extend/wxpay/lib/WxPayNotify.php" />
@@ -136,9 +613,30 @@
         <option value="$PROJECT_DIR$/application/admin/controller/Base.php" />
         <option value="$PROJECT_DIR$/application/admin/controller/Collect.php" />
         <option value="$PROJECT_DIR$/application/admin/controller/Example.php" />
-        <option value="$PROJECT_DIR$/extend/nestedsets/logic/DbMysqlLogic.class.php" />
         <option value="$PROJECT_DIR$/extend/nestedsets/logic/DbMysqlInterface.class.php" />
         <option value="$PROJECT_DIR$/extend/nestedsets/service/NestedSets.class.php" />
+        <option value="$PROJECT_DIR$/extend/nestedsets/logic/DbMysqlLogic.class.php" />
+        <option value="$PROJECT_DIR$/application/admin/controller/About.php" />
+        <option value="$PROJECT_DIR$/application/config.php" />
+        <option value="$PROJECT_DIR$/application/common.php" />
+        <option value="$PROJECT_DIR$/application/index/view/about/index.html" />
+        <option value="$PROJECT_DIR$/extend/kafka/Consumer.php" />
+        <option value="$PROJECT_DIR$/extend/kafka/src/examples/autoloader.php" />
+        <option value="$PROJECT_DIR$/extend/kafka/src/lib/autoloader.php" />
+        <option value="$PROJECT_DIR$/extend/kafka/src/lib/Kafka/SimpleConsumer.php" />
+        <option value="$PROJECT_DIR$/extend/kafka/src/examples/consume.php" />
+        <option value="$PROJECT_DIR$/extend/kafka/src/lib/Kafka/Socket.php" />
+        <option value="$PROJECT_DIR$/extend/kafka/src/lib/Kafka/Encoder.php" />
+        <option value="$PROJECT_DIR$/extend/kafuka/src/Kafka/V07/Metadata.php" />
+        <option value="$PROJECT_DIR$/extend/kafuKa/Lite.php" />
+        <option value="$PROJECT_DIR$/extend/kafuka/src/Kafka/Producer/Process.php" />
+        <option value="$PROJECT_DIR$/comsumer.php" />
+        <option value="$PROJECT_DIR$/application/index/view/about/insert.html" />
+        <option value="$PROJECT_DIR$/extend/seekafka/Producer.php" />
+        <option value="$PROJECT_DIR$/extend/kafuka/src/Kafka/Consumer/Process.php" />
+        <option value="$PROJECT_DIR$/extend/kafuka/example/Consumer.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/About.php" />
+        <option value="$PROJECT_DIR$/extend/kafuka/.gitignore" />
       </list>
     </option>
   </component>
@@ -173,7 +671,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -184,6 +681,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkphp" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -211,12 +722,89 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="extend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kafuka" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="captcha" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,11 +816,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpStudy\WWW\tp5\extend\kafuka\src" />
+      <recent name="D:\phpStudy\WWW\tp5\extend\kafka\src\lib" />
       <recent name="D:\phpStudy\WWW\tp5\extend\nestedsets" />
       <recent name="D:\phpStudy\WWW\tp5\extend" />
       <recent name="D:\phpStudy\WWW\tp5\public\static\base\datepiker" />
-      <recent name="D:\phpStudy\WWW\tp5\application\wechat\controller" />
-      <recent name="D:\phpStudy\WWW\tp5\extend\pay" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\phpStudy\WWW\tp5\application\index\controller" />
@@ -369,17 +957,20 @@
       <workItem from="1497834805757" duration="2799000" />
       <workItem from="1497852676400" duration="244000" />
       <workItem from="1497853108050" duration="7139000" />
-      <workItem from="1497865937716" duration="8287000" />
+      <workItem from="1497865937716" duration="22381000" />
+      <workItem from="1498037347845" duration="6601000" />
+      <workItem from="1498111819725" duration="11545000" />
+      <workItem from="1498178587660" duration="20079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="452248000" />
+    <option name="totallyTimeSpent" value="504567000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18854167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2203125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -394,7 +985,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -406,171 +997,160 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/extend/kafka/src/lib/Kafka/SimpleConsumer.php</url>
+          <line>251</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/admin.class.php" />
-    <entry file="file://$USER_HOME$/Desktop/shyadmin.php" />
-    <entry file="file://$USER_HOME$/Desktop/login.inc.php" />
-    <entry file="file://$PROJECT_DIR$/runtime/log/201706/1497333803-13.log" />
-    <entry file="file://$PROJECT_DIR$/public/static/base/datepiker/dateRange.css">
+    <entry file="file://$PROJECT_DIR$/extend/kafuKa/KafKa.php" />
+    <entry file="file://$PROJECT_DIR$/extend/kafuKa/Producer.php" />
+    <entry file="file://$PROJECT_DIR$/extend/kafuKa/Lite.php" />
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/vendor/composer/autoload_real.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="489" column="1" lean-forward="true" selection-start-line="489" selection-start-column="1" selection-end-line="489" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/base/datepiker/dateRange.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/article/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="19" column="135" lean-forward="true" selection-start-line="19" selection-start-column="135" selection-end-line="19" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/wxpay/pay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="88" lean-forward="false" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime/temp/2fde1c8a3d2baa7d00b6c9ce0f8c030f.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/wechat/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="565" column="9" lean-forward="false" selection-start-line="565" selection-start-column="9" selection-end-line="565" selection-end-column="9" />
+        <state relative-caret-position="-561">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SimpleXML/SimpleXML.php">
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="335" column="9" lean-forward="false" selection-start-line="335" selection-start-column="9" selection-end-line="335" selection-end-column="9" />
+        <state relative-caret-position="161">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/wechat/controller/Menu.php">
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/src/Kafka/ProducerConfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="-584">
+          <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/wechat/controller/Index.php">
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/vendor/kmelia/monolog-stdout-handler/src/Monolog/Handler/StdoutHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="233" column="0" lean-forward="true" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/utils/WeChat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="257" column="21" lean-forward="false" selection-start-line="257" selection-start-column="21" selection-end-line="257" selection-end-column="21" />
+        <state relative-caret-position="92">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
-            <element signature="e#24#40#0#PHP" expanded="false" />
-            <element signature="e#38190#41756#0#PHP" expanded="false" />
-            <element signature="e#41812#42961#0#PHP" expanded="false" />
-            <marker date="1497594874012" expanded="true" signature="19252:19453" ph="..." />
+            <element signature="e#35#54#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Alipay.php">
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/vendor/psr/log/Psr/Log/LoggerAwareTrait.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state relative-caret-position="368">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config.php">
+    <entry file="file://$PROJECT_DIR$/comsumer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="256" column="25" lean-forward="false" selection-start-line="256" selection-start-column="25" selection-end-line="256" selection-end-column="25" />
+        <state relative-caret-position="575">
+          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/route.php">
+    <entry file="file://$PROJECT_DIR$/extend/rdkafka/run-tests.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="-3795">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Route.php">
+    <entry file="file://$PROJECT_DIR$/application/index/view/about/insert.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="231" column="27" lean-forward="false" selection-start-line="231" selection-start-column="27" selection-end-line="231" selection-end-column="27" />
+        <state relative-caret-position="483">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index.php">
+    <entry file="file://$PROJECT_DIR$/extend/rdkafka/examples/consumer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
+        <state relative-caret-position="253">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/seekafka/example/Consumer1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/seekafka/example/Consumer2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/seekafka/Message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/seekafka/example/producer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/src/Kafka/Producer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/src/Kafka/Producer/Process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4715">
+          <caret line="205" column="23" lean-forward="true" selection-start-line="205" selection-start-column="23" selection-end-line="205" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/seekafka/Producer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/seekafka/Lite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/Paginator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/paginator/driver/Bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="68" column="20" lean-forward="true" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/about/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding>
-            <element signature="e#39#60#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Login.php">
+    <entry file="file://$PROJECT_DIR$/extend/seekafka/KafKa.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -578,186 +1158,250 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/Login.php">
+    <entry file="file://$PROJECT_DIR$/extend/seekafka/Consumer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="529">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/download.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/common.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <element signature="e#589#608#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/utils/Download.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/wxpay/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Weixinpay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="198" column="29" lean-forward="false" selection-start-line="198" selection-start-column="29" selection-end-line="198" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/About.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/wxpay/lib/phpqrcode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5267">
-          <caret line="3282" column="54" lean-forward="true" selection-start-line="3282" selection-start-column="54" selection-end-line="3282" selection-end-column="54" />
-          <folding>
-            <marker date="1286478728000" expanded="true" signature="9714:9882" ph="..." />
-            <marker date="1286478728000" expanded="false" signature="9754:9784" ph="..." />
-            <marker date="1286478728000" expanded="false" signature="9809:9826" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="10031:10047" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="10357:10532" ph="..." />
-            <marker date="1286478728000" expanded="false" signature="10386:10412" ph="..." />
-            <marker date="1286478728000" expanded="false" signature="10425:10441" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="31808:31814" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="31814:31820" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32186:32192" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32192:32198" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32198:32204" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32204:32210" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32210:32216" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32216:32222" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32222:32228" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32228:32234" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32562:32568" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32664:32671" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="32766:32772" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="32868:32875" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="32970:32977" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="33083:33090" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="33196:33203" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="33312:33318" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="33424:33431" ph="..." />
-            <marker date="1286478728000" expanded="true" signature="33536:33542" ph=" " />
-            <marker date="1286478728000" expanded="true" signature="33648:33655" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/wxpay/lib/WxPayApi.php">
+    <entry file="file://$PROJECT_DIR$/extend/kafka/src/examples/consume.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extend/wxpay/lib/WxPayConfig.php">
+    <entry file="file://$PROJECT_DIR$/extend/kafka/src/examples/produce.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="299">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/example/Producer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/src/Kafka/SingletonTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/vendor/monolog/monolog/src/Monolog/Logger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3151">
+          <caret line="144" column="39" lean-forward="false" selection-start-line="144" selection-start-column="39" selection-end-line="144" selection-end-column="39" />
+          <folding>
+            <element signature="e#256#293#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/vendor/monolog/monolog/src/Monolog/ErrorHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3206">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/vendor/monolog/monolog/src/Monolog/Formatter/LogglyFormatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/vendor/monolog/monolog/doc/01-usage.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2047">
+            <caret line="116" column="82" lean-forward="true" selection-start-line="116" selection-start-column="82" selection-end-line="116" selection-end-column="82" />
+            <folding>
+              <marker date="1498125126599" expanded="false" signature="3515:3601" ph="..." />
+              <marker date="1498125126599" expanded="true" signature="5645:5736" ph="..." />
+              <marker date="1498125126599" expanded="true" signature="5665:5735" ph="..." />
+              <marker date="1498125126599" expanded="false" signature="6526:6612" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/vendor/monolog/monolog/doc/02-handlers-formatters-processors.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/vendor/monolog/monolog/doc/03-utilities.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/vendor/monolog/monolog/doc/sockets.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="61">
+            <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <folding>
+              <marker date="1498125126608" expanded="false" signature="483:533" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/vendor/psr/log/Psr/Log/LoggerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="phar://$PROJECT_DIR$/extend/kafuka/composer.phar/vendor/psr/log/Psr/Log/LoggerAwareTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="289" column="26" lean-forward="false" selection-start-line="289" selection-start-column="26" selection-end-line="289" selection-end-column="26" />
+        <state relative-caret-position="-773">
+          <caret line="537" column="12" lean-forward="false" selection-start-line="537" selection-start-column="12" selection-end-line="537" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extend/wxpay/lib/WxPayException.php">
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/src/Kafka/ConsumerConfig.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="-591">
+          <caret line="28" column="6" lean-forward="false" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extend/wxpay/lib/WxPayJsApiPay.php">
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/src/Kafka/Consumer/State.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        <state relative-caret-position="543">
+          <caret line="109" column="10" lean-forward="true" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extend/wxpay/lib/WxPayNotify.php">
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/src/Kafka/Consumer/Process.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1159">
-          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        <state relative-caret-position="513">
+          <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extend/wxpay/lib/WxPayNativePay.php">
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/src/Kafka/Consumer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="428">
+          <caret line="69" column="41" lean-forward="false" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Wxpay.php">
+    <entry file="file://$PROJECT_DIR$/application/index/controller/About.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1633">
-          <caret line="106" column="30" lean-forward="true" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
+        <state relative-caret-position="773">
+          <caret line="92" column="33" lean-forward="true" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
           <folding>
-            <marker date="1497926536923" expanded="true" signature="2700:3515" ph="..." />
-            <marker date="1497926536923" expanded="true" signature="2741:3093" ph="{...}" />
-            <marker date="1497926536923" expanded="true" signature="2828:3085" ph="{...}" />
-            <marker date="1497926536923" expanded="true" signature="2834:2889" ph="//..." />
-            <marker date="1497926536923" expanded="true" signature="2943:2985" ph="{...}" />
-            <marker date="1497926536923" expanded="true" signature="2989:3080" ph="{...}" />
-            <marker date="1497926536923" expanded="true" signature="3114:3493" ph="{...}" />
-            <marker date="1497926536923" expanded="true" signature="3159:3462" ph="{...}" />
-            <marker date="1497926536923" expanded="true" signature="3198:3285" ph="{...}" />
-            <marker date="1497926536923" expanded="true" signature="3315:3458" ph="{...}" />
-            <marker date="1497926536923" expanded="true" signature="3466:3490" ph="{...}" />
+            <element signature="e#39#60#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Step.php">
+    <entry file="file://$PROJECT_DIR$/extend/utils/WeChat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="224" column="7" lean-forward="true" selection-start-line="224" selection-start-column="7" selection-end-line="224" selection-end-column="7" />
+          <folding>
+            <marker date="1497594874012" expanded="true" signature="19252:19453" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/wechat/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/example/Consumer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="e#74#93#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/captcha/Captcha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -765,85 +1409,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extend/phpExcel/PHPExcel.php">
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="474" column="20" lean-forward="false" selection-start-line="474" selection-start-column="20" selection-end-line="474" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/Example.php">
+    <entry file="file://$PROJECT_DIR$/extend/kafuka/test.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/Base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="76" column="32" lean-forward="true" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="166" column="13" lean-forward="false" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp/library/think/db/Query.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="227" column="7" lean-forward="true" selection-start-line="227" selection-start-column="7" selection-end-line="227" selection-end-column="7" />
-          <folding>
-            <marker date="1494550858735" expanded="true" signature="9488:9528" ph="SELECT * FRO... ${$this-&gt;getTable()}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/nestedsets/logic/DbMysqlInterface.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1895">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/nestedsets/logic/DbMysqlLogic.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/nestedsets/service/NestedSets.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <marker date="1497927407886" expanded="true" signature="2468:2496" ph="SELECT * FRO... ?" />
-            <marker date="1497927407886" expanded="true" signature="2794:2852" ph="SELECT * FRO... ?" />
-            <marker date="1497927407886" expanded="true" signature="3263:3323" ph="SELECT * FRO... ?" />
-            <marker date="1497927407886" expanded="true" signature="3722:3778" ph="SELECT * FRO... ?" />
-            <marker date="1497927407886" expanded="true" signature="4100:4146" ph="SELECT * FRO... ?" />
-            <marker date="1497927407886" expanded="true" signature="4827:4849" ph="SELECT MAX(?... ?" />
-            <marker date="1497927407886" expanded="true" signature="4942:4981" ph="SELECT ?F, ?... ?" />
-            <marker date="1497927407886" expanded="true" signature="5301:5372" ph="UPDATE ?T SE... " />
-            <marker date="1497927407886" expanded="true" signature="5779:5800" ph="INSERT INTO ?... " />
-            <marker date="1497927407886" expanded="true" signature="6181:6223" ph="DELETE FROM " />
-            <marker date="1497927407886" expanded="true" signature="6414:6485" ph="UPDATE ?T SE... " />
-            <marker date="1497927407886" expanded="true" signature="7457:7479" ph="SELECT MAX(?... ?" />
-            <marker date="1497927407886" expanded="true" signature="9523:9918" ph="UPDATE ?T SE... " />
-            <marker date="1497927407886" expanded="true" signature="10986:11389" ph="UPDATE ?T SE... " />
-            <marker date="1497927407886" expanded="true" signature="12512:12555" ph="SELECT ?F, ?... ?" />
-          </folding>
         </state>
       </provider>
     </entry>

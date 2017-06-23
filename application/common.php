@@ -145,7 +145,7 @@ function array_multi2single($array)
  * @param $time
  * @return bool|string
  */
-function friend_date($time)
+function friendDate($time)
 {
     if (!$time)
         return false;
