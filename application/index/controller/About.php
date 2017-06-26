@@ -3,7 +3,6 @@
 namespace app\index\controller;
 use think\Controller;
 use think\Db;
-use think\Exception;
 use think\Loader;
 use Monolog\Logger;
 use Monolog\Handler\StdoutHandler;
