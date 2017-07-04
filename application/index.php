@@ -24,5 +24,15 @@ Route::rule('i','Image/index','*','');
 
 Route::rule('v','Video/index','*','');
 
+//>> 使用分组来优化路由,即访问www.xx.com/b/e/20 访问的是 www.xx.com/blog/edit/20
+return [
+    '[b]' =>  [
+        'e/:id'  => ['RouteTest/edit',['method' => 'get'], ['id' => '\d+']],
+        ':id'       => ['RouteTest/add',['method' => 'get'], ['id' => '\d+']],
+        'mm/:name'       => ['RouteTest/remove',['method' => 'get'], ['id' => '\d+']],
+        '__miss__'  => 'RouteTest/miss',
+    ],
+];
+
 
 

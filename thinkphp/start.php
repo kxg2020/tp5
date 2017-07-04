@@ -20,7 +20,6 @@
 //        Build::run(include ROOT_PATH . 'build.php');
 //    }
 
-
     //默认模块为index,路由检测开启开启域名部署后
     switch ($_SERVER['HTTP_HOST']) {
 

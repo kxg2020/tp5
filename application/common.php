@@ -416,7 +416,7 @@ function checkEmail($email){
 
 
 /**
- *   实现中文字串截取无乱码的方法
+ *  实现中文字串截取无乱码的方法
  */
 function getSubStr($string, $start, $length) {
     if(mb_strlen($string,'utf-8')>$length){
