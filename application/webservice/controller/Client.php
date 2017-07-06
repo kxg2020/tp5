@@ -15,12 +15,25 @@ class Client extends Controller{
 
     public function requestAction(){
 
+        // 创建类的对象
         $client = \Hprose\Client::create('http://web.tp.com/service/response', false);
+        // 需要传递的参数
+        $weeks = array(
+            'Monday' => 'Mon',
+            'Tuesday' => 'Tue',
+            'Wednesday' => 'Wed',
+            'Thursday' => 'Thu',
+            'Friday' => 'Fri',
+            'Saturday' => 'Sat',
+            'Sunday' => 'Sun'
+        );
 
-        $args = array(1, 2, 3, 4, 5);
-
-        echo $client->invoke("getUser", $args);
-
+        // 是否是引用传参
+        $client->getUser["byref"] = true;
+        // 调用远程getUser方法
+        $client->getUser($weeks, function($result, $args) {
+            var_dump($result);
+        });
 
     }
 }

@@ -18,15 +18,19 @@ class Service extends Controller
     public function responseAction(){
 
 
+        // 实例化类的对象
         $server = new Server();
 
-        $server->addFunction('getUser');
+        // 需要调用的方法和方法对应的类
+        $server->addMethod('getUser',new Service());
+
+        // 开始监听 
         $server->start();
     }
 
-    function getUser(){
+    public function getUser($paramArr){
 
-        return "请求getUser成功";
+        return $paramArr;
     }
 
 
