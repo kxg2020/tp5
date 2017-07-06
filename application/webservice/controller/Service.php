@@ -3,7 +3,6 @@ namespace app\webservice\controller;
 use think\Controller;
 use think\Loader;
 use Hprose\Http\Server;
-
 class Service extends Controller
 {
 
@@ -24,11 +23,12 @@ class Service extends Controller
         // 需要调用的方法和方法对应的类
         $server->addMethod('getUser',new Service());
 
-        // 开始监听 
+        // 开始监听
         $server->start();
     }
 
     public function getUser($paramArr){
+
 
         return $paramArr;
     }
