@@ -29,4 +29,11 @@ return [
         'model'      => ['Index'],
         'view'       => ['index/index'],
     ],
+    'webservice'     => [
+        '__file__'   => ['common.php'],
+        '__dir__'    => ['behavior','controller', 'model', 'view'],
+        'controller' => ['Index'],
+        'model'      => ['Index'],
+        'view'       => ['index/index'],
+    ],
 ];

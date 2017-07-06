@@ -37,8 +37,13 @@
             break;
 
         case 'wechat.tp.com':
-            $route = true;// 意思就是关闭url重写规则
+            $route = true;// 意思就是开启url重写规则
             Route::bind('wechat','module');
+            App::route($route);// 路由
+            break;
+        case 'web.tp.com':
+            $route = true;// 意思就是开启url重写规则
+            Route::bind('webservice','module');
             App::route($route);// 路由
             break;
     }
