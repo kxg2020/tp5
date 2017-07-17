@@ -17,6 +17,7 @@ class Client extends Controller{
 
         // 创建类的对象
         $client = \Hprose\Client::create('http://web.tp.com/service/response', false);
+
         // 需要传递的参数
         $weeks = array(
             'Monday' => 'Mon',
@@ -30,6 +31,7 @@ class Client extends Controller{
 
         // 是否是引用传参
         $client->getUser["byref"] = true;
+
         // 调用远程getUser方法
         $client->getUser($weeks, function($result, $args) {
             var_dump($result);

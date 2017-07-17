@@ -214,7 +214,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
             <div class="photo-gallery">
                 <h4>照片墙</h4>
-                <?php $__FOR_START_31266__=0;$__FOR_END_31266__=4;for($var=$__FOR_START_31266__;$var < $__FOR_END_31266__;$var+=1){ ?>
+                <?php $__FOR_START_19230__=0;$__FOR_END_19230__=4;for($var=$__FOR_START_19230__;$var < $__FOR_END_19230__;$var+=1){ ?>
                 <div class="gallery-1">
                    <?php if(!empty($gallery[$var])): if(is_array($gallery[$var]) || $gallery[$var] instanceof \think\Collection || $gallery[$var] instanceof \think\Paginator): $i = 0; $__LIST__ = $gallery[$var];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$im): $mod = ($i % 2 );++$i;?>
                     <div class="col-md-4 gallery-grid-pic">

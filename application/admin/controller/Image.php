@@ -153,7 +153,6 @@ class Image extends Base{
         $id = Db::table('xm_image')->insertGetId($insertData);
 
         if($id){
-
             return json([
                 'status'=>1,
                 'msg'=>'上传成功',

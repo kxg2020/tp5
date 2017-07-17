@@ -19,4 +19,20 @@ class Example extends Base {
         );
         $this->exportExcel(date('Y-m-d') . '_文章列表', $xlsCell, $article);
     }
+
+    public function exampleAction(){
+
+        $data = [
+            'name'=>'may',
+            'age'=>22
+        ];
+        switch (true){
+            case $data['age'] > 0:
+                echo 2;
+                break;
+            default:
+                echo 0;
+        }
+    }
+
 }

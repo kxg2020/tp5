@@ -53,7 +53,6 @@ class Article extends Base {
             $params = request()->param('');
 
             if($params){
-
                 $insertData = [
                     'title'=>$params['title'],
                     'image_url'=>$params['image_url'],

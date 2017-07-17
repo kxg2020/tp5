@@ -155,7 +155,7 @@ class Util{
      */
     public function passwordEncryption($password)
     {
-        return  md5(md5('qj_'.$password));
+        return  md5(md5('xm_'.$password));
     }
 
 

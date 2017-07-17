@@ -16,7 +16,6 @@ class Service extends Controller
 
     public function responseAction(){
 
-
         // 实例化类的对象
         $server = new Server();
 
@@ -28,7 +27,6 @@ class Service extends Controller
     }
 
     public function getUser($paramArr){
-
 
         return $paramArr;
     }
