@@ -1,13 +1,15 @@
 <?php
 namespace app\admin\controller;
+use GatewayWorker\Lib\Gateway;
 use think\Controller;
-use phpQuery\phpQuery;
 use think\Db;
 use think\Loader;
 
 class Example extends Base {
 
+    private $name;
 
+    private static $age;
     public function exportAction(){
 
         $article = Db::table('xm_article')->select();
@@ -20,19 +22,10 @@ class Example extends Base {
         $this->exportExcel(date('Y-m-d') . '_文章列表', $xlsCell, $article);
     }
 
-    public function exampleAction(){
 
-        $data = [
-            'name'=>'may',
-            'age'=>22
-        ];
-        switch (true){
-            case $data['age'] > 0:
-                echo 2;
-                break;
-            default:
-                echo 0;
-        }
-    }
+
+
+
+
 
 }

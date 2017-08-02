@@ -46,6 +46,12 @@
             Route::bind('webservice','module');
             App::route($route);// 路由
             break;
+
+        case 'work.tp.com':
+            $route = true;// 意思就是开启url重写规则
+            Route::bind('system','module');
+            App::route($route);// 路由
+            break;
     }
 
     // 执行应用

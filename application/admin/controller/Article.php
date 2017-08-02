@@ -85,6 +85,7 @@ class Article extends Base {
      * 删除文章
      */
     public function deleteAction(){
+        
 
         $param = request()->param('id','','intval');
 

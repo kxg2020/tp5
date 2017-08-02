@@ -94,7 +94,7 @@ class Video extends Base{
         $bucket = Config::get('upload_type_config.bucket');
 
         $err = $bucketMgr->delete($bucket, $name);
-        if ($err !== null) {
+        if ($err != null) {
 
             return $err;
 

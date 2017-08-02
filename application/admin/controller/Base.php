@@ -16,7 +16,6 @@ class Base extends  Controller{
         //>> 取session,session在用户关闭浏览器以后就失效了
         $session_token = Session::get(sha1('admin_user_session'));
 
-
         if(!empty($session_token)){
 
             //>> 根据session查询用户
